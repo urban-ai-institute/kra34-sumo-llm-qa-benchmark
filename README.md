@@ -17,9 +17,9 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-All setups run on a Claude model (default `claude-sonnet-4-6`). Set your
-Anthropic API key in `claude_api.txt` at the repo root, or via the
-`ANTHROPIC_API_KEY` environment variable.
+All setups run on a Claude model (default `claude-sonnet-4-6`).   
+Set your Anthropic API key in `claude_api.txt` at the repo root,   
+or via the `ANTHROPIC_API_KEY` environment variable.
 
 ## Experiment Setups
 
@@ -36,8 +36,8 @@ the LLM:
 
 ## Dataset
 
-SUMO-SimQA contains **480 questions** = 32 question types × 3 networks × 5 samples. \\
-Networks are `grid_8x8`, `random`, and `times_square`. \\
+SUMO-SimQA contains **480 questions** = 32 question types × 3 networks × 5 samples.  
+Networks are `grid_8x8`, `random`, and `times_square`.  
 The 32 types fall into three categories of increasing complexity:
 
 - **Retrieval** (12 types) — single field lookup
@@ -78,9 +78,7 @@ accuracy per (condition, network, type).
 
 ## Results
 
-Accuracy (%) of each setup across the three networks. Prompt-only setups
-(File, XML) collapse on cross-file questions, while planning and revision (PER)
-recover most of them.
+Accuracy (%) across different LLM strategies and three SUMO networks. Best result per row in bold.
 
 ![Main results](images/main_result.png)
 
