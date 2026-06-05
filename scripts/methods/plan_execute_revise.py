@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from utils import DEFAULT_MODEL, get_client
-from .tool_use import (
+from .react import (
     PersistentPython, TOOLS, FILE_DESCRIPTIONS,
     _format_feedback, CODE_TIMEOUT,
 )

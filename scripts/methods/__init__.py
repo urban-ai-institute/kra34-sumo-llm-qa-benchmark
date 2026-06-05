@@ -3,11 +3,11 @@ Setup methods for SUMO-SimQA.
 
 Five setups, each exposing SUMO files to the LLM in a different way:
 
-- naive               : File paths only, no contents, no code
-- xml                 : Verbatim XML in prompt
-- tool  (ReAct)       : Path + Python code execution
-- plan_execute (PE)   : Plan, then execute as code
-- plan_execute_revise (PER) : Plan, execute, and revise
+- file                 (File)  : File structure description only, no contents
+- xml                  (XML)   : Verbatim XML in prompt
+- react                (ReAct) : Path + Python code execution
+- plan_execute         (PE)    : Plan, then execute as code
+- plan_execute_revise  (PER)   : Plan, execute, and revise
 
 Each `ask` function has the same signature:
     ask(network: str, question: str, files_used: list[str], model: str) -> str
@@ -15,17 +15,17 @@ Each `ask` function has the same signature:
 
 from functools import partial
 
-from .naive import ask as ask_naive
+from .file import ask as ask_file
 from .xml_view import ask as ask_xml
-from .tool_use import ask as ask_tool
+from .react import ask as ask_react
 from .plan_execute import ask as ask_plan_execute
 from .plan_execute_revise import ask as ask_plan_execute_revise
 
 # Core setups reported in the paper.
 METHODS = {
-    "naive": ask_naive,
+    "file": ask_file,
     "xml": ask_xml,
-    "tool": ask_tool,
+    "react": ask_react,
     "plan_execute": ask_plan_execute,
     "plan_execute_revise": ask_plan_execute_revise,
 }

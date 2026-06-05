@@ -1,5 +1,5 @@
 """
-Setup: Plan-then-Execute agent.
+Setup: Plan-Execute (PE).
 
 Two-phase approach:
   Phase 1 — The LLM receives file paths (not content) and produces a
@@ -8,7 +8,7 @@ Two-phase approach:
             `run_python` tool in a persistent Python session.
 
 This tests whether explicit planning before code execution improves
-accuracy on multi-step traffic QA, compared to the freestyle `tool`
+accuracy on cross-file traffic QA, compared to the freestyle `react`
 condition.
 """
 
@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from utils import DEFAULT_MODEL, FILE_PATHS, get_client
-from .tool_use import (
+from .react import (
     PersistentPython, TOOLS, FILE_DESCRIPTIONS,
     _format_feedback, CODE_TIMEOUT,
 )

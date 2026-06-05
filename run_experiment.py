@@ -38,7 +38,7 @@ from utils import DEFAULT_MODEL, NETWORKS  # noqa: E402
 from methods import ALL_METHODS  # noqa: E402
 
 # Core setups (paper) + round-budget ablation (PER with N rounds).
-CORE_CONDITIONS = ["naive", "xml", "tool", "plan_execute", "plan_execute_revise"]
+CORE_CONDITIONS = ["file", "xml", "react", "plan_execute", "plan_execute_revise"]
 ABLATION_CONDITIONS = ["plan_execute_revise_1r", "plan_execute_revise_3r",
                        "plan_execute_revise_5r", "plan_execute_revise_10r"]
 CONDITIONS = CORE_CONDITIONS + ABLATION_CONDITIONS

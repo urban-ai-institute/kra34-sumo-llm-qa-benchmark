@@ -1,9 +1,9 @@
 """
-Setup: Tool-augmented agent.
+Setup: Code execution (ReAct).
 
 The LLM receives only file *paths* (not file content) and a `run_python`
-tool. It can read and analyze the files via Python (standard library
-only) on demand.
+tool. It reads and analyzes the files via Python (standard library only)
+on demand, with no upfront plan and no plan revision.
 
 This corresponds to the agent-style deployment used by production
 LLM-SUMO systems (ChatSUMO, SUMO-MCP, etc.) where files are not pumped

@@ -1,10 +1,10 @@
 """
-Setup: Naive baseline.
+Setup: File-Description (File).
 
-The LLM receives file *paths* and structural descriptions (identical to
-the tool condition) but is given NO tools. It cannot read files or
-execute code. This tests what the model can answer from the question
-text and file metadata alone, serving as a lower bound.
+The LLM receives only the question and a description of how the relevant
+SUMO files are structured (file *paths* and structural descriptions), but
+no file contents and no code execution. This measures how much can be
+inferred from the question and file metadata alone, serving as a lower bound.
 """
 
 import sys
@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from utils import DEFAULT_MODEL, FILE_PATHS, get_client
-from .tool_use import FILE_DESCRIPTIONS
+from .react import FILE_DESCRIPTIONS
 
 
 MAX_TOKENS = 1024
