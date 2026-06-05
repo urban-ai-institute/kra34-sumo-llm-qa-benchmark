@@ -2,12 +2,12 @@
 """
 Evaluate collected LLM responses across the SUMO-SimQA matrix.
 
-Reads response CSVs from `QAdataset/results/` (flat layout):
+Reads response CSVs from `QA_dataset/results/` (flat layout):
     <condition>_<network>_<type>.csv
 e.g. xml_grid_8x8_both_junctions.csv,
      tool_times_square_edge_density_trend.csv.
 
-Each CSV contains rows from `QAdataset/questions/<network>_<type>.csv`
+Each CSV contains rows from `QA_dataset/questions/<network>_<type>.csv`
 plus a `response_text` column. We extract the model's final answer,
 compare against `ground_truth` using a per-type matcher, and write
 <condition>_<network>_<type>_evaluated.csv next to it.
@@ -15,7 +15,7 @@ compare against `ground_truth` using a per-type matcher, and write
 Aggregate accuracy is printed grouped by (condition, network, type).
 
 Usage:
-  python evaluate.py                       # evaluate everything in QAdataset/results
+  python evaluate.py                       # evaluate everything in QA_dataset/results
   python evaluate.py --condition xml       # filter by condition
   python evaluate.py --network grid_8x8  # filter by network
   python evaluate.py --type vehicle_route  # filter by question type
@@ -35,7 +35,7 @@ from pathlib import Path
 csv.field_size_limit(sys.maxsize)
 
 ROOT_DIR = Path(__file__).resolve().parent
-RESULTS_DIR = ROOT_DIR / "QAdataset" / "results"
+RESULTS_DIR = ROOT_DIR / "QA_dataset" / "results"
 
 CONDITIONS = ["file", "xml", "react", "plan_execute", "plan_execute_revise",
               "plan_execute_revise_1r", "plan_execute_revise_3r",

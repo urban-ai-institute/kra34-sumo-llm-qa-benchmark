@@ -2,8 +2,8 @@
 """
 SUMO-SimQA — run setup methods on the question dataset.
 
-Reads questions from QAdataset/questions/<network>_<type>.csv and writes
-responses to QAdataset/results/<condition>_<network>_<type>.csv.
+Reads questions from QA_dataset/questions/<network>_<type>.csv and writes
+responses to QA_dataset/results/<condition>_<network>_<type>.csv.
 
 Execution order is optimized for Anthropic prompt caching: questions are
 grouped by (condition, network, files_used), and within each group, all
@@ -29,8 +29,8 @@ from collections import defaultdict, OrderedDict
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent
-QUESTIONS_DIR = ROOT_DIR / "QAdataset" / "questions"
-RESULTS_DIR = ROOT_DIR / "QAdataset" / "results"
+QUESTIONS_DIR = ROOT_DIR / "QA_dataset" / "questions"
+RESULTS_DIR = ROOT_DIR / "QA_dataset" / "results"
 
 sys.path.insert(0, str(ROOT_DIR))
 sys.path.insert(0, str(ROOT_DIR / "scripts"))

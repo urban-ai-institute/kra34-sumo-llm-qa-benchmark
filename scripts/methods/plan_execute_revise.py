@@ -1,5 +1,5 @@
 """
-Setup: Plan-Execute-Revise agent.
+Setup: Plan-Execute-Revise (PER).
 
 Three-role architecture driven by a router:
   Router  — Decides the next action each turn: revise the plan,

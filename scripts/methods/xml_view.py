@@ -1,5 +1,5 @@
 """
-Setup: Verbatim XML.
+Setup: Full-XML (XML).
 
 The full text of each requested SUMO file is injected into the system
 prompt. This is the most direct (and most token-heavy) way to expose

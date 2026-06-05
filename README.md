@@ -10,6 +10,34 @@ The repository provides the question dataset, the SUMO scenario files, and the
 code to collect model answers (`run_experiment.py`) and score them
 (`evaluate.py`).
 
+## Repository layout
+
+```
+SUMO-SimQA/
+├── run_experiment.py        # Collect LLM answers for (condition, network, type)
+├── evaluate.py              # Score answers and aggregate accuracy
+├── requirements.txt
+├── scripts/
+│   ├── utils.py             # File-path registry + LLM client helper
+│   ├── llm_client.py        # Claude (Anthropic) client
+│   └── methods/             # Experiment Setup conditions
+│       ├── file.py                  # file                 (File)
+│       ├── xml_view.py              # xml                  (XML)
+│       ├── react.py                 # react                (ReAct)
+│       ├── plan_execute.py          # plan_execute         (PE)
+│       └── plan_execute_revise.py   # plan_execute_revise  (PER)
+├── SUMO_dataset/
+│   ├── configuration_files/
+│   │   ├── net/             # {net}.net.xml
+│   │   ├── rou/             # {net}.rou.xml
+│   │   └── add/             # {net}_tls.add.xml
+│   └── output_files/
+│       ├── tripinfo/        # {net}_tripinfo.xml
+│       └── fcd/             # {net}_fcd.xml
+└── QA_dataset/
+    └── questions/           # {network}_{type}.csv
+```
+
 ## Requirements
 
 ```bash
@@ -18,8 +46,7 @@ pip install -r requirements.txt
 ```
 
 All setups run on a Claude model (default `claude-sonnet-4-6`).   
-Set your Anthropic API key in `claude_api.txt` at the repo root,   
-or via the `ANTHROPIC_API_KEY` environment variable.
+Set your Anthropic API key in `claude_api.txt` at the repo root, or via the `ANTHROPIC_API_KEY` environment variable.
 
 ## Experiment Setups
 
@@ -44,7 +71,7 @@ The 32 types fall into three categories of increasing complexity:
 - **Reasoning** (10 types) — single file, requires computation
 - **Cross-file Reasoning** (10 types) — requires two or more files
 
-Each `QAdataset/questions/{network}_{type}.csv` holds 5 samples
+Each `QA_dataset/questions/{network}_{type}.csv` holds 5 samples
 (`sample_id` 0–4), with the `question` and its `ground_truth` per row.
 
 ![Question types](images/question_types.png)
@@ -63,13 +90,13 @@ python run_experiment.py --condition xml --type both_junctions
 python run_experiment.py --all --condition plan_execute_revise
 ```
 
-Results are written to `QAdataset/results/{condition}_{network}_{type}.csv`.
+Results are written to `QA_dataset/results/{condition}_{network}_{type}.csv`.
 Existing result files are skipped unless you pass `--force`.
 
 ## Evaluating
 
 ```bash
-# Score everything under QAdataset/results/
+# Score everything under QA_dataset/results/
 python evaluate.py
 ```
 
@@ -81,26 +108,3 @@ accuracy per (condition, network, type).
 Accuracy (%) across different LLM strategies and three SUMO networks. Best result per row in bold.
 
 ![Main results](images/main_result.png)
-
-## Repository layout
-
-```
-SUMO-SimQA/
-├── run_experiment.py        # Collect LLM answers for (condition, network, type)
-├── evaluate.py              # Score answers and aggregate accuracy
-├── requirements.txt
-├── scripts/
-│   ├── utils.py             # File-path registry + LLM client helper
-│   ├── llm_client.py        # Claude (Anthropic) client
-│   └── methods/             # Setup conditions
-│       ├── file.py                  # file                 (File)
-│       ├── xml_view.py              # xml                  (XML)
-│       ├── react.py                 # react                (ReAct)
-│       ├── plan_execute.py          # plan_execute         (PE)
-│       └── plan_execute_revise.py   # plan_execute_revise  (PER)
-├── data/
-│   ├── network/             # SUMO networks (.net.xml, _adjacency.json, _tls.add.xml)
-│   └── trips/               # Vehicle demand (.rou.xml)
-└── QAdataset/
-    └── questions/           # {network}_{type}.csv  (question + ground_truth)
-```

@@ -133,7 +133,7 @@ class PersistentPython:
         def _exec():
             try:
                 with redirect_stdout(stdout_buf), redirect_stderr(stderr_buf):
-                    exec(compile(code, "<tool_use>", "exec"), self._globals)
+                    exec(compile(code, "<react>", "exec"), self._globals)
             except Exception as e:
                 stderr_buf.write(f"{type(e).__name__}: {e}\n")
 

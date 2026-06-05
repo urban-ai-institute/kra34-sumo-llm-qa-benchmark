@@ -1,9 +1,9 @@
 __pycache__/
-QAdataset/results/
+QA_dataset/results/
 claude_api.txt
 *_api.txt
 # Heavy simulation output (large FCD XML, >100MB files)
-data/output/
+SUMO_dataset/output_files/
 logs/
 *.log
 .vscode/
