@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,tls_longest_green_phase,0,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light 10172901888? Answer format: <integer>,82,add
+times_square,tls_longest_green_phase,1,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light 6598535204? Answer format: <integer>,79,add
+times_square,tls_longest_green_phase,2,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light 42439990? Answer format: <integer>,39,add
+times_square,tls_longest_green_phase,3,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light 6598535159? Answer format: <integer>,82,add
+times_square,tls_longest_green_phase,4,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light 10691086260? Answer format: <integer>,82,add

@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,vehicle_arrival_time,0,"At what simulation time (in seconds) did vehicle v_728 arrive at its destination? Answer format: <number> rounded to 2 decimal places, or 'None' if v_728 did not arrive within the simulation",3360.00,tripinfo
+random,vehicle_arrival_time,1,"At what simulation time (in seconds) did vehicle v_732 arrive at its destination? Answer format: <number> rounded to 2 decimal places, or 'None' if v_732 did not arrive within the simulation",None,tripinfo
+random,vehicle_arrival_time,2,"At what simulation time (in seconds) did vehicle v_114 arrive at its destination? Answer format: <number> rounded to 2 decimal places, or 'None' if v_114 did not arrive within the simulation",861.00,tripinfo
+random,vehicle_arrival_time,3,"At what simulation time (in seconds) did vehicle v_75 arrive at its destination? Answer format: <number> rounded to 2 decimal places, or 'None' if v_75 did not arrive within the simulation",564.00,tripinfo
+random,vehicle_arrival_time,4,"At what simulation time (in seconds) did vehicle v_617 arrive at its destination? Answer format: <number> rounded to 2 decimal places, or 'None' if v_617 did not arrive within the simulation",2862.00,tripinfo

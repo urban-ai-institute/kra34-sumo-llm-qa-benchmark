@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,vehicle_depart_edge,0,What is the departure edge of vehicle v_703? Answer format: <edge_id>,G2F2,rou
+grid_8x8,vehicle_depart_edge,1,What is the departure edge of vehicle v_642? Answer format: <edge_id>,C4D4,rou
+grid_8x8,vehicle_depart_edge,2,What is the departure edge of vehicle v_1030? Answer format: <edge_id>,F3F2,rou
+grid_8x8,vehicle_depart_edge,3,What is the departure edge of vehicle v_407? Answer format: <edge_id>,A2A3,rou
+grid_8x8,vehicle_depart_edge,4,What is the departure edge of vehicle v_996? Answer format: <edge_id>,B0B1,rou

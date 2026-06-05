@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,num_lanes,0,How many lanes does edge -1413518739#0 have? Answer format: <integer>,1,net
+times_square,num_lanes,1,How many lanes does edge 226041025#1 have? Answer format: <integer>,3,net
+times_square,num_lanes,2,How many lanes does edge 1413518739#0 have? Answer format: <integer>,1,net
+times_square,num_lanes,3,How many lanes does edge 226041025#0 have? Answer format: <integer>,3,net
+times_square,num_lanes,4,How many lanes does edge 569345542#1 have? Answer format: <integer>,5,net

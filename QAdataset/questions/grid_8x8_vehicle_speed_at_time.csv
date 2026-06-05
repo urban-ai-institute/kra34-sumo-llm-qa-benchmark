@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,vehicle_speed_at_time,0,What is the speed (m/s) of vehicle v_1273 at simulation time 3482? Answer format: <number> rounded to 2 decimal places,10.52,fcd
+grid_8x8,vehicle_speed_at_time,1,What is the speed (m/s) of vehicle v_222 at simulation time 915? Answer format: <number> rounded to 2 decimal places,10.09,fcd
+grid_8x8,vehicle_speed_at_time,2,What is the speed (m/s) of vehicle v_869 at simulation time 2401? Answer format: <number> rounded to 2 decimal places,12.52,fcd
+grid_8x8,vehicle_speed_at_time,3,What is the speed (m/s) of vehicle v_250 at simulation time 780? Answer format: <number> rounded to 2 decimal places,12.68,fcd
+grid_8x8,vehicle_speed_at_time,4,What is the speed (m/s) of vehicle v_519 at simulation time 1492? Answer format: <number> rounded to 2 decimal places,12.47,fcd

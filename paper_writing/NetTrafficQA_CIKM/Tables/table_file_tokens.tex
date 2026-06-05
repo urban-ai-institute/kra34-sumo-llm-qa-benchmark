@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Token count of each SUMO file across the three benchmark networks
+(Claude tokenizer).
+Values exceeding the 200K-token context window of Claude Sonnet are
+marked with $\dagger$.}
+\label{tab:file_tokens}
+\begin{tabular}{lccc}
+\toprule
+\textbf{File} & \textbf{Random} & \textbf{Grid $8\times8$} & \textbf{Times Sq.} \\
+\midrule
+\texttt{net.xml} & 61K & 130K & 139K \\
+\texttt{rou.xml} & 56K & 116K & 429K$\dagger$ \\
+\texttt{tls.add.xml} & 25K & 58K & 38K \\
+\texttt{tripinfo.xml} & 183K & 320K$\dagger$ & 404K$\dagger$ \\
+\texttt{fcd.xml} & 10.4M$\dagger$ & 14.6M$\dagger$ & 30.5M$\dagger$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,59 @@
+\begin{table*}[t]
+\centering
+\caption{The $32$ question types in NetTrafficQA, grouped by
+cognitive category. Checkmarks indicate which SUMO files are required to
+answer the question. Each type has $5$ sampled questions per
+network. Placeholders: \texttt{\{E\}} edge,
+\texttt{\{V\}} vehicle, \texttt{\{J\}} junction, \texttt{\{A,B\}}
+junction pair, \texttt{\{T\}} timestep, \texttt{\{TLS\}} traffic light,
+\texttt{\{t1,t2\}} time window in seconds.}
+\label{tab:types}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\scriptsize
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{@{}llp{0.5\textwidth}ccccc@{}}
+\toprule
+Category & Type & Question template & \rotatebox{60}{\texttt{net}} & \rotatebox{60}{\texttt{rou}} & \rotatebox{60}{\texttt{tripinfo}} & \rotatebox{60}{\texttt{fcd}} & \rotatebox{60}{\texttt{add}} \\
+\midrule
+\multirow{12}{*}{\small\textbf{Retrieval}}
+& both\_junctions             & What are the from-junction and to-junction ids of edge \texttt{\{E\}}?                                                                & \checkmark &            &            &            &            \\
+& num\_lanes                  & How many lanes does edge \texttt{\{E\}} have?                                                                                          & \checkmark &            &            &            &            \\
+& junction\_coord             & What are the coordinates of junction \texttt{\{J\}}?                                                                            & \checkmark &            &            &            &            \\
+& vehicle\_depart\_time       & At what time does vehicle \texttt{\{V\}} depart?                                                                                       &            & \checkmark &            &            &            \\
+& vehicle\_depart\_edge       & What is the departure edge of vehicle \texttt{\{V\}}?                                                                                  &            & \checkmark &            &            &            \\
+& vehicle\_route              & List the planned route of vehicle \texttt{\{V\}} as an ordered edge sequence.                                                          &            & \checkmark &            &            &            \\
+& vehicles\_with\_same\_origin & How many other vehicles depart from the same edge as vehicle \texttt{\{V\}}?                                                          &            & \checkmark &            &            &            \\
+& vehicle\_travel\_time       & What was the total travel time of vehicle \texttt{\{V\}}?                                      &            &            & \checkmark &            &            \\
+& vehicle\_arrival\_time      & At what simulation time did vehicle \texttt{\{V\}} arrive at its destination?                                       &            &            & \checkmark &            &            \\
+& vehicle\_speed\_at\_time    & What is the speed of vehicle \texttt{\{V\}} at simulation time \texttt{\{T\}}?                                                   &            &            &            & \checkmark &            \\
+& tls\_phase\_count           & How many phases does traffic light \texttt{\{TLS\}} have?                                                                              &            &            &            &            & \checkmark \\
+& tls\_longest\_green\_phase  & What is the duration of the longest green phase for traffic light \texttt{\{TLS\}}?                                                    &            &            &            &            & \checkmark \\
+\midrule
+\multirow{10}{*}{\small\textbf{Reasoning}}
+& shortest\_path\_full        & What is the shortest path from \texttt{\{A\}} to \texttt{\{B\}}?                            & \checkmark &            &            &            &            \\
+& bottleneck\_edge            & Which edge on the shortest path \texttt{\{A\}}$\to$\texttt{\{B\}} causes the largest detour if removed?                                & \checkmark &            &            &            &            \\
+& avg\_route\_length\_in\_window & For vehicles departing between \texttt{\{t1\}} and \texttt{\{t2\}}, what is the average number of edges in their routes?  &            & \checkmark &            &            &            \\
+& route\_edit\_distance\_pair & Most similar non-identical vehicle pair by Levenshtein edit distance of edge sequences?                                                &            & \checkmark &            &            &            \\
+& route\_overlap\_count       & Which vehicle pair shares the longest consecutive sub-route?                                                   &            & \checkmark &            &            &            \\
+& vehicle\_highest\_timeloss  & Which vehicle experienced the highest time loss during the simulation?                                                                  &            &            & \checkmark &            &            \\
+& avg\_trip\_duration         & What is the average trip duration of all completed vehicles?                                                                  &            &            & \checkmark &            &            \\
+& vehicle\_max\_speed         & What is the maximum speed that vehicle \texttt{\{V\}} reached during the simulation?                                             &            &            &            & \checkmark &            \\
+& edge\_peak\_vehicle\_count  & At which simulation second did edge \texttt{\{E\}} have the most vehicles simultaneously?                                              &            &            &            & \checkmark &            \\
+& tls\_lowest\_green\_ratio    & Which traffic light has the lowest green ratio?                                &            &            &            &            & \checkmark \\
+\midrule
+\multirow{10}{*}{\small\shortstack[l]{\textbf{Multi-step}\\\textbf{Reasoning}}}
+& worst\_congestion\_od       & Which origin-destination pair has the worst average congestion ratio?                                                                   & \checkmark & \checkmark & \checkmark &            &            \\
+& gap\_violations             & Which edge has the most safety-gap violations?                                                                                         & \checkmark & \checkmark &            & \checkmark &            \\
+& peak\_offpeak\_degradation  & Which origin edge has the worst peak vs.\ off-peak travel time degradation?                                                            &            & \checkmark & \checkmark &            &            \\
+& lane\_utilisation           & Which multi-lane edge has the most unequal lane usage?                                                                                  & \checkmark &            &            & \checkmark &            \\
+& incomplete\_od              & Which origin-destination pair has the most vehicles that depart but never arrive?                                                       &            & \checkmark & \checkmark &            &            \\
+& junction\_inflow\_cv        & Which junction has the most unequal incoming traffic distribution?                                                         & \checkmark &            &            & \checkmark &            \\
+& edge\_lane\_entropy         & Which multi-lane edge has the lowest Shannon entropy of lane-usage distribution?                                                        & \checkmark &            &            & \checkmark &            \\
+& tls\_congestion\_ratio      & Which traffic signal has the highest mean actual/free-flow traversal time ratio?                                                        & \checkmark &            &            & \checkmark & \checkmark \\
+& tls\_approach\_queue        & Which signalised junction has the highest average approach queue?                                                                       & \checkmark &            &            & \checkmark & \checkmark \\
+& tls\_phase\_demand\_imbalance & Which traffic light has the most unequal phase utilization?                            & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

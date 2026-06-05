@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,shortest_path_edge_removal,0,"If edge D5E5 is removed, what is the shortest path from junction C0 to junction E5? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",C0C1 -> C1C2 -> C2C3 -> C3C4 -> C4D4 -> D4E4 -> E4E5,net
+grid_8x8,shortest_path_edge_removal,1,"If edge A2A1 is removed, what is the shortest path from junction B3 to junction A0? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",B3B2 -> B2B1 -> B1A1 -> A1A0,net
+grid_8x8,shortest_path_edge_removal,2,"If edge F7E7 is removed, what is the shortest path from junction G7 to junction C7? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",G7F7 -> F7F6 -> F6E6 -> E6D6 -> D6C6 -> C6C7,net
+grid_8x8,shortest_path_edge_removal,3,"If edge E3E2 is removed, what is the shortest path from junction E5 to junction E2? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",E5D5 -> D5D4 -> D4D3 -> D3D2 -> D2E2,net
+grid_8x8,shortest_path_edge_removal,4,"If edge D3E3 is removed, what is the shortest path from junction A7 to junction F3? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",A7A6 -> A6A5 -> A5A4 -> A4B4 -> B4C4 -> C4D4 -> D4E4 -> E4E3 -> E3F3,net

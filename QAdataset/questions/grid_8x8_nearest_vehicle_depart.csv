@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,nearest_vehicle_depart,0,"Among all vehicles that depart from edge B0B1, which vehicle departs closest in time to vehicle v_410? (Exclude v_410 itself.) Answer format: <vehicle_id>",v_403,rou
+grid_8x8,nearest_vehicle_depart,1,"Among all vehicles that depart from edge C2B2, which vehicle departs closest in time to vehicle v_923? (Exclude v_923 itself.) Answer format: <vehicle_id>",v_890,rou
+grid_8x8,nearest_vehicle_depart,2,"Among all vehicles that depart from edge G4G3, which vehicle departs closest in time to vehicle v_269? (Exclude v_269 itself.) Answer format: <vehicle_id>",v_287,rou
+grid_8x8,nearest_vehicle_depart,3,"Among all vehicles that depart from edge A3A2, which vehicle departs closest in time to vehicle v_301? (Exclude v_301 itself.) Answer format: <vehicle_id>",v_310,rou
+grid_8x8,nearest_vehicle_depart,4,"Among all vehicles that depart from edge G0G1, which vehicle departs closest in time to vehicle v_658? (Exclude v_658 itself.) Answer format: <vehicle_id>",v_670,rou

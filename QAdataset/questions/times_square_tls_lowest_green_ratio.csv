@@ -1,0 +1,6 @@
+question,ground_truth,files_used
+Which traffic light has the lowest green ratio (proportion of green-phase duration to total cycle time)? Exclude traffic lights where all phases are green. Report only the traffic light ID. Answer format: <tls_id>,1289222420,add_s0
+Which traffic light has the lowest green ratio (proportion of green-phase duration to total cycle time)? Exclude traffic lights where all phases are green. Report only the traffic light ID. Answer format: <tls_id>,10169532540,add_s1
+Which traffic light has the lowest green ratio (proportion of green-phase duration to total cycle time)? Exclude traffic lights where all phases are green. Report only the traffic light ID. Answer format: <tls_id>,2435108451,add_s2
+Which traffic light has the lowest green ratio (proportion of green-phase duration to total cycle time)? Exclude traffic lights where all phases are green. Report only the traffic light ID. Answer format: <tls_id>,5651033419,add_s3
+Which traffic light has the lowest green ratio (proportion of green-phase duration to total cycle time)? Exclude traffic lights where all phases are green. Report only the traffic light ID. Answer format: <tls_id>,10166333087,add_s4

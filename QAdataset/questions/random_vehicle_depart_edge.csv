@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,vehicle_depart_edge,0,What is the departure edge of vehicle v_580? Answer format: <edge_id>,293,rou
+random,vehicle_depart_edge,1,What is the departure edge of vehicle v_274? Answer format: <edge_id>,356,rou
+random,vehicle_depart_edge,2,What is the departure edge of vehicle v_410? Answer format: <edge_id>,-119,rou
+random,vehicle_depart_edge,3,What is the departure edge of vehicle v_122? Answer format: <edge_id>,115,rou
+random,vehicle_depart_edge,4,What is the departure edge of vehicle v_235? Answer format: <edge_id>,-119,rou

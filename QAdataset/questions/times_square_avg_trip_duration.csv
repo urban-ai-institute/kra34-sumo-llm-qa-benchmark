@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,avg_trip_duration,0,"What is the average trip duration (seconds) of vehicles departing between time 639 and 1239 that completed their trips? Answer format: <number> rounded to 2 decimal places, or 'None' if none completed",190.49,tripinfo
+times_square,avg_trip_duration,1,"What is the average trip duration (seconds) of vehicles departing between time 784 and 1384 that completed their trips? Answer format: <number> rounded to 2 decimal places, or 'None' if none completed",211.32,tripinfo
+times_square,avg_trip_duration,2,"What is the average trip duration (seconds) of vehicles departing between time 1329 and 1929 that completed their trips? Answer format: <number> rounded to 2 decimal places, or 'None' if none completed",255.79,tripinfo
+times_square,avg_trip_duration,3,"What is the average trip duration (seconds) of vehicles departing between time 1290 and 1890 that completed their trips? Answer format: <number> rounded to 2 decimal places, or 'None' if none completed",250.32,tripinfo
+times_square,avg_trip_duration,4,"What is the average trip duration (seconds) of vehicles departing between time 2420 and 3020 that completed their trips? Answer format: <number> rounded to 2 decimal places, or 'None' if none completed",311.16,tripinfo

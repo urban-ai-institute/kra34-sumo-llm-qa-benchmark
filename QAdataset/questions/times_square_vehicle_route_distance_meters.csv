@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicle_route_distance_meters,0,What is the total length (in meters) of vehicle v_2575's planned route? Answer format: <number> rounded to 2 decimal places,239.64,"net,rou"
+times_square,vehicle_route_distance_meters,1,What is the total length (in meters) of vehicle v_709's planned route? Answer format: <number> rounded to 2 decimal places,1241.70,"net,rou"
+times_square,vehicle_route_distance_meters,2,What is the total length (in meters) of vehicle v_1515's planned route? Answer format: <number> rounded to 2 decimal places,1161.86,"net,rou"
+times_square,vehicle_route_distance_meters,3,What is the total length (in meters) of vehicle v_1588's planned route? Answer format: <number> rounded to 2 decimal places,1241.70,"net,rou"
+times_square,vehicle_route_distance_meters,4,What is the total length (in meters) of vehicle v_1976's planned route? Answer format: <number> rounded to 2 decimal places,707.14,"net,rou"

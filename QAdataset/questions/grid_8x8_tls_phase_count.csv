@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,tls_phase_count,0,How many phases does traffic light E7 have? Answer format: <integer>,4,add
+grid_8x8,tls_phase_count,1,How many phases does traffic light D4 have? Answer format: <integer>,4,add
+grid_8x8,tls_phase_count,2,How many phases does traffic light H1 have? Answer format: <integer>,4,add
+grid_8x8,tls_phase_count,3,How many phases does traffic light A0 have? Answer format: <integer>,1,add
+grid_8x8,tls_phase_count,4,How many phases does traffic light A5 have? Answer format: <integer>,4,add

@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,edge_peak_vehicle_count,0,At which simulation second did edge 1117867024#0 have the most vehicles present simultaneously? Answer format: <integer>,2244,fcd
+times_square,edge_peak_vehicle_count,1,At which simulation second did edge 846142553#3 have the most vehicles present simultaneously? Answer format: <integer>,2877,fcd
+times_square,edge_peak_vehicle_count,2,At which simulation second did edge 1136952921#1 have the most vehicles present simultaneously? Answer format: <integer>,1999,fcd
+times_square,edge_peak_vehicle_count,3,At which simulation second did edge 127693103#2 have the most vehicles present simultaneously? Answer format: <integer>,104,fcd
+times_square,edge_peak_vehicle_count,4,At which simulation second did edge -1413518738 have the most vehicles present simultaneously? Answer format: <integer>,95,fcd

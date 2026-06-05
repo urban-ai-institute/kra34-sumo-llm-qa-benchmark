@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) of scaffolding conditions on multi-step reasoning questions across three SUMO networks.
+Best result per row in \textbf{bold}. ``--'' indicates the condition was not evaluated for that type.}
+\label{tab:multifile_results}
+\resizebox{0.95\textwidth}{!}{%
+\begin{tabular}{l|cccc|cccc|cccc}
+\toprule
+\multirow{2}{*}{\textbf{Question Type}} & \multicolumn{4}{c|}{\textbf{Grid $8\times8$}} & \multicolumn{4}{c|}{\textbf{Random}} & \multicolumn{4}{c}{\textbf{Times Square}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13}
+ & Naive & XML & T-Rev & P-Rev & Naive & XML & T-Rev & P-Rev & Naive & XML & T-Rev & P-Rev \\
+\midrule
+Veh.\ Route Distance        & 0 & \textbf{100} & \textbf{100} & \textbf{100} & 0 & \textbf{100} & \textbf{100} & \textbf{100} & 0 & 60 & \textbf{100} & \textbf{100} \\
+Worst Congestion OD         & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+Gap Violations              & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+TLS Delay                   & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+Peak/Off-peak Degrad.       & 0 & 0 & \textbf{80} & \textbf{80} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 20 & \textbf{80} & \textbf{80} \\
+Lane Utilisation            & 0 & 0 & 40 & \textbf{60} & 0 & 0 & \textbf{80} & \textbf{80} & 0 & 0 & 40 & \textbf{80} \\
+Incomplete OD               & 0 & 60 & \textbf{100} & 80 & 0 & 20 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & 80 \\
+Junction Blocked            & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+Junction Inflow CV          & -- & -- & \textbf{20} & \textbf{20} & -- & -- & 80 & \textbf{100} & -- & -- & \textbf{100} & \textbf{100} \\
+Edge Lane Entropy           & -- & -- & 80 & \textbf{100} & -- & -- & \textbf{100} & \textbf{100} & -- & -- & 80 & \textbf{100} \\
+TLS Approach Queue          & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+TLS Vehicle Delay           & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} & 0 & 0 & \textbf{100} & \textbf{100} \\
+\midrule
+\textbf{Overall}            & 0.0 & 16.0 & 85.0 & \textbf{86.7} & 0.0 & 12.0 & 96.7 & \textbf{98.3} & 0.0 & 8.0 & 91.7 & \textbf{95.0} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

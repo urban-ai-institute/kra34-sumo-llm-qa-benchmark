@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,junction_coord,0,"What are the (x, y) coordinates of junction D0? Answer format: <x>, <y>","600.0, 0.0",net
+grid_8x8,junction_coord,1,"What are the (x, y) coordinates of junction G5? Answer format: <x>, <y>","1200.0, 1000.0",net
+grid_8x8,junction_coord,2,"What are the (x, y) coordinates of junction H2? Answer format: <x>, <y>","1400.0, 400.0",net
+grid_8x8,junction_coord,3,"What are the (x, y) coordinates of junction C3? Answer format: <x>, <y>","400.0, 600.0",net
+grid_8x8,junction_coord,4,"What are the (x, y) coordinates of junction F4? Answer format: <x>, <y>","1000.0, 800.0",net

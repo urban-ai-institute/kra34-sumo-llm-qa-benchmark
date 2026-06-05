@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Overall accuracy (\%) by scaffolding condition and question
+category, averaged across all three networks.
+Values show mean $\pm$ standard deviation across networks.
+Best result per category in \textbf{bold}.}
+\label{tab:headline}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Condition} & \textbf{Retrieval} & \textbf{Reasoning} & \textbf{Multi-step} & \textbf{Overall} \\
+\midrule
+Naive        & $16.1 \pm 10.2$ & $18.9 \pm 9.2$ & $0.0 \pm 0.0$ & $11.7 \pm 5.4$ \\
+SUMO XML     & $88.3 \pm 5.8$ & $27.2 \pm 2.5$ & $10.0 \pm 3.3$ & $41.9 \pm 0.8$ \\
+Tool Use     & $\mathbf{100.0 \pm 0.0}$ & $89.4 \pm 1.0$ & $91.1 \pm 5.9$ & $93.5 \pm 1.7$ \\
+Plan-Execute-Revise & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{98.9 \pm 1.0}$ & $\mathbf{93.3 \pm 6.0}$ & $\mathbf{97.4 \pm 2.1}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicle_depart_edge,0,What is the departure edge of vehicle v_1376? Answer format: <edge_id>,167922074#1,rou
+times_square,vehicle_depart_edge,1,What is the departure edge of vehicle v_2528? Answer format: <edge_id>,1117867029#3,rou
+times_square,vehicle_depart_edge,2,What is the departure edge of vehicle v_1476? Answer format: <edge_id>,46522008#0,rou
+times_square,vehicle_depart_edge,3,What is the departure edge of vehicle v_2326? Answer format: <edge_id>,1117867029#3,rou
+times_square,vehicle_depart_edge,4,What is the departure edge of vehicle v_2178? Answer format: <edge_id>,846142553#2,rou

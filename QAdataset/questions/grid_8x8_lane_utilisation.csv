@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,lane_utilisation,0,Which multi-lane edge has the most unequal lane utilisation (highest coefficient of variation across lanes) across the simulation? Answer format: <edge_id>,D4C4,"net,fcd_s0"
+grid_8x8,lane_utilisation,1,Which multi-lane edge has the most unequal lane utilisation (highest coefficient of variation across lanes) across the simulation? Answer format: <edge_id>,E7D7,"net,fcd_s1"
+grid_8x8,lane_utilisation,2,Which multi-lane edge has the most unequal lane utilisation (highest coefficient of variation across lanes) across the simulation? Answer format: <edge_id>,F3F2,"net,fcd_s2"
+grid_8x8,lane_utilisation,3,Which multi-lane edge has the most unequal lane utilisation (highest coefficient of variation across lanes) across the simulation? Answer format: <edge_id>,H6G6,"net,fcd_s3"
+grid_8x8,lane_utilisation,4,Which multi-lane edge has the most unequal lane utilisation (highest coefficient of variation across lanes) across the simulation? Answer format: <edge_id>,B2B3,"net,fcd_s4"

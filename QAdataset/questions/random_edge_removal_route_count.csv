@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,edge_removal_route_count,0,"If edge 120 is removed, how many vehicles' planned routes become invalid (i.e., contain 120)? Answer format: <integer>",10,"net,rou"
+random,edge_removal_route_count,1,"If edge 49 is removed, how many vehicles' planned routes become invalid (i.e., contain 49)? Answer format: <integer>",0,"net,rou"
+random,edge_removal_route_count,2,"If edge -552 is removed, how many vehicles' planned routes become invalid (i.e., contain -552)? Answer format: <integer>",53,"net,rou"
+random,edge_removal_route_count,3,"If edge 514 is removed, how many vehicles' planned routes become invalid (i.e., contain 514)? Answer format: <integer>",0,"net,rou"
+random,edge_removal_route_count,4,"If edge -32 is removed, how many vehicles' planned routes become invalid (i.e., contain -32)? Answer format: <integer>",0,"net,rou"

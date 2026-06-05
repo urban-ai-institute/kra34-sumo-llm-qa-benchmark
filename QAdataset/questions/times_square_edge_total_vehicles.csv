@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,edge_total_vehicles,0,How many distinct vehicles traversed edge 1049920715#1 during the simulation? Answer format: <integer>,0,edgedata
+times_square,edge_total_vehicles,1,How many distinct vehicles traversed edge 464516471#4 during the simulation? Answer format: <integer>,5,edgedata
+times_square,edge_total_vehicles,2,How many distinct vehicles traversed edge 464515890#1 during the simulation? Answer format: <integer>,0,edgedata
+times_square,edge_total_vehicles,3,How many distinct vehicles traversed edge 5672464#2 during the simulation? Answer format: <integer>,3,edgedata
+times_square,edge_total_vehicles,4,How many distinct vehicles traversed edge -511699183#2 during the simulation? Answer format: <integer>,26,edgedata

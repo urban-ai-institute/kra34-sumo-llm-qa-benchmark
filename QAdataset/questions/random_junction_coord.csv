@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,junction_coord,0,"What are the (x, y) coordinates of junction 571? Answer format: <x>, <y>","1141.08, 1838.72",net
+random,junction_coord,1,"What are the (x, y) coordinates of junction 292? Answer format: <x>, <y>","492.17, 1577.14",net
+random,junction_coord,2,"What are the (x, y) coordinates of junction 37? Answer format: <x>, <y>","935.48, 755.41",net
+random,junction_coord,3,"What are the (x, y) coordinates of junction 328? Answer format: <x>, <y>","1334.08, 0.0",net
+random,junction_coord,4,"What are the (x, y) coordinates of junction 330? Answer format: <x>, <y>","1142.1, 20.17",net

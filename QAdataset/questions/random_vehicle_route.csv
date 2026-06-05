@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,vehicle_route,0,List the planned route of vehicle v_230 as an ordered edge sequence. Answer format: <e1> -> <e2> -> ...,-119 -> 113 -> 234 -> 274 -> 356,rou
+random,vehicle_route,1,List the planned route of vehicle v_560 as an ordered edge sequence. Answer format: <e1> -> <e2> -> ...,-119 -> 113 -> 248 -> -248,rou
+random,vehicle_route,2,List the planned route of vehicle v_688 as an ordered edge sequence. Answer format: <e1> -> <e2> -> ...,-337 -> -267 -> -107 -> 91 -> -87 -> 88 -> -80 -> 82 -> 119 -> -357 -> -276,rou
+random,vehicle_route,3,List the planned route of vehicle v_477 as an ordered edge sequence. Answer format: <e1> -> <e2> -> ...,-80 -> 80 -> -120,rou
+random,vehicle_route,4,List the planned route of vehicle v_11 as an ordered edge sequence. Answer format: <e1> -> <e2> -> ...,-80 -> 80 -> -120,rou

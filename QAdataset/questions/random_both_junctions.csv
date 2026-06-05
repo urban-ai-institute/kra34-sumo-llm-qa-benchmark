@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,both_junctions,0,"What are the from-junction and to-junction ids of edge 238? Answer format: <from_junction>, <to_junction>","112, 237",net
+random,both_junctions,1,"What are the from-junction and to-junction ids of edge 274? Answer format: <from_junction>, <to_junction>","233, 273",net
+random,both_junctions,2,"What are the from-junction and to-junction ids of edge 7? Answer format: <from_junction>, <to_junction>","1, 6",net
+random,both_junctions,3,"What are the from-junction and to-junction ids of edge -49? Answer format: <from_junction>, <to_junction>","44, 6",net
+random,both_junctions,4,"What are the from-junction and to-junction ids of edge -326? Answer format: <from_junction>, <to_junction>","266, 92",net

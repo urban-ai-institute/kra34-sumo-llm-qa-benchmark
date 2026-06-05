@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,node_removal_connectivity,0,"If junction 8375523265 is removed (along with all its incident edges), does the resulting network remain strongly connected? Answer format: yes or no",no,net
+times_square,node_removal_connectivity,1,"If junction 10224024816 is removed (along with all its incident edges), does the resulting network remain strongly connected? Answer format: yes or no",no,net
+times_square,node_removal_connectivity,2,"If junction 42443559 is removed (along with all its incident edges), does the resulting network remain strongly connected? Answer format: yes or no",no,net
+times_square,node_removal_connectivity,3,"If junction 42439996 is removed (along with all its incident edges), does the resulting network remain strongly connected? Answer format: yes or no",no,net
+times_square,node_removal_connectivity,4,"If junction 10224024800 is removed (along with all its incident edges), does the resulting network remain strongly connected? Answer format: yes or no",no,net

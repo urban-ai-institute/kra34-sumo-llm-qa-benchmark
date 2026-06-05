@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,vehicle_arrival_delta_from_sim_end,0,"By how many seconds did vehicle 37 arrive before the simulation ended (3600s)? Answer format: <number> rounded to 2 decimal places, or 'None' if 37 did not arrive within the simulation",976.00,"rou,tripinfo"
+random,vehicle_arrival_delta_from_sim_end,1,"By how many seconds did vehicle 22 arrive before the simulation ended (3600s)? Answer format: <number> rounded to 2 decimal places, or 'None' if 22 did not arrive within the simulation",1995.00,"rou,tripinfo"
+random,vehicle_arrival_delta_from_sim_end,2,"By how many seconds did vehicle 30 arrive before the simulation ended (3600s)? Answer format: <number> rounded to 2 decimal places, or 'None' if 30 did not arrive within the simulation",1504.00,"rou,tripinfo"
+random,vehicle_arrival_delta_from_sim_end,3,"By how many seconds did vehicle 12 arrive before the simulation ended (3600s)? Answer format: <number> rounded to 2 decimal places, or 'None' if 12 did not arrive within the simulation",2779.00,"rou,tripinfo"
+random,vehicle_arrival_delta_from_sim_end,4,"By how many seconds did vehicle 17 arrive before the simulation ended (3600s)? Answer format: <number> rounded to 2 decimal places, or 'None' if 17 did not arrive within the simulation",2276.00,"rou,tripinfo"

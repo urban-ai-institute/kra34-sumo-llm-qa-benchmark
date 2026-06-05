@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,intersection_safety,0,Which signalized intersection has the highest risk of vehicle conflicts? Consider simultaneous high-speed approaches from multiple directions. Answer format: <tls_id>,B2,"net,add,fcd_s0"
+grid_8x8,intersection_safety,1,Which signalized intersection has the highest risk of vehicle conflicts? Consider simultaneous high-speed approaches from multiple directions. Answer format: <tls_id>,D4,"net,add,fcd_s1"
+grid_8x8,intersection_safety,2,Which signalized intersection has the highest risk of vehicle conflicts? Consider simultaneous high-speed approaches from multiple directions. Answer format: <tls_id>,D4,"net,add,fcd_s2"
+grid_8x8,intersection_safety,3,Which signalized intersection has the highest risk of vehicle conflicts? Consider simultaneous high-speed approaches from multiple directions. Answer format: <tls_id>,G5,"net,add,fcd_s3"
+grid_8x8,intersection_safety,4,Which signalized intersection has the highest risk of vehicle conflicts? Consider simultaneous high-speed approaches from multiple directions. Answer format: <tls_id>,G6,"net,add,fcd_s4"

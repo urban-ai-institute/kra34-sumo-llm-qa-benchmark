@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicle_max_speed,0,What is the maximum speed (m/s) that vehicle v_1038 reached during the simulation? Answer format: <number> rounded to 2 decimal places,21.12,fcd
+times_square,vehicle_max_speed,1,What is the maximum speed (m/s) that vehicle v_366 reached during the simulation? Answer format: <number> rounded to 2 decimal places,10.86,fcd
+times_square,vehicle_max_speed,2,What is the maximum speed (m/s) that vehicle v_2368 reached during the simulation? Answer format: <number> rounded to 2 decimal places,34.19,fcd
+times_square,vehicle_max_speed,3,What is the maximum speed (m/s) that vehicle v_1978 reached during the simulation? Answer format: <number> rounded to 2 decimal places,14.40,fcd
+times_square,vehicle_max_speed,4,What is the maximum speed (m/s) that vehicle v_1813 reached during the simulation? Answer format: <number> rounded to 2 decimal places,11.82,fcd

@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,shortest_path_edge_removal,0,"If edge -120 is removed, what is the shortest path from junction 262 to junction 37? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",-263 -> -231 -> -80 -> -32 -> 38,net
+random,shortest_path_edge_removal,1,"If edge 293 is removed, what is the shortest path from junction 262 to junction 499? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",-263 -> -231 -> -80 -> 82 -> 113 -> 234 -> 274 -> 346 -> 500,net
+random,shortest_path_edge_removal,2,"If edge 287 is removed, what is the shortest path from junction 275 to junction 286? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",-276 -> -234 -> 238 -> 281 -> 528 -> -475,net
+random,shortest_path_edge_removal,3,"If edge -238 is removed, what is the shortest path from junction 237 to junction 118? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",277 -> -248 -> -113 -> 119,net
+random,shortest_path_edge_removal,4,"If edge -90 is removed, what is the shortest path from junction 89 to junction 571? Answer format: <e1> -> <e2> -> ..., or 'None' if no path exists after removal",226 -> -231 -> -80 -> 82 -> 119 -> -357 -> 363 -> -556 -> 572,net

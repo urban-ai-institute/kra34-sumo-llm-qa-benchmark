@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicle_depart_time,0,At what time (in seconds) does vehicle v_2375 depart? Answer format: <number> rounded to 2 decimal places,2960.43,rou
+times_square,vehicle_depart_time,1,At what time (in seconds) does vehicle v_770 depart? Answer format: <number> rounded to 2 decimal places,988.40,rou
+times_square,vehicle_depart_time,2,At what time (in seconds) does vehicle v_4 depart? Answer format: <number> rounded to 2 decimal places,3.91,rou
+times_square,vehicle_depart_time,3,At what time (in seconds) does vehicle v_1606 depart? Answer format: <number> rounded to 2 decimal places,2021.07,rou
+times_square,vehicle_depart_time,4,At what time (in seconds) does vehicle v_1638 depart? Answer format: <number> rounded to 2 decimal places,2053.01,rou

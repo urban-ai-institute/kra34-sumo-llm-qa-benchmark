@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,tls_longest_green_phase,0,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light H1? Answer format: <integer>,42,add
+grid_8x8,tls_longest_green_phase,1,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light F5? Answer format: <integer>,42,add
+grid_8x8,tls_longest_green_phase,2,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light F1? Answer format: <integer>,42,add
+grid_8x8,tls_longest_green_phase,3,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light H3? Answer format: <integer>,42,add
+grid_8x8,tls_longest_green_phase,4,What is the duration (seconds) of the longest green phase (a phase containing at least one 'G' or 'g' signal) for traffic light A4? Answer format: <integer>,42,add

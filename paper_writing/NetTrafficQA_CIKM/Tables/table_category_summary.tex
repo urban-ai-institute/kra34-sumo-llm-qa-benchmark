@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Category-level accuracy (\%) across scaffolding conditions and three SUMO networks.
+Values show mean $\pm$ standard deviation across the 12 question types within each category.
+Best result per column in \textbf{bold}.}
+\label{tab:category_summary}
+\resizebox{0.95\textwidth}{!}{%
+\begin{tabular}{l|ccc|ccc|ccc}
+\toprule
+\multirow{2}{*}{\textbf{Condition}} & \multicolumn{3}{c|}{\textbf{Grid $8\times8$}} & \multicolumn{3}{c|}{\textbf{Random}} & \multicolumn{3}{c}{\textbf{Times Square}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+ & Ret. & Reas. & Multi. & Ret. & Reas. & Multi. & Ret. & Reas. & Multi. \\
+\midrule
+Naive               & $25.0 \pm 41.9$ & $28.3 \pm 43.9$ & $0.0 \pm 0.0$ & $18.3 \pm 34.6$ & $10.0 \pm 28.9$ & $0.0 \pm 0.0$ & $5.0 \pm 12.4$ & $18.3 \pm 34.6$ & $0.0 \pm 0.0$ \\
+SUMO XML            & $81.7 \pm 38.6$ & $30.0 \pm 42.2$ & $13.3 \pm 32.3$ & $91.7 \pm 28.9$ & $26.7 \pm 39.4$ & $10.0 \pm 28.9$ & $91.7 \pm 28.9$ & $25.0 \pm 39.2$ & $6.7 \pm 17.8$ \\
+Tool Use            & $\mathbf{100.0 \pm 0.0}$ & $90.0 \pm 16.0$ & $85.0 \pm 27.1$ & $\mathbf{100.0 \pm 0.0}$ & $88.3 \pm 23.3$ & $96.7 \pm 7.8$ & $\mathbf{100.0 \pm 0.0}$ & $90.0 \pm 18.1$ & $91.7 \pm 18.0$ \\
+Plan-Execute-Revise & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{98.3 \pm 5.8}$ & $\mathbf{86.7 \pm 24.6}$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{98.3 \pm 5.8}$ & $\mathbf{98.3 \pm 5.8}$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{95.0 \pm 9.0}$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

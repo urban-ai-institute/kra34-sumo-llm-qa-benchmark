@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,tls_total_cycle_time,0,What is the total cycle time (seconds) of traffic light E7? (Sum of all phase durations.) Answer format: <integer>,90,add
+grid_8x8,tls_total_cycle_time,1,What is the total cycle time (seconds) of traffic light H2? (Sum of all phase durations.) Answer format: <integer>,90,add
+grid_8x8,tls_total_cycle_time,2,What is the total cycle time (seconds) of traffic light D6? (Sum of all phase durations.) Answer format: <integer>,90,add
+grid_8x8,tls_total_cycle_time,3,What is the total cycle time (seconds) of traffic light A6? (Sum of all phase durations.) Answer format: <integer>,90,add
+grid_8x8,tls_total_cycle_time,4,What is the total cycle time (seconds) of traffic light A2? (Sum of all phase durations.) Answer format: <integer>,90,add

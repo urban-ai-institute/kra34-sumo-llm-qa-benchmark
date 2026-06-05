@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,tls_phase_count,0,How many phases does traffic light 79 have? Answer format: <integer>,4,add
+random,tls_phase_count,1,How many phases does traffic light 44 have? Answer format: <integer>,4,add
+random,tls_phase_count,2,How many phases does traffic light 275 have? Answer format: <integer>,4,add
+random,tls_phase_count,3,How many phases does traffic light 330 have? Answer format: <integer>,3,add
+random,tls_phase_count,4,How many phases does traffic light 74 have? Answer format: <integer>,4,add

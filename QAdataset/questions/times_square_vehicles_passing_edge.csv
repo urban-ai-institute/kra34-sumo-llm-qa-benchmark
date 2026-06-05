@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicles_passing_edge,0,How many vehicles include edge -511699183#1 in their planned route? Answer format: <integer>,167,rou
+times_square,vehicles_passing_edge,1,How many vehicles include edge 1413518738 in their planned route? Answer format: <integer>,68,rou
+times_square,vehicles_passing_edge,2,How many vehicles include edge -167922072#1 in their planned route? Answer format: <integer>,105,rou
+times_square,vehicles_passing_edge,3,How many vehicles include edge 1117867041#1 in their planned route? Answer format: <integer>,21,rou
+times_square,vehicles_passing_edge,4,How many vehicles include edge 803047267#2 in their planned route? Answer format: <integer>,0,rou

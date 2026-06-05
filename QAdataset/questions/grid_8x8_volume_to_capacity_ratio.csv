@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,volume_to_capacity_ratio,0,"Which road segment most needs capacity expansion (e.g., adding lanes)? Consider how traffic volume compares to roadway capacity during peak periods. Answer format: <edge_id>",B3B2,"net,fcd_s0"
+grid_8x8,volume_to_capacity_ratio,1,"Which road segment most needs capacity expansion (e.g., adding lanes)? Consider how traffic volume compares to roadway capacity during peak periods. Answer format: <edge_id>",E4D4,"net,fcd_s1"
+grid_8x8,volume_to_capacity_ratio,2,"Which road segment most needs capacity expansion (e.g., adding lanes)? Consider how traffic volume compares to roadway capacity during peak periods. Answer format: <edge_id>",B4C4,"net,fcd_s2"
+grid_8x8,volume_to_capacity_ratio,3,"Which road segment most needs capacity expansion (e.g., adding lanes)? Consider how traffic volume compares to roadway capacity during peak periods. Answer format: <edge_id>",C4C5,"net,fcd_s3"
+grid_8x8,volume_to_capacity_ratio,4,"Which road segment most needs capacity expansion (e.g., adding lanes)? Consider how traffic volume compares to roadway capacity during peak periods. Answer format: <edge_id>",E6D6,"net,fcd_s4"

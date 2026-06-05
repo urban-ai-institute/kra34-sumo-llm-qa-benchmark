@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,edge_density_last_10min,0,What was the density on edge 46522008#3 during the last 10 minutes (3000–3600s) of the simulation? Answer format: <number> rounded to 2 decimal places,9.71,edgedata
+times_square,edge_density_last_10min,1,What was the density on edge 1320232776#0 during the last 10 minutes (3000–3600s) of the simulation? Answer format: <number> rounded to 2 decimal places,1.37,edgedata
+times_square,edge_density_last_10min,2,What was the density on edge -1320232776#0 during the last 10 minutes (3000–3600s) of the simulation? Answer format: <number> rounded to 2 decimal places,0.98,edgedata
+times_square,edge_density_last_10min,3,What was the density on edge 167922070#2 during the last 10 minutes (3000–3600s) of the simulation? Answer format: <number> rounded to 2 decimal places,8.32,edgedata
+times_square,edge_density_last_10min,4,What was the density on edge 1198594026#2 during the last 10 minutes (3000–3600s) of the simulation? Answer format: <number> rounded to 2 decimal places,35.86,edgedata

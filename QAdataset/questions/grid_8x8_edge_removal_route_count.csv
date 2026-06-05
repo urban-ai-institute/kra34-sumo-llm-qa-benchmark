@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,edge_removal_route_count,0,"If edge H0G0 is removed, how many vehicles' planned routes become invalid (i.e., contain H0G0)? Answer format: <integer>",0,"net,rou"
+grid_8x8,edge_removal_route_count,1,"If edge D6C6 is removed, how many vehicles' planned routes become invalid (i.e., contain D6C6)? Answer format: <integer>",83,"net,rou"
+grid_8x8,edge_removal_route_count,2,"If edge D4E4 is removed, how many vehicles' planned routes become invalid (i.e., contain D4E4)? Answer format: <integer>",108,"net,rou"
+grid_8x8,edge_removal_route_count,3,"If edge C4C3 is removed, how many vehicles' planned routes become invalid (i.e., contain C4C3)? Answer format: <integer>",87,"net,rou"
+grid_8x8,edge_removal_route_count,4,"If edge F2G2 is removed, how many vehicles' planned routes become invalid (i.e., contain F2G2)? Answer format: <integer>",0,"net,rou"

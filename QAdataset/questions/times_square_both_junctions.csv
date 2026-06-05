@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,both_junctions,0,"What are the from-junction and to-junction ids of edge 1321771943#0? Answer format: <from_junction>, <to_junction>","42435663, 9235539543",net
+times_square,both_junctions,1,"What are the from-junction and to-junction ids of edge 464516471#5? Answer format: <from_junction>, <to_junction>","10166333059, 42430347",net
+times_square,both_junctions,2,"What are the from-junction and to-junction ids of edge 511699183#1? Answer format: <from_junction>, <to_junction>","3826754271, 1289222420",net
+times_square,both_junctions,3,"What are the from-junction and to-junction ids of edge 226041027#1? Answer format: <from_junction>, <to_junction>","10168047523, 5481887476",net
+times_square,both_junctions,4,"What are the from-junction and to-junction ids of edge 420907902#1? Answer format: <from_junction>, <to_junction>","9235539542, 42435663",net

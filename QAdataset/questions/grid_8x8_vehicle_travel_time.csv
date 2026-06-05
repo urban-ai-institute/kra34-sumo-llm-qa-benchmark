@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,vehicle_travel_time,0,"What was the total travel time (in seconds) of vehicle v_1064? Answer format: <number> rounded to 2 decimal places, or 'None' if v_1064 did not arrive within the simulation",277.00,tripinfo
+grid_8x8,vehicle_travel_time,1,"What was the total travel time (in seconds) of vehicle v_1151? Answer format: <number> rounded to 2 decimal places, or 'None' if v_1151 did not arrive within the simulation",334.00,tripinfo
+grid_8x8,vehicle_travel_time,2,"What was the total travel time (in seconds) of vehicle v_702? Answer format: <number> rounded to 2 decimal places, or 'None' if v_702 did not arrive within the simulation",42.00,tripinfo
+grid_8x8,vehicle_travel_time,3,"What was the total travel time (in seconds) of vehicle v_536? Answer format: <number> rounded to 2 decimal places, or 'None' if v_536 did not arrive within the simulation",252.00,tripinfo
+grid_8x8,vehicle_travel_time,4,"What was the total travel time (in seconds) of vehicle v_786? Answer format: <number> rounded to 2 decimal places, or 'None' if v_786 did not arrive within the simulation",210.00,tripinfo

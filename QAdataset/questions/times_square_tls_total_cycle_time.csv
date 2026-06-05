@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,tls_total_cycle_time,0,What is the total cycle time (seconds) of traffic light 10169532534? (Sum of all phase durations.) Answer format: <integer>,90,add
+times_square,tls_total_cycle_time,1,What is the total cycle time (seconds) of traffic light 42435675? (Sum of all phase durations.) Answer format: <integer>,90,add
+times_square,tls_total_cycle_time,2,What is the total cycle time (seconds) of traffic light 3944708055? (Sum of all phase durations.) Answer format: <integer>,90,add
+times_square,tls_total_cycle_time,3,What is the total cycle time (seconds) of traffic light 42430350? (Sum of all phase durations.) Answer format: <integer>,90,add
+times_square,tls_total_cycle_time,4,What is the total cycle time (seconds) of traffic light 42435663? (Sum of all phase durations.) Answer format: <integer>,90,add

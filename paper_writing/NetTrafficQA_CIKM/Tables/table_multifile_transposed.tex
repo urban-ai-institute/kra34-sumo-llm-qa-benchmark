@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) of multi-step reasoning questions, transposed view.
+Best result per column (within each network) in \textbf{bold}.}
+\label{tab:multifile_transposed}
+\setlength{\tabcolsep}{4pt}
+\scriptsize
+\begin{tabular}{@{}ll|cccccccccc|c@{}}
+\toprule
+\textbf{Network} & \textbf{Condition} & \rotatebox{60}{Worst Congestion OD} & \rotatebox{60}{Gap Violations} & \rotatebox{60}{Peak/Off-peak Degrad.} & \rotatebox{60}{Lane Utilisation} & \rotatebox{60}{Incomplete OD} & \rotatebox{60}{Junction Inflow CV} & \rotatebox{60}{Edge Lane Entropy} & \rotatebox{60}{TLS Congestion Ratio} & \rotatebox{60}{TLS Approach Queue} & \rotatebox{60}{TLS Phase Imbalance} & \rotatebox{60}{Overall} \\
+\midrule
+Random & Naive & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0.0 \\
+ & XML & 0 & 0 & 0 & 0 & 20 & 0 & 0 & 0 & 0 & 0 & 2.0 \\
+ & T-Cont & \textbf{100} & \textbf{100} & \textbf{100} & 60 & 80 & \textbf{100} & \textbf{100} & 20 & 20 & 0 & 68.0 \\
+ & P-Rev & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{80} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{40} & \textbf{92.0} \\
+\midrule
+Grid $8\times8$ & Naive & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0.0 \\
+ & XML & 0 & 0 & 0 & 0 & 60 & 0 & 0 & 0 & 0 & 0 & 6.0 \\
+ & T-Cont & \textbf{100} & \textbf{100} & 80 & 20 & 80 & \textbf{60} & 80 & 40 & 40 & 0 & 60.0 \\
+ & P-Rev & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{80} & \textbf{100} & \textbf{60} & \textbf{100} & \textbf{100} & \textbf{100} & \textbf{20} & \textbf{86.0} \\
+\midrule
+Times Sq. & Naive & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0.0 \\
+ & XML & 20 & 0 & 0 & 0 & 20 & 0 & 0 & 0 & 0 & 0 & 4.0 \\
+ & T-Cont & \textbf{100} & \textbf{100} & 60 & \textbf{60} & 80 & \textbf{80} & 80 & 0 & 0 & 0 & 56.0 \\
+ & P-Rev & \textbf{100} & \textbf{100} & \textbf{80} & \textbf{60} & \textbf{100} & \textbf{80} & \textbf{100} & \textbf{20} & \textbf{100} & \textbf{80} & \textbf{82.0} \\
+\bottomrule
+\end{tabular}
+\end{table*}

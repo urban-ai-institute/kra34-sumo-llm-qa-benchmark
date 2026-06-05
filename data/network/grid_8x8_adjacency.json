@@ -1,0 +1,3624 @@
+{
+  "adjacency_list": {
+    "edges": [
+      {
+        "edge_id": "A0A1",
+        "connected_edges": [
+          "A1A0",
+          "A1A2",
+          "A1B1"
+        ],
+        "connected_nodes": [
+          "A1"
+        ]
+      },
+      {
+        "edge_id": "A0B0",
+        "connected_edges": [
+          "B0A0",
+          "B0B1",
+          "B0C0"
+        ],
+        "connected_nodes": [
+          "B0"
+        ]
+      },
+      {
+        "edge_id": "A1A0",
+        "connected_edges": [
+          "A0B0"
+        ],
+        "connected_nodes": [
+          "A0"
+        ]
+      },
+      {
+        "edge_id": "A1A2",
+        "connected_edges": [
+          "A2A1",
+          "A2A3",
+          "A2B2"
+        ],
+        "connected_nodes": [
+          "A2"
+        ]
+      },
+      {
+        "edge_id": "A1B1",
+        "connected_edges": [
+          "B1A1",
+          "B1B0",
+          "B1B2",
+          "B1C1"
+        ],
+        "connected_nodes": [
+          "B1"
+        ]
+      },
+      {
+        "edge_id": "A2A1",
+        "connected_edges": [
+          "A1A0",
+          "A1A2",
+          "A1B1"
+        ],
+        "connected_nodes": [
+          "A1"
+        ]
+      },
+      {
+        "edge_id": "A2A3",
+        "connected_edges": [
+          "A3A2",
+          "A3A4",
+          "A3B3"
+        ],
+        "connected_nodes": [
+          "A3"
+        ]
+      },
+      {
+        "edge_id": "A2B2",
+        "connected_edges": [
+          "B2A2",
+          "B2B1",
+          "B2B3",
+          "B2C2"
+        ],
+        "connected_nodes": [
+          "B2"
+        ]
+      },
+      {
+        "edge_id": "A3A2",
+        "connected_edges": [
+          "A2A1",
+          "A2A3",
+          "A2B2"
+        ],
+        "connected_nodes": [
+          "A2"
+        ]
+      },
+      {
+        "edge_id": "A3A4",
+        "connected_edges": [
+          "A4A3",
+          "A4A5",
+          "A4B4"
+        ],
+        "connected_nodes": [
+          "A4"
+        ]
+      },
+      {
+        "edge_id": "A3B3",
+        "connected_edges": [
+          "B3A3",
+          "B3B2",
+          "B3B4",
+          "B3C3"
+        ],
+        "connected_nodes": [
+          "B3"
+        ]
+      },
+      {
+        "edge_id": "A4A3",
+        "connected_edges": [
+          "A3A2",
+          "A3A4",
+          "A3B3"
+        ],
+        "connected_nodes": [
+          "A3"
+        ]
+      },
+      {
+        "edge_id": "A4A5",
+        "connected_edges": [
+          "A5A4",
+          "A5A6",
+          "A5B5"
+        ],
+        "connected_nodes": [
+          "A5"
+        ]
+      },
+      {
+        "edge_id": "A4B4",
+        "connected_edges": [
+          "B4A4",
+          "B4B3",
+          "B4B5",
+          "B4C4"
+        ],
+        "connected_nodes": [
+          "B4"
+        ]
+      },
+      {
+        "edge_id": "A5A4",
+        "connected_edges": [
+          "A4A3",
+          "A4A5",
+          "A4B4"
+        ],
+        "connected_nodes": [
+          "A4"
+        ]
+      },
+      {
+        "edge_id": "A5A6",
+        "connected_edges": [
+          "A6A5",
+          "A6A7",
+          "A6B6"
+        ],
+        "connected_nodes": [
+          "A6"
+        ]
+      },
+      {
+        "edge_id": "A5B5",
+        "connected_edges": [
+          "B5A5",
+          "B5B4",
+          "B5B6",
+          "B5C5"
+        ],
+        "connected_nodes": [
+          "B5"
+        ]
+      },
+      {
+        "edge_id": "A6A5",
+        "connected_edges": [
+          "A5A4",
+          "A5A6",
+          "A5B5"
+        ],
+        "connected_nodes": [
+          "A5"
+        ]
+      },
+      {
+        "edge_id": "A6A7",
+        "connected_edges": [
+          "A7B7"
+        ],
+        "connected_nodes": [
+          "A7"
+        ]
+      },
+      {
+        "edge_id": "A6B6",
+        "connected_edges": [
+          "B6A6",
+          "B6B5",
+          "B6B7",
+          "B6C6"
+        ],
+        "connected_nodes": [
+          "B6"
+        ]
+      },
+      {
+        "edge_id": "A7A6",
+        "connected_edges": [
+          "A6A5",
+          "A6A7",
+          "A6B6"
+        ],
+        "connected_nodes": [
+          "A6"
+        ]
+      },
+      {
+        "edge_id": "A7B7",
+        "connected_edges": [
+          "B7A7",
+          "B7B6",
+          "B7C7"
+        ],
+        "connected_nodes": [
+          "B7"
+        ]
+      },
+      {
+        "edge_id": "B0A0",
+        "connected_edges": [
+          "A0A1"
+        ],
+        "connected_nodes": [
+          "A0"
+        ]
+      },
+      {
+        "edge_id": "B0B1",
+        "connected_edges": [
+          "B1A1",
+          "B1B0",
+          "B1B2",
+          "B1C1"
+        ],
+        "connected_nodes": [
+          "B1"
+        ]
+      },
+      {
+        "edge_id": "B0C0",
+        "connected_edges": [
+          "C0B0",
+          "C0C1",
+          "C0D0"
+        ],
+        "connected_nodes": [
+          "C0"
+        ]
+      },
+      {
+        "edge_id": "B1A1",
+        "connected_edges": [
+          "A1A0",
+          "A1A2",
+          "A1B1"
+        ],
+        "connected_nodes": [
+          "A1"
+        ]
+      },
+      {
+        "edge_id": "B1B0",
+        "connected_edges": [
+          "B0A0",
+          "B0B1",
+          "B0C0"
+        ],
+        "connected_nodes": [
+          "B0"
+        ]
+      },
+      {
+        "edge_id": "B1B2",
+        "connected_edges": [
+          "B2A2",
+          "B2B1",
+          "B2B3",
+          "B2C2"
+        ],
+        "connected_nodes": [
+          "B2"
+        ]
+      },
+      {
+        "edge_id": "B1C1",
+        "connected_edges": [
+          "C1B1",
+          "C1C0",
+          "C1C2",
+          "C1D1"
+        ],
+        "connected_nodes": [
+          "C1"
+        ]
+      },
+      {
+        "edge_id": "B2A2",
+        "connected_edges": [
+          "A2A1",
+          "A2A3",
+          "A2B2"
+        ],
+        "connected_nodes": [
+          "A2"
+        ]
+      },
+      {
+        "edge_id": "B2B1",
+        "connected_edges": [
+          "B1A1",
+          "B1B0",
+          "B1B2",
+          "B1C1"
+        ],
+        "connected_nodes": [
+          "B1"
+        ]
+      },
+      {
+        "edge_id": "B2B3",
+        "connected_edges": [
+          "B3A3",
+          "B3B2",
+          "B3B4",
+          "B3C3"
+        ],
+        "connected_nodes": [
+          "B3"
+        ]
+      },
+      {
+        "edge_id": "B2C2",
+        "connected_edges": [
+          "C2B2",
+          "C2C1",
+          "C2C3",
+          "C2D2"
+        ],
+        "connected_nodes": [
+          "C2"
+        ]
+      },
+      {
+        "edge_id": "B3A3",
+        "connected_edges": [
+          "A3A2",
+          "A3A4",
+          "A3B3"
+        ],
+        "connected_nodes": [
+          "A3"
+        ]
+      },
+      {
+        "edge_id": "B3B2",
+        "connected_edges": [
+          "B2A2",
+          "B2B1",
+          "B2B3",
+          "B2C2"
+        ],
+        "connected_nodes": [
+          "B2"
+        ]
+      },
+      {
+        "edge_id": "B3B4",
+        "connected_edges": [
+          "B4A4",
+          "B4B3",
+          "B4B5",
+          "B4C4"
+        ],
+        "connected_nodes": [
+          "B4"
+        ]
+      },
+      {
+        "edge_id": "B3C3",
+        "connected_edges": [
+          "C3B3",
+          "C3C2",
+          "C3C4",
+          "C3D3"
+        ],
+        "connected_nodes": [
+          "C3"
+        ]
+      },
+      {
+        "edge_id": "B4A4",
+        "connected_edges": [
+          "A4A3",
+          "A4A5",
+          "A4B4"
+        ],
+        "connected_nodes": [
+          "A4"
+        ]
+      },
+      {
+        "edge_id": "B4B3",
+        "connected_edges": [
+          "B3A3",
+          "B3B2",
+          "B3B4",
+          "B3C3"
+        ],
+        "connected_nodes": [
+          "B3"
+        ]
+      },
+      {
+        "edge_id": "B4B5",
+        "connected_edges": [
+          "B5A5",
+          "B5B4",
+          "B5B6",
+          "B5C5"
+        ],
+        "connected_nodes": [
+          "B5"
+        ]
+      },
+      {
+        "edge_id": "B4C4",
+        "connected_edges": [
+          "C4B4",
+          "C4C3",
+          "C4C5",
+          "C4D4"
+        ],
+        "connected_nodes": [
+          "C4"
+        ]
+      },
+      {
+        "edge_id": "B5A5",
+        "connected_edges": [
+          "A5A4",
+          "A5A6",
+          "A5B5"
+        ],
+        "connected_nodes": [
+          "A5"
+        ]
+      },
+      {
+        "edge_id": "B5B4",
+        "connected_edges": [
+          "B4A4",
+          "B4B3",
+          "B4B5",
+          "B4C4"
+        ],
+        "connected_nodes": [
+          "B4"
+        ]
+      },
+      {
+        "edge_id": "B5B6",
+        "connected_edges": [
+          "B6A6",
+          "B6B5",
+          "B6B7",
+          "B6C6"
+        ],
+        "connected_nodes": [
+          "B6"
+        ]
+      },
+      {
+        "edge_id": "B5C5",
+        "connected_edges": [
+          "C5B5",
+          "C5C4",
+          "C5C6",
+          "C5D5"
+        ],
+        "connected_nodes": [
+          "C5"
+        ]
+      },
+      {
+        "edge_id": "B6A6",
+        "connected_edges": [
+          "A6A5",
+          "A6A7",
+          "A6B6"
+        ],
+        "connected_nodes": [
+          "A6"
+        ]
+      },
+      {
+        "edge_id": "B6B5",
+        "connected_edges": [
+          "B5A5",
+          "B5B4",
+          "B5B6",
+          "B5C5"
+        ],
+        "connected_nodes": [
+          "B5"
+        ]
+      },
+      {
+        "edge_id": "B6B7",
+        "connected_edges": [
+          "B7A7",
+          "B7B6",
+          "B7C7"
+        ],
+        "connected_nodes": [
+          "B7"
+        ]
+      },
+      {
+        "edge_id": "B6C6",
+        "connected_edges": [
+          "C6B6",
+          "C6C5",
+          "C6C7",
+          "C6D6"
+        ],
+        "connected_nodes": [
+          "C6"
+        ]
+      },
+      {
+        "edge_id": "B7A7",
+        "connected_edges": [
+          "A7A6"
+        ],
+        "connected_nodes": [
+          "A7"
+        ]
+      },
+      {
+        "edge_id": "B7B6",
+        "connected_edges": [
+          "B6A6",
+          "B6B5",
+          "B6B7",
+          "B6C6"
+        ],
+        "connected_nodes": [
+          "B6"
+        ]
+      },
+      {
+        "edge_id": "B7C7",
+        "connected_edges": [
+          "C7B7",
+          "C7C6",
+          "C7D7"
+        ],
+        "connected_nodes": [
+          "C7"
+        ]
+      },
+      {
+        "edge_id": "C0B0",
+        "connected_edges": [
+          "B0A0",
+          "B0B1",
+          "B0C0"
+        ],
+        "connected_nodes": [
+          "B0"
+        ]
+      },
+      {
+        "edge_id": "C0C1",
+        "connected_edges": [
+          "C1B1",
+          "C1C0",
+          "C1C2",
+          "C1D1"
+        ],
+        "connected_nodes": [
+          "C1"
+        ]
+      },
+      {
+        "edge_id": "C0D0",
+        "connected_edges": [
+          "D0C0",
+          "D0D1",
+          "D0E0"
+        ],
+        "connected_nodes": [
+          "D0"
+        ]
+      },
+      {
+        "edge_id": "C1B1",
+        "connected_edges": [
+          "B1A1",
+          "B1B0",
+          "B1B2",
+          "B1C1"
+        ],
+        "connected_nodes": [
+          "B1"
+        ]
+      },
+      {
+        "edge_id": "C1C0",
+        "connected_edges": [
+          "C0B0",
+          "C0C1",
+          "C0D0"
+        ],
+        "connected_nodes": [
+          "C0"
+        ]
+      },
+      {
+        "edge_id": "C1C2",
+        "connected_edges": [
+          "C2B2",
+          "C2C1",
+          "C2C3",
+          "C2D2"
+        ],
+        "connected_nodes": [
+          "C2"
+        ]
+      },
+      {
+        "edge_id": "C1D1",
+        "connected_edges": [
+          "D1C1",
+          "D1D0",
+          "D1D2",
+          "D1E1"
+        ],
+        "connected_nodes": [
+          "D1"
+        ]
+      },
+      {
+        "edge_id": "C2B2",
+        "connected_edges": [
+          "B2A2",
+          "B2B1",
+          "B2B3",
+          "B2C2"
+        ],
+        "connected_nodes": [
+          "B2"
+        ]
+      },
+      {
+        "edge_id": "C2C1",
+        "connected_edges": [
+          "C1B1",
+          "C1C0",
+          "C1C2",
+          "C1D1"
+        ],
+        "connected_nodes": [
+          "C1"
+        ]
+      },
+      {
+        "edge_id": "C2C3",
+        "connected_edges": [
+          "C3B3",
+          "C3C2",
+          "C3C4",
+          "C3D3"
+        ],
+        "connected_nodes": [
+          "C3"
+        ]
+      },
+      {
+        "edge_id": "C2D2",
+        "connected_edges": [
+          "D2C2",
+          "D2D1",
+          "D2D3",
+          "D2E2"
+        ],
+        "connected_nodes": [
+          "D2"
+        ]
+      },
+      {
+        "edge_id": "C3B3",
+        "connected_edges": [
+          "B3A3",
+          "B3B2",
+          "B3B4",
+          "B3C3"
+        ],
+        "connected_nodes": [
+          "B3"
+        ]
+      },
+      {
+        "edge_id": "C3C2",
+        "connected_edges": [
+          "C2B2",
+          "C2C1",
+          "C2C3",
+          "C2D2"
+        ],
+        "connected_nodes": [
+          "C2"
+        ]
+      },
+      {
+        "edge_id": "C3C4",
+        "connected_edges": [
+          "C4B4",
+          "C4C3",
+          "C4C5",
+          "C4D4"
+        ],
+        "connected_nodes": [
+          "C4"
+        ]
+      },
+      {
+        "edge_id": "C3D3",
+        "connected_edges": [
+          "D3C3",
+          "D3D2",
+          "D3D4",
+          "D3E3"
+        ],
+        "connected_nodes": [
+          "D3"
+        ]
+      },
+      {
+        "edge_id": "C4B4",
+        "connected_edges": [
+          "B4A4",
+          "B4B3",
+          "B4B5",
+          "B4C4"
+        ],
+        "connected_nodes": [
+          "B4"
+        ]
+      },
+      {
+        "edge_id": "C4C3",
+        "connected_edges": [
+          "C3B3",
+          "C3C2",
+          "C3C4",
+          "C3D3"
+        ],
+        "connected_nodes": [
+          "C3"
+        ]
+      },
+      {
+        "edge_id": "C4C5",
+        "connected_edges": [
+          "C5B5",
+          "C5C4",
+          "C5C6",
+          "C5D5"
+        ],
+        "connected_nodes": [
+          "C5"
+        ]
+      },
+      {
+        "edge_id": "C4D4",
+        "connected_edges": [
+          "D4C4",
+          "D4D3",
+          "D4D5",
+          "D4E4"
+        ],
+        "connected_nodes": [
+          "D4"
+        ]
+      },
+      {
+        "edge_id": "C5B5",
+        "connected_edges": [
+          "B5A5",
+          "B5B4",
+          "B5B6",
+          "B5C5"
+        ],
+        "connected_nodes": [
+          "B5"
+        ]
+      },
+      {
+        "edge_id": "C5C4",
+        "connected_edges": [
+          "C4B4",
+          "C4C3",
+          "C4C5",
+          "C4D4"
+        ],
+        "connected_nodes": [
+          "C4"
+        ]
+      },
+      {
+        "edge_id": "C5C6",
+        "connected_edges": [
+          "C6B6",
+          "C6C5",
+          "C6C7",
+          "C6D6"
+        ],
+        "connected_nodes": [
+          "C6"
+        ]
+      },
+      {
+        "edge_id": "C5D5",
+        "connected_edges": [
+          "D5C5",
+          "D5D4",
+          "D5D6",
+          "D5E5"
+        ],
+        "connected_nodes": [
+          "D5"
+        ]
+      },
+      {
+        "edge_id": "C6B6",
+        "connected_edges": [
+          "B6A6",
+          "B6B5",
+          "B6B7",
+          "B6C6"
+        ],
+        "connected_nodes": [
+          "B6"
+        ]
+      },
+      {
+        "edge_id": "C6C5",
+        "connected_edges": [
+          "C5B5",
+          "C5C4",
+          "C5C6",
+          "C5D5"
+        ],
+        "connected_nodes": [
+          "C5"
+        ]
+      },
+      {
+        "edge_id": "C6C7",
+        "connected_edges": [
+          "C7B7",
+          "C7C6",
+          "C7D7"
+        ],
+        "connected_nodes": [
+          "C7"
+        ]
+      },
+      {
+        "edge_id": "C6D6",
+        "connected_edges": [
+          "D6C6",
+          "D6D5",
+          "D6D7",
+          "D6E6"
+        ],
+        "connected_nodes": [
+          "D6"
+        ]
+      },
+      {
+        "edge_id": "C7B7",
+        "connected_edges": [
+          "B7A7",
+          "B7B6",
+          "B7C7"
+        ],
+        "connected_nodes": [
+          "B7"
+        ]
+      },
+      {
+        "edge_id": "C7C6",
+        "connected_edges": [
+          "C6B6",
+          "C6C5",
+          "C6C7",
+          "C6D6"
+        ],
+        "connected_nodes": [
+          "C6"
+        ]
+      },
+      {
+        "edge_id": "C7D7",
+        "connected_edges": [
+          "D7C7",
+          "D7D6",
+          "D7E7"
+        ],
+        "connected_nodes": [
+          "D7"
+        ]
+      },
+      {
+        "edge_id": "D0C0",
+        "connected_edges": [
+          "C0B0",
+          "C0C1",
+          "C0D0"
+        ],
+        "connected_nodes": [
+          "C0"
+        ]
+      },
+      {
+        "edge_id": "D0D1",
+        "connected_edges": [
+          "D1C1",
+          "D1D0",
+          "D1D2",
+          "D1E1"
+        ],
+        "connected_nodes": [
+          "D1"
+        ]
+      },
+      {
+        "edge_id": "D0E0",
+        "connected_edges": [
+          "E0D0",
+          "E0E1",
+          "E0F0"
+        ],
+        "connected_nodes": [
+          "E0"
+        ]
+      },
+      {
+        "edge_id": "D1C1",
+        "connected_edges": [
+          "C1B1",
+          "C1C0",
+          "C1C2",
+          "C1D1"
+        ],
+        "connected_nodes": [
+          "C1"
+        ]
+      },
+      {
+        "edge_id": "D1D0",
+        "connected_edges": [
+          "D0C0",
+          "D0D1",
+          "D0E0"
+        ],
+        "connected_nodes": [
+          "D0"
+        ]
+      },
+      {
+        "edge_id": "D1D2",
+        "connected_edges": [
+          "D2C2",
+          "D2D1",
+          "D2D3",
+          "D2E2"
+        ],
+        "connected_nodes": [
+          "D2"
+        ]
+      },
+      {
+        "edge_id": "D1E1",
+        "connected_edges": [
+          "E1D1",
+          "E1E0",
+          "E1E2",
+          "E1F1"
+        ],
+        "connected_nodes": [
+          "E1"
+        ]
+      },
+      {
+        "edge_id": "D2C2",
+        "connected_edges": [
+          "C2B2",
+          "C2C1",
+          "C2C3",
+          "C2D2"
+        ],
+        "connected_nodes": [
+          "C2"
+        ]
+      },
+      {
+        "edge_id": "D2D1",
+        "connected_edges": [
+          "D1C1",
+          "D1D0",
+          "D1D2",
+          "D1E1"
+        ],
+        "connected_nodes": [
+          "D1"
+        ]
+      },
+      {
+        "edge_id": "D2D3",
+        "connected_edges": [
+          "D3C3",
+          "D3D2",
+          "D3D4",
+          "D3E3"
+        ],
+        "connected_nodes": [
+          "D3"
+        ]
+      },
+      {
+        "edge_id": "D2E2",
+        "connected_edges": [
+          "E2D2",
+          "E2E1",
+          "E2E3",
+          "E2F2"
+        ],
+        "connected_nodes": [
+          "E2"
+        ]
+      },
+      {
+        "edge_id": "D3C3",
+        "connected_edges": [
+          "C3B3",
+          "C3C2",
+          "C3C4",
+          "C3D3"
+        ],
+        "connected_nodes": [
+          "C3"
+        ]
+      },
+      {
+        "edge_id": "D3D2",
+        "connected_edges": [
+          "D2C2",
+          "D2D1",
+          "D2D3",
+          "D2E2"
+        ],
+        "connected_nodes": [
+          "D2"
+        ]
+      },
+      {
+        "edge_id": "D3D4",
+        "connected_edges": [
+          "D4C4",
+          "D4D3",
+          "D4D5",
+          "D4E4"
+        ],
+        "connected_nodes": [
+          "D4"
+        ]
+      },
+      {
+        "edge_id": "D3E3",
+        "connected_edges": [
+          "E3D3",
+          "E3E2",
+          "E3E4",
+          "E3F3"
+        ],
+        "connected_nodes": [
+          "E3"
+        ]
+      },
+      {
+        "edge_id": "D4C4",
+        "connected_edges": [
+          "C4B4",
+          "C4C3",
+          "C4C5",
+          "C4D4"
+        ],
+        "connected_nodes": [
+          "C4"
+        ]
+      },
+      {
+        "edge_id": "D4D3",
+        "connected_edges": [
+          "D3C3",
+          "D3D2",
+          "D3D4",
+          "D3E3"
+        ],
+        "connected_nodes": [
+          "D3"
+        ]
+      },
+      {
+        "edge_id": "D4D5",
+        "connected_edges": [
+          "D5C5",
+          "D5D4",
+          "D5D6",
+          "D5E5"
+        ],
+        "connected_nodes": [
+          "D5"
+        ]
+      },
+      {
+        "edge_id": "D4E4",
+        "connected_edges": [
+          "E4D4",
+          "E4E3",
+          "E4E5",
+          "E4F4"
+        ],
+        "connected_nodes": [
+          "E4"
+        ]
+      },
+      {
+        "edge_id": "D5C5",
+        "connected_edges": [
+          "C5B5",
+          "C5C4",
+          "C5C6",
+          "C5D5"
+        ],
+        "connected_nodes": [
+          "C5"
+        ]
+      },
+      {
+        "edge_id": "D5D4",
+        "connected_edges": [
+          "D4C4",
+          "D4D3",
+          "D4D5",
+          "D4E4"
+        ],
+        "connected_nodes": [
+          "D4"
+        ]
+      },
+      {
+        "edge_id": "D5D6",
+        "connected_edges": [
+          "D6C6",
+          "D6D5",
+          "D6D7",
+          "D6E6"
+        ],
+        "connected_nodes": [
+          "D6"
+        ]
+      },
+      {
+        "edge_id": "D5E5",
+        "connected_edges": [
+          "E5D5",
+          "E5E4",
+          "E5E6",
+          "E5F5"
+        ],
+        "connected_nodes": [
+          "E5"
+        ]
+      },
+      {
+        "edge_id": "D6C6",
+        "connected_edges": [
+          "C6B6",
+          "C6C5",
+          "C6C7",
+          "C6D6"
+        ],
+        "connected_nodes": [
+          "C6"
+        ]
+      },
+      {
+        "edge_id": "D6D5",
+        "connected_edges": [
+          "D5C5",
+          "D5D4",
+          "D5D6",
+          "D5E5"
+        ],
+        "connected_nodes": [
+          "D5"
+        ]
+      },
+      {
+        "edge_id": "D6D7",
+        "connected_edges": [
+          "D7C7",
+          "D7D6",
+          "D7E7"
+        ],
+        "connected_nodes": [
+          "D7"
+        ]
+      },
+      {
+        "edge_id": "D6E6",
+        "connected_edges": [
+          "E6D6",
+          "E6E5",
+          "E6E7",
+          "E6F6"
+        ],
+        "connected_nodes": [
+          "E6"
+        ]
+      },
+      {
+        "edge_id": "D7C7",
+        "connected_edges": [
+          "C7B7",
+          "C7C6",
+          "C7D7"
+        ],
+        "connected_nodes": [
+          "C7"
+        ]
+      },
+      {
+        "edge_id": "D7D6",
+        "connected_edges": [
+          "D6C6",
+          "D6D5",
+          "D6D7",
+          "D6E6"
+        ],
+        "connected_nodes": [
+          "D6"
+        ]
+      },
+      {
+        "edge_id": "D7E7",
+        "connected_edges": [
+          "E7D7",
+          "E7E6",
+          "E7F7"
+        ],
+        "connected_nodes": [
+          "E7"
+        ]
+      },
+      {
+        "edge_id": "E0D0",
+        "connected_edges": [
+          "D0C0",
+          "D0D1",
+          "D0E0"
+        ],
+        "connected_nodes": [
+          "D0"
+        ]
+      },
+      {
+        "edge_id": "E0E1",
+        "connected_edges": [
+          "E1D1",
+          "E1E0",
+          "E1E2",
+          "E1F1"
+        ],
+        "connected_nodes": [
+          "E1"
+        ]
+      },
+      {
+        "edge_id": "E0F0",
+        "connected_edges": [
+          "F0E0",
+          "F0F1",
+          "F0G0"
+        ],
+        "connected_nodes": [
+          "F0"
+        ]
+      },
+      {
+        "edge_id": "E1D1",
+        "connected_edges": [
+          "D1C1",
+          "D1D0",
+          "D1D2",
+          "D1E1"
+        ],
+        "connected_nodes": [
+          "D1"
+        ]
+      },
+      {
+        "edge_id": "E1E0",
+        "connected_edges": [
+          "E0D0",
+          "E0E1",
+          "E0F0"
+        ],
+        "connected_nodes": [
+          "E0"
+        ]
+      },
+      {
+        "edge_id": "E1E2",
+        "connected_edges": [
+          "E2D2",
+          "E2E1",
+          "E2E3",
+          "E2F2"
+        ],
+        "connected_nodes": [
+          "E2"
+        ]
+      },
+      {
+        "edge_id": "E1F1",
+        "connected_edges": [
+          "F1E1",
+          "F1F0",
+          "F1F2",
+          "F1G1"
+        ],
+        "connected_nodes": [
+          "F1"
+        ]
+      },
+      {
+        "edge_id": "E2D2",
+        "connected_edges": [
+          "D2C2",
+          "D2D1",
+          "D2D3",
+          "D2E2"
+        ],
+        "connected_nodes": [
+          "D2"
+        ]
+      },
+      {
+        "edge_id": "E2E1",
+        "connected_edges": [
+          "E1D1",
+          "E1E0",
+          "E1E2",
+          "E1F1"
+        ],
+        "connected_nodes": [
+          "E1"
+        ]
+      },
+      {
+        "edge_id": "E2E3",
+        "connected_edges": [
+          "E3D3",
+          "E3E2",
+          "E3E4",
+          "E3F3"
+        ],
+        "connected_nodes": [
+          "E3"
+        ]
+      },
+      {
+        "edge_id": "E2F2",
+        "connected_edges": [
+          "F2E2",
+          "F2F1",
+          "F2F3",
+          "F2G2"
+        ],
+        "connected_nodes": [
+          "F2"
+        ]
+      },
+      {
+        "edge_id": "E3D3",
+        "connected_edges": [
+          "D3C3",
+          "D3D2",
+          "D3D4",
+          "D3E3"
+        ],
+        "connected_nodes": [
+          "D3"
+        ]
+      },
+      {
+        "edge_id": "E3E2",
+        "connected_edges": [
+          "E2D2",
+          "E2E1",
+          "E2E3",
+          "E2F2"
+        ],
+        "connected_nodes": [
+          "E2"
+        ]
+      },
+      {
+        "edge_id": "E3E4",
+        "connected_edges": [
+          "E4D4",
+          "E4E3",
+          "E4E5",
+          "E4F4"
+        ],
+        "connected_nodes": [
+          "E4"
+        ]
+      },
+      {
+        "edge_id": "E3F3",
+        "connected_edges": [
+          "F3E3",
+          "F3F2",
+          "F3F4",
+          "F3G3"
+        ],
+        "connected_nodes": [
+          "F3"
+        ]
+      },
+      {
+        "edge_id": "E4D4",
+        "connected_edges": [
+          "D4C4",
+          "D4D3",
+          "D4D5",
+          "D4E4"
+        ],
+        "connected_nodes": [
+          "D4"
+        ]
+      },
+      {
+        "edge_id": "E4E3",
+        "connected_edges": [
+          "E3D3",
+          "E3E2",
+          "E3E4",
+          "E3F3"
+        ],
+        "connected_nodes": [
+          "E3"
+        ]
+      },
+      {
+        "edge_id": "E4E5",
+        "connected_edges": [
+          "E5D5",
+          "E5E4",
+          "E5E6",
+          "E5F5"
+        ],
+        "connected_nodes": [
+          "E5"
+        ]
+      },
+      {
+        "edge_id": "E4F4",
+        "connected_edges": [
+          "F4E4",
+          "F4F3",
+          "F4F5",
+          "F4G4"
+        ],
+        "connected_nodes": [
+          "F4"
+        ]
+      },
+      {
+        "edge_id": "E5D5",
+        "connected_edges": [
+          "D5C5",
+          "D5D4",
+          "D5D6",
+          "D5E5"
+        ],
+        "connected_nodes": [
+          "D5"
+        ]
+      },
+      {
+        "edge_id": "E5E4",
+        "connected_edges": [
+          "E4D4",
+          "E4E3",
+          "E4E5",
+          "E4F4"
+        ],
+        "connected_nodes": [
+          "E4"
+        ]
+      },
+      {
+        "edge_id": "E5E6",
+        "connected_edges": [
+          "E6D6",
+          "E6E5",
+          "E6E7",
+          "E6F6"
+        ],
+        "connected_nodes": [
+          "E6"
+        ]
+      },
+      {
+        "edge_id": "E5F5",
+        "connected_edges": [
+          "F5E5",
+          "F5F4",
+          "F5F6",
+          "F5G5"
+        ],
+        "connected_nodes": [
+          "F5"
+        ]
+      },
+      {
+        "edge_id": "E6D6",
+        "connected_edges": [
+          "D6C6",
+          "D6D5",
+          "D6D7",
+          "D6E6"
+        ],
+        "connected_nodes": [
+          "D6"
+        ]
+      },
+      {
+        "edge_id": "E6E5",
+        "connected_edges": [
+          "E5D5",
+          "E5E4",
+          "E5E6",
+          "E5F5"
+        ],
+        "connected_nodes": [
+          "E5"
+        ]
+      },
+      {
+        "edge_id": "E6E7",
+        "connected_edges": [
+          "E7D7",
+          "E7E6",
+          "E7F7"
+        ],
+        "connected_nodes": [
+          "E7"
+        ]
+      },
+      {
+        "edge_id": "E6F6",
+        "connected_edges": [
+          "F6E6",
+          "F6F5",
+          "F6F7",
+          "F6G6"
+        ],
+        "connected_nodes": [
+          "F6"
+        ]
+      },
+      {
+        "edge_id": "E7D7",
+        "connected_edges": [
+          "D7C7",
+          "D7D6",
+          "D7E7"
+        ],
+        "connected_nodes": [
+          "D7"
+        ]
+      },
+      {
+        "edge_id": "E7E6",
+        "connected_edges": [
+          "E6D6",
+          "E6E5",
+          "E6E7",
+          "E6F6"
+        ],
+        "connected_nodes": [
+          "E6"
+        ]
+      },
+      {
+        "edge_id": "E7F7",
+        "connected_edges": [
+          "F7E7",
+          "F7F6",
+          "F7G7"
+        ],
+        "connected_nodes": [
+          "F7"
+        ]
+      },
+      {
+        "edge_id": "F0E0",
+        "connected_edges": [
+          "E0D0",
+          "E0E1",
+          "E0F0"
+        ],
+        "connected_nodes": [
+          "E0"
+        ]
+      },
+      {
+        "edge_id": "F0F1",
+        "connected_edges": [
+          "F1E1",
+          "F1F0",
+          "F1F2",
+          "F1G1"
+        ],
+        "connected_nodes": [
+          "F1"
+        ]
+      },
+      {
+        "edge_id": "F0G0",
+        "connected_edges": [
+          "G0F0",
+          "G0G1",
+          "G0H0"
+        ],
+        "connected_nodes": [
+          "G0"
+        ]
+      },
+      {
+        "edge_id": "F1E1",
+        "connected_edges": [
+          "E1D1",
+          "E1E0",
+          "E1E2",
+          "E1F1"
+        ],
+        "connected_nodes": [
+          "E1"
+        ]
+      },
+      {
+        "edge_id": "F1F0",
+        "connected_edges": [
+          "F0E0",
+          "F0F1",
+          "F0G0"
+        ],
+        "connected_nodes": [
+          "F0"
+        ]
+      },
+      {
+        "edge_id": "F1F2",
+        "connected_edges": [
+          "F2E2",
+          "F2F1",
+          "F2F3",
+          "F2G2"
+        ],
+        "connected_nodes": [
+          "F2"
+        ]
+      },
+      {
+        "edge_id": "F1G1",
+        "connected_edges": [
+          "G1F1",
+          "G1G0",
+          "G1G2",
+          "G1H1"
+        ],
+        "connected_nodes": [
+          "G1"
+        ]
+      },
+      {
+        "edge_id": "F2E2",
+        "connected_edges": [
+          "E2D2",
+          "E2E1",
+          "E2E3",
+          "E2F2"
+        ],
+        "connected_nodes": [
+          "E2"
+        ]
+      },
+      {
+        "edge_id": "F2F1",
+        "connected_edges": [
+          "F1E1",
+          "F1F0",
+          "F1F2",
+          "F1G1"
+        ],
+        "connected_nodes": [
+          "F1"
+        ]
+      },
+      {
+        "edge_id": "F2F3",
+        "connected_edges": [
+          "F3E3",
+          "F3F2",
+          "F3F4",
+          "F3G3"
+        ],
+        "connected_nodes": [
+          "F3"
+        ]
+      },
+      {
+        "edge_id": "F2G2",
+        "connected_edges": [
+          "G2F2",
+          "G2G1",
+          "G2G3",
+          "G2H2"
+        ],
+        "connected_nodes": [
+          "G2"
+        ]
+      },
+      {
+        "edge_id": "F3E3",
+        "connected_edges": [
+          "E3D3",
+          "E3E2",
+          "E3E4",
+          "E3F3"
+        ],
+        "connected_nodes": [
+          "E3"
+        ]
+      },
+      {
+        "edge_id": "F3F2",
+        "connected_edges": [
+          "F2E2",
+          "F2F1",
+          "F2F3",
+          "F2G2"
+        ],
+        "connected_nodes": [
+          "F2"
+        ]
+      },
+      {
+        "edge_id": "F3F4",
+        "connected_edges": [
+          "F4E4",
+          "F4F3",
+          "F4F5",
+          "F4G4"
+        ],
+        "connected_nodes": [
+          "F4"
+        ]
+      },
+      {
+        "edge_id": "F3G3",
+        "connected_edges": [
+          "G3F3",
+          "G3G2",
+          "G3G4",
+          "G3H3"
+        ],
+        "connected_nodes": [
+          "G3"
+        ]
+      },
+      {
+        "edge_id": "F4E4",
+        "connected_edges": [
+          "E4D4",
+          "E4E3",
+          "E4E5",
+          "E4F4"
+        ],
+        "connected_nodes": [
+          "E4"
+        ]
+      },
+      {
+        "edge_id": "F4F3",
+        "connected_edges": [
+          "F3E3",
+          "F3F2",
+          "F3F4",
+          "F3G3"
+        ],
+        "connected_nodes": [
+          "F3"
+        ]
+      },
+      {
+        "edge_id": "F4F5",
+        "connected_edges": [
+          "F5E5",
+          "F5F4",
+          "F5F6",
+          "F5G5"
+        ],
+        "connected_nodes": [
+          "F5"
+        ]
+      },
+      {
+        "edge_id": "F4G4",
+        "connected_edges": [
+          "G4F4",
+          "G4G3",
+          "G4G5",
+          "G4H4"
+        ],
+        "connected_nodes": [
+          "G4"
+        ]
+      },
+      {
+        "edge_id": "F5E5",
+        "connected_edges": [
+          "E5D5",
+          "E5E4",
+          "E5E6",
+          "E5F5"
+        ],
+        "connected_nodes": [
+          "E5"
+        ]
+      },
+      {
+        "edge_id": "F5F4",
+        "connected_edges": [
+          "F4E4",
+          "F4F3",
+          "F4F5",
+          "F4G4"
+        ],
+        "connected_nodes": [
+          "F4"
+        ]
+      },
+      {
+        "edge_id": "F5F6",
+        "connected_edges": [
+          "F6E6",
+          "F6F5",
+          "F6F7",
+          "F6G6"
+        ],
+        "connected_nodes": [
+          "F6"
+        ]
+      },
+      {
+        "edge_id": "F5G5",
+        "connected_edges": [
+          "G5F5",
+          "G5G4",
+          "G5G6",
+          "G5H5"
+        ],
+        "connected_nodes": [
+          "G5"
+        ]
+      },
+      {
+        "edge_id": "F6E6",
+        "connected_edges": [
+          "E6D6",
+          "E6E5",
+          "E6E7",
+          "E6F6"
+        ],
+        "connected_nodes": [
+          "E6"
+        ]
+      },
+      {
+        "edge_id": "F6F5",
+        "connected_edges": [
+          "F5E5",
+          "F5F4",
+          "F5F6",
+          "F5G5"
+        ],
+        "connected_nodes": [
+          "F5"
+        ]
+      },
+      {
+        "edge_id": "F6F7",
+        "connected_edges": [
+          "F7E7",
+          "F7F6",
+          "F7G7"
+        ],
+        "connected_nodes": [
+          "F7"
+        ]
+      },
+      {
+        "edge_id": "F6G6",
+        "connected_edges": [
+          "G6F6",
+          "G6G5",
+          "G6G7",
+          "G6H6"
+        ],
+        "connected_nodes": [
+          "G6"
+        ]
+      },
+      {
+        "edge_id": "F7E7",
+        "connected_edges": [
+          "E7D7",
+          "E7E6",
+          "E7F7"
+        ],
+        "connected_nodes": [
+          "E7"
+        ]
+      },
+      {
+        "edge_id": "F7F6",
+        "connected_edges": [
+          "F6E6",
+          "F6F5",
+          "F6F7",
+          "F6G6"
+        ],
+        "connected_nodes": [
+          "F6"
+        ]
+      },
+      {
+        "edge_id": "F7G7",
+        "connected_edges": [
+          "G7F7",
+          "G7G6",
+          "G7H7"
+        ],
+        "connected_nodes": [
+          "G7"
+        ]
+      },
+      {
+        "edge_id": "G0F0",
+        "connected_edges": [
+          "F0E0",
+          "F0F1",
+          "F0G0"
+        ],
+        "connected_nodes": [
+          "F0"
+        ]
+      },
+      {
+        "edge_id": "G0G1",
+        "connected_edges": [
+          "G1F1",
+          "G1G0",
+          "G1G2",
+          "G1H1"
+        ],
+        "connected_nodes": [
+          "G1"
+        ]
+      },
+      {
+        "edge_id": "G0H0",
+        "connected_edges": [
+          "H0H1"
+        ],
+        "connected_nodes": [
+          "H0"
+        ]
+      },
+      {
+        "edge_id": "G1F1",
+        "connected_edges": [
+          "F1E1",
+          "F1F0",
+          "F1F2",
+          "F1G1"
+        ],
+        "connected_nodes": [
+          "F1"
+        ]
+      },
+      {
+        "edge_id": "G1G0",
+        "connected_edges": [
+          "G0F0",
+          "G0G1",
+          "G0H0"
+        ],
+        "connected_nodes": [
+          "G0"
+        ]
+      },
+      {
+        "edge_id": "G1G2",
+        "connected_edges": [
+          "G2F2",
+          "G2G1",
+          "G2G3",
+          "G2H2"
+        ],
+        "connected_nodes": [
+          "G2"
+        ]
+      },
+      {
+        "edge_id": "G1H1",
+        "connected_edges": [
+          "H1G1",
+          "H1H0",
+          "H1H2"
+        ],
+        "connected_nodes": [
+          "H1"
+        ]
+      },
+      {
+        "edge_id": "G2F2",
+        "connected_edges": [
+          "F2E2",
+          "F2F1",
+          "F2F3",
+          "F2G2"
+        ],
+        "connected_nodes": [
+          "F2"
+        ]
+      },
+      {
+        "edge_id": "G2G1",
+        "connected_edges": [
+          "G1F1",
+          "G1G0",
+          "G1G2",
+          "G1H1"
+        ],
+        "connected_nodes": [
+          "G1"
+        ]
+      },
+      {
+        "edge_id": "G2G3",
+        "connected_edges": [
+          "G3F3",
+          "G3G2",
+          "G3G4",
+          "G3H3"
+        ],
+        "connected_nodes": [
+          "G3"
+        ]
+      },
+      {
+        "edge_id": "G2H2",
+        "connected_edges": [
+          "H2G2",
+          "H2H1",
+          "H2H3"
+        ],
+        "connected_nodes": [
+          "H2"
+        ]
+      },
+      {
+        "edge_id": "G3F3",
+        "connected_edges": [
+          "F3E3",
+          "F3F2",
+          "F3F4",
+          "F3G3"
+        ],
+        "connected_nodes": [
+          "F3"
+        ]
+      },
+      {
+        "edge_id": "G3G2",
+        "connected_edges": [
+          "G2F2",
+          "G2G1",
+          "G2G3",
+          "G2H2"
+        ],
+        "connected_nodes": [
+          "G2"
+        ]
+      },
+      {
+        "edge_id": "G3G4",
+        "connected_edges": [
+          "G4F4",
+          "G4G3",
+          "G4G5",
+          "G4H4"
+        ],
+        "connected_nodes": [
+          "G4"
+        ]
+      },
+      {
+        "edge_id": "G3H3",
+        "connected_edges": [
+          "H3G3",
+          "H3H2",
+          "H3H4"
+        ],
+        "connected_nodes": [
+          "H3"
+        ]
+      },
+      {
+        "edge_id": "G4F4",
+        "connected_edges": [
+          "F4E4",
+          "F4F3",
+          "F4F5",
+          "F4G4"
+        ],
+        "connected_nodes": [
+          "F4"
+        ]
+      },
+      {
+        "edge_id": "G4G3",
+        "connected_edges": [
+          "G3F3",
+          "G3G2",
+          "G3G4",
+          "G3H3"
+        ],
+        "connected_nodes": [
+          "G3"
+        ]
+      },
+      {
+        "edge_id": "G4G5",
+        "connected_edges": [
+          "G5F5",
+          "G5G4",
+          "G5G6",
+          "G5H5"
+        ],
+        "connected_nodes": [
+          "G5"
+        ]
+      },
+      {
+        "edge_id": "G4H4",
+        "connected_edges": [
+          "H4G4",
+          "H4H3",
+          "H4H5"
+        ],
+        "connected_nodes": [
+          "H4"
+        ]
+      },
+      {
+        "edge_id": "G5F5",
+        "connected_edges": [
+          "F5E5",
+          "F5F4",
+          "F5F6",
+          "F5G5"
+        ],
+        "connected_nodes": [
+          "F5"
+        ]
+      },
+      {
+        "edge_id": "G5G4",
+        "connected_edges": [
+          "G4F4",
+          "G4G3",
+          "G4G5",
+          "G4H4"
+        ],
+        "connected_nodes": [
+          "G4"
+        ]
+      },
+      {
+        "edge_id": "G5G6",
+        "connected_edges": [
+          "G6F6",
+          "G6G5",
+          "G6G7",
+          "G6H6"
+        ],
+        "connected_nodes": [
+          "G6"
+        ]
+      },
+      {
+        "edge_id": "G5H5",
+        "connected_edges": [
+          "H5G5",
+          "H5H4",
+          "H5H6"
+        ],
+        "connected_nodes": [
+          "H5"
+        ]
+      },
+      {
+        "edge_id": "G6F6",
+        "connected_edges": [
+          "F6E6",
+          "F6F5",
+          "F6F7",
+          "F6G6"
+        ],
+        "connected_nodes": [
+          "F6"
+        ]
+      },
+      {
+        "edge_id": "G6G5",
+        "connected_edges": [
+          "G5F5",
+          "G5G4",
+          "G5G6",
+          "G5H5"
+        ],
+        "connected_nodes": [
+          "G5"
+        ]
+      },
+      {
+        "edge_id": "G6G7",
+        "connected_edges": [
+          "G7F7",
+          "G7G6",
+          "G7H7"
+        ],
+        "connected_nodes": [
+          "G7"
+        ]
+      },
+      {
+        "edge_id": "G6H6",
+        "connected_edges": [
+          "H6G6",
+          "H6H5",
+          "H6H7"
+        ],
+        "connected_nodes": [
+          "H6"
+        ]
+      },
+      {
+        "edge_id": "G7F7",
+        "connected_edges": [
+          "F7E7",
+          "F7F6",
+          "F7G7"
+        ],
+        "connected_nodes": [
+          "F7"
+        ]
+      },
+      {
+        "edge_id": "G7G6",
+        "connected_edges": [
+          "G6F6",
+          "G6G5",
+          "G6G7",
+          "G6H6"
+        ],
+        "connected_nodes": [
+          "G6"
+        ]
+      },
+      {
+        "edge_id": "G7H7",
+        "connected_edges": [
+          "H7H6"
+        ],
+        "connected_nodes": [
+          "H7"
+        ]
+      },
+      {
+        "edge_id": "H0G0",
+        "connected_edges": [
+          "G0F0",
+          "G0G1",
+          "G0H0"
+        ],
+        "connected_nodes": [
+          "G0"
+        ]
+      },
+      {
+        "edge_id": "H0H1",
+        "connected_edges": [
+          "H1G1",
+          "H1H0",
+          "H1H2"
+        ],
+        "connected_nodes": [
+          "H1"
+        ]
+      },
+      {
+        "edge_id": "H1G1",
+        "connected_edges": [
+          "G1F1",
+          "G1G0",
+          "G1G2",
+          "G1H1"
+        ],
+        "connected_nodes": [
+          "G1"
+        ]
+      },
+      {
+        "edge_id": "H1H0",
+        "connected_edges": [
+          "H0G0"
+        ],
+        "connected_nodes": [
+          "H0"
+        ]
+      },
+      {
+        "edge_id": "H1H2",
+        "connected_edges": [
+          "H2G2",
+          "H2H1",
+          "H2H3"
+        ],
+        "connected_nodes": [
+          "H2"
+        ]
+      },
+      {
+        "edge_id": "H2G2",
+        "connected_edges": [
+          "G2F2",
+          "G2G1",
+          "G2G3",
+          "G2H2"
+        ],
+        "connected_nodes": [
+          "G2"
+        ]
+      },
+      {
+        "edge_id": "H2H1",
+        "connected_edges": [
+          "H1G1",
+          "H1H0",
+          "H1H2"
+        ],
+        "connected_nodes": [
+          "H1"
+        ]
+      },
+      {
+        "edge_id": "H2H3",
+        "connected_edges": [
+          "H3G3",
+          "H3H2",
+          "H3H4"
+        ],
+        "connected_nodes": [
+          "H3"
+        ]
+      },
+      {
+        "edge_id": "H3G3",
+        "connected_edges": [
+          "G3F3",
+          "G3G2",
+          "G3G4",
+          "G3H3"
+        ],
+        "connected_nodes": [
+          "G3"
+        ]
+      },
+      {
+        "edge_id": "H3H2",
+        "connected_edges": [
+          "H2G2",
+          "H2H1",
+          "H2H3"
+        ],
+        "connected_nodes": [
+          "H2"
+        ]
+      },
+      {
+        "edge_id": "H3H4",
+        "connected_edges": [
+          "H4G4",
+          "H4H3",
+          "H4H5"
+        ],
+        "connected_nodes": [
+          "H4"
+        ]
+      },
+      {
+        "edge_id": "H4G4",
+        "connected_edges": [
+          "G4F4",
+          "G4G3",
+          "G4G5",
+          "G4H4"
+        ],
+        "connected_nodes": [
+          "G4"
+        ]
+      },
+      {
+        "edge_id": "H4H3",
+        "connected_edges": [
+          "H3G3",
+          "H3H2",
+          "H3H4"
+        ],
+        "connected_nodes": [
+          "H3"
+        ]
+      },
+      {
+        "edge_id": "H4H5",
+        "connected_edges": [
+          "H5G5",
+          "H5H4",
+          "H5H6"
+        ],
+        "connected_nodes": [
+          "H5"
+        ]
+      },
+      {
+        "edge_id": "H5G5",
+        "connected_edges": [
+          "G5F5",
+          "G5G4",
+          "G5G6",
+          "G5H5"
+        ],
+        "connected_nodes": [
+          "G5"
+        ]
+      },
+      {
+        "edge_id": "H5H4",
+        "connected_edges": [
+          "H4G4",
+          "H4H3",
+          "H4H5"
+        ],
+        "connected_nodes": [
+          "H4"
+        ]
+      },
+      {
+        "edge_id": "H5H6",
+        "connected_edges": [
+          "H6G6",
+          "H6H5",
+          "H6H7"
+        ],
+        "connected_nodes": [
+          "H6"
+        ]
+      },
+      {
+        "edge_id": "H6G6",
+        "connected_edges": [
+          "G6F6",
+          "G6G5",
+          "G6G7",
+          "G6H6"
+        ],
+        "connected_nodes": [
+          "G6"
+        ]
+      },
+      {
+        "edge_id": "H6H5",
+        "connected_edges": [
+          "H5G5",
+          "H5H4",
+          "H5H6"
+        ],
+        "connected_nodes": [
+          "H5"
+        ]
+      },
+      {
+        "edge_id": "H6H7",
+        "connected_edges": [
+          "H7G7"
+        ],
+        "connected_nodes": [
+          "H7"
+        ]
+      },
+      {
+        "edge_id": "H7G7",
+        "connected_edges": [
+          "G7F7",
+          "G7G6",
+          "G7H7"
+        ],
+        "connected_nodes": [
+          "G7"
+        ]
+      },
+      {
+        "edge_id": "H7H6",
+        "connected_edges": [
+          "H6G6",
+          "H6H5",
+          "H6H7"
+        ],
+        "connected_nodes": [
+          "H6"
+        ]
+      }
+    ],
+    "junctions": [
+      {
+        "junction_id": "A0",
+        "connected_edges": [
+          "A0A1",
+          "A0B0"
+        ],
+        "connected_nodes": [
+          "A1",
+          "B0"
+        ],
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "A1",
+        "connected_edges": [
+          "A1A0",
+          "A1A2",
+          "A1B1"
+        ],
+        "connected_nodes": [
+          "A0",
+          "A2",
+          "B1"
+        ],
+        "x": 0.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "B0",
+        "connected_edges": [
+          "B0A0",
+          "B0B1",
+          "B0C0"
+        ],
+        "connected_nodes": [
+          "A0",
+          "B1",
+          "C0"
+        ],
+        "x": 200.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "A2",
+        "connected_edges": [
+          "A2A1",
+          "A2A3",
+          "A2B2"
+        ],
+        "connected_nodes": [
+          "A1",
+          "A3",
+          "B2"
+        ],
+        "x": 0.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "B1",
+        "connected_edges": [
+          "B1A1",
+          "B1B0",
+          "B1B2",
+          "B1C1"
+        ],
+        "connected_nodes": [
+          "A1",
+          "B0",
+          "B2",
+          "C1"
+        ],
+        "x": 200.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "A3",
+        "connected_edges": [
+          "A3A2",
+          "A3A4",
+          "A3B3"
+        ],
+        "connected_nodes": [
+          "A2",
+          "A4",
+          "B3"
+        ],
+        "x": 0.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "B2",
+        "connected_edges": [
+          "B2A2",
+          "B2B1",
+          "B2B3",
+          "B2C2"
+        ],
+        "connected_nodes": [
+          "A2",
+          "B1",
+          "B3",
+          "C2"
+        ],
+        "x": 200.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "A4",
+        "connected_edges": [
+          "A4A3",
+          "A4A5",
+          "A4B4"
+        ],
+        "connected_nodes": [
+          "A3",
+          "A5",
+          "B4"
+        ],
+        "x": 0.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "B3",
+        "connected_edges": [
+          "B3A3",
+          "B3B2",
+          "B3B4",
+          "B3C3"
+        ],
+        "connected_nodes": [
+          "A3",
+          "B2",
+          "B4",
+          "C3"
+        ],
+        "x": 200.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "A5",
+        "connected_edges": [
+          "A5A4",
+          "A5A6",
+          "A5B5"
+        ],
+        "connected_nodes": [
+          "A4",
+          "A6",
+          "B5"
+        ],
+        "x": 0.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "B4",
+        "connected_edges": [
+          "B4A4",
+          "B4B3",
+          "B4B5",
+          "B4C4"
+        ],
+        "connected_nodes": [
+          "A4",
+          "B3",
+          "B5",
+          "C4"
+        ],
+        "x": 200.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "A6",
+        "connected_edges": [
+          "A6A5",
+          "A6A7",
+          "A6B6"
+        ],
+        "connected_nodes": [
+          "A5",
+          "A7",
+          "B6"
+        ],
+        "x": 0.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "B5",
+        "connected_edges": [
+          "B5A5",
+          "B5B4",
+          "B5B6",
+          "B5C5"
+        ],
+        "connected_nodes": [
+          "A5",
+          "B4",
+          "B6",
+          "C5"
+        ],
+        "x": 200.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "A7",
+        "connected_edges": [
+          "A7A6",
+          "A7B7"
+        ],
+        "connected_nodes": [
+          "A6",
+          "B7"
+        ],
+        "x": 0.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "B6",
+        "connected_edges": [
+          "B6A6",
+          "B6B5",
+          "B6B7",
+          "B6C6"
+        ],
+        "connected_nodes": [
+          "A6",
+          "B5",
+          "B7",
+          "C6"
+        ],
+        "x": 200.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "B7",
+        "connected_edges": [
+          "B7A7",
+          "B7B6",
+          "B7C7"
+        ],
+        "connected_nodes": [
+          "A7",
+          "B6",
+          "C7"
+        ],
+        "x": 200.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "C0",
+        "connected_edges": [
+          "C0B0",
+          "C0C1",
+          "C0D0"
+        ],
+        "connected_nodes": [
+          "B0",
+          "C1",
+          "D0"
+        ],
+        "x": 400.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "C1",
+        "connected_edges": [
+          "C1B1",
+          "C1C0",
+          "C1C2",
+          "C1D1"
+        ],
+        "connected_nodes": [
+          "B1",
+          "C0",
+          "C2",
+          "D1"
+        ],
+        "x": 400.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "C2",
+        "connected_edges": [
+          "C2B2",
+          "C2C1",
+          "C2C3",
+          "C2D2"
+        ],
+        "connected_nodes": [
+          "B2",
+          "C1",
+          "C3",
+          "D2"
+        ],
+        "x": 400.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "C3",
+        "connected_edges": [
+          "C3B3",
+          "C3C2",
+          "C3C4",
+          "C3D3"
+        ],
+        "connected_nodes": [
+          "B3",
+          "C2",
+          "C4",
+          "D3"
+        ],
+        "x": 400.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "C4",
+        "connected_edges": [
+          "C4B4",
+          "C4C3",
+          "C4C5",
+          "C4D4"
+        ],
+        "connected_nodes": [
+          "B4",
+          "C3",
+          "C5",
+          "D4"
+        ],
+        "x": 400.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "C5",
+        "connected_edges": [
+          "C5B5",
+          "C5C4",
+          "C5C6",
+          "C5D5"
+        ],
+        "connected_nodes": [
+          "B5",
+          "C4",
+          "C6",
+          "D5"
+        ],
+        "x": 400.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "C6",
+        "connected_edges": [
+          "C6B6",
+          "C6C5",
+          "C6C7",
+          "C6D6"
+        ],
+        "connected_nodes": [
+          "B6",
+          "C5",
+          "C7",
+          "D6"
+        ],
+        "x": 400.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "C7",
+        "connected_edges": [
+          "C7B7",
+          "C7C6",
+          "C7D7"
+        ],
+        "connected_nodes": [
+          "B7",
+          "C6",
+          "D7"
+        ],
+        "x": 400.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "D0",
+        "connected_edges": [
+          "D0C0",
+          "D0D1",
+          "D0E0"
+        ],
+        "connected_nodes": [
+          "C0",
+          "D1",
+          "E0"
+        ],
+        "x": 600.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "D1",
+        "connected_edges": [
+          "D1C1",
+          "D1D0",
+          "D1D2",
+          "D1E1"
+        ],
+        "connected_nodes": [
+          "C1",
+          "D0",
+          "D2",
+          "E1"
+        ],
+        "x": 600.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "D2",
+        "connected_edges": [
+          "D2C2",
+          "D2D1",
+          "D2D3",
+          "D2E2"
+        ],
+        "connected_nodes": [
+          "C2",
+          "D1",
+          "D3",
+          "E2"
+        ],
+        "x": 600.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "D3",
+        "connected_edges": [
+          "D3C3",
+          "D3D2",
+          "D3D4",
+          "D3E3"
+        ],
+        "connected_nodes": [
+          "C3",
+          "D2",
+          "D4",
+          "E3"
+        ],
+        "x": 600.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "D4",
+        "connected_edges": [
+          "D4C4",
+          "D4D3",
+          "D4D5",
+          "D4E4"
+        ],
+        "connected_nodes": [
+          "C4",
+          "D3",
+          "D5",
+          "E4"
+        ],
+        "x": 600.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "D5",
+        "connected_edges": [
+          "D5C5",
+          "D5D4",
+          "D5D6",
+          "D5E5"
+        ],
+        "connected_nodes": [
+          "C5",
+          "D4",
+          "D6",
+          "E5"
+        ],
+        "x": 600.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "D6",
+        "connected_edges": [
+          "D6C6",
+          "D6D5",
+          "D6D7",
+          "D6E6"
+        ],
+        "connected_nodes": [
+          "C6",
+          "D5",
+          "D7",
+          "E6"
+        ],
+        "x": 600.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "D7",
+        "connected_edges": [
+          "D7C7",
+          "D7D6",
+          "D7E7"
+        ],
+        "connected_nodes": [
+          "C7",
+          "D6",
+          "E7"
+        ],
+        "x": 600.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "E0",
+        "connected_edges": [
+          "E0D0",
+          "E0E1",
+          "E0F0"
+        ],
+        "connected_nodes": [
+          "D0",
+          "E1",
+          "F0"
+        ],
+        "x": 800.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "E1",
+        "connected_edges": [
+          "E1D1",
+          "E1E0",
+          "E1E2",
+          "E1F1"
+        ],
+        "connected_nodes": [
+          "D1",
+          "E0",
+          "E2",
+          "F1"
+        ],
+        "x": 800.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "E2",
+        "connected_edges": [
+          "E2D2",
+          "E2E1",
+          "E2E3",
+          "E2F2"
+        ],
+        "connected_nodes": [
+          "D2",
+          "E1",
+          "E3",
+          "F2"
+        ],
+        "x": 800.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "E3",
+        "connected_edges": [
+          "E3D3",
+          "E3E2",
+          "E3E4",
+          "E3F3"
+        ],
+        "connected_nodes": [
+          "D3",
+          "E2",
+          "E4",
+          "F3"
+        ],
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "E4",
+        "connected_edges": [
+          "E4D4",
+          "E4E3",
+          "E4E5",
+          "E4F4"
+        ],
+        "connected_nodes": [
+          "D4",
+          "E3",
+          "E5",
+          "F4"
+        ],
+        "x": 800.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "E5",
+        "connected_edges": [
+          "E5D5",
+          "E5E4",
+          "E5E6",
+          "E5F5"
+        ],
+        "connected_nodes": [
+          "D5",
+          "E4",
+          "E6",
+          "F5"
+        ],
+        "x": 800.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "E6",
+        "connected_edges": [
+          "E6D6",
+          "E6E5",
+          "E6E7",
+          "E6F6"
+        ],
+        "connected_nodes": [
+          "D6",
+          "E5",
+          "E7",
+          "F6"
+        ],
+        "x": 800.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "E7",
+        "connected_edges": [
+          "E7D7",
+          "E7E6",
+          "E7F7"
+        ],
+        "connected_nodes": [
+          "D7",
+          "E6",
+          "F7"
+        ],
+        "x": 800.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "F0",
+        "connected_edges": [
+          "F0E0",
+          "F0F1",
+          "F0G0"
+        ],
+        "connected_nodes": [
+          "E0",
+          "F1",
+          "G0"
+        ],
+        "x": 1000.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "F1",
+        "connected_edges": [
+          "F1E1",
+          "F1F0",
+          "F1F2",
+          "F1G1"
+        ],
+        "connected_nodes": [
+          "E1",
+          "F0",
+          "F2",
+          "G1"
+        ],
+        "x": 1000.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "F2",
+        "connected_edges": [
+          "F2E2",
+          "F2F1",
+          "F2F3",
+          "F2G2"
+        ],
+        "connected_nodes": [
+          "E2",
+          "F1",
+          "F3",
+          "G2"
+        ],
+        "x": 1000.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "F3",
+        "connected_edges": [
+          "F3E3",
+          "F3F2",
+          "F3F4",
+          "F3G3"
+        ],
+        "connected_nodes": [
+          "E3",
+          "F2",
+          "F4",
+          "G3"
+        ],
+        "x": 1000.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "F4",
+        "connected_edges": [
+          "F4E4",
+          "F4F3",
+          "F4F5",
+          "F4G4"
+        ],
+        "connected_nodes": [
+          "E4",
+          "F3",
+          "F5",
+          "G4"
+        ],
+        "x": 1000.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "F5",
+        "connected_edges": [
+          "F5E5",
+          "F5F4",
+          "F5F6",
+          "F5G5"
+        ],
+        "connected_nodes": [
+          "E5",
+          "F4",
+          "F6",
+          "G5"
+        ],
+        "x": 1000.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "F6",
+        "connected_edges": [
+          "F6E6",
+          "F6F5",
+          "F6F7",
+          "F6G6"
+        ],
+        "connected_nodes": [
+          "E6",
+          "F5",
+          "F7",
+          "G6"
+        ],
+        "x": 1000.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "F7",
+        "connected_edges": [
+          "F7E7",
+          "F7F6",
+          "F7G7"
+        ],
+        "connected_nodes": [
+          "E7",
+          "F6",
+          "G7"
+        ],
+        "x": 1000.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "G0",
+        "connected_edges": [
+          "G0F0",
+          "G0G1",
+          "G0H0"
+        ],
+        "connected_nodes": [
+          "F0",
+          "G1",
+          "H0"
+        ],
+        "x": 1200.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "G1",
+        "connected_edges": [
+          "G1F1",
+          "G1G0",
+          "G1G2",
+          "G1H1"
+        ],
+        "connected_nodes": [
+          "F1",
+          "G0",
+          "G2",
+          "H1"
+        ],
+        "x": 1200.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "G2",
+        "connected_edges": [
+          "G2F2",
+          "G2G1",
+          "G2G3",
+          "G2H2"
+        ],
+        "connected_nodes": [
+          "F2",
+          "G1",
+          "G3",
+          "H2"
+        ],
+        "x": 1200.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "G3",
+        "connected_edges": [
+          "G3F3",
+          "G3G2",
+          "G3G4",
+          "G3H3"
+        ],
+        "connected_nodes": [
+          "F3",
+          "G2",
+          "G4",
+          "H3"
+        ],
+        "x": 1200.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "G4",
+        "connected_edges": [
+          "G4F4",
+          "G4G3",
+          "G4G5",
+          "G4H4"
+        ],
+        "connected_nodes": [
+          "F4",
+          "G3",
+          "G5",
+          "H4"
+        ],
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "G5",
+        "connected_edges": [
+          "G5F5",
+          "G5G4",
+          "G5G6",
+          "G5H5"
+        ],
+        "connected_nodes": [
+          "F5",
+          "G4",
+          "G6",
+          "H5"
+        ],
+        "x": 1200.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "G6",
+        "connected_edges": [
+          "G6F6",
+          "G6G5",
+          "G6G7",
+          "G6H6"
+        ],
+        "connected_nodes": [
+          "F6",
+          "G5",
+          "G7",
+          "H6"
+        ],
+        "x": 1200.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "G7",
+        "connected_edges": [
+          "G7F7",
+          "G7G6",
+          "G7H7"
+        ],
+        "connected_nodes": [
+          "F7",
+          "G6",
+          "H7"
+        ],
+        "x": 1200.0,
+        "y": 1400.0
+      },
+      {
+        "junction_id": "H0",
+        "connected_edges": [
+          "H0G0",
+          "H0H1"
+        ],
+        "connected_nodes": [
+          "G0",
+          "H1"
+        ],
+        "x": 1400.0,
+        "y": 0.0
+      },
+      {
+        "junction_id": "H1",
+        "connected_edges": [
+          "H1G1",
+          "H1H0",
+          "H1H2"
+        ],
+        "connected_nodes": [
+          "G1",
+          "H0",
+          "H2"
+        ],
+        "x": 1400.0,
+        "y": 200.0
+      },
+      {
+        "junction_id": "H2",
+        "connected_edges": [
+          "H2G2",
+          "H2H1",
+          "H2H3"
+        ],
+        "connected_nodes": [
+          "G2",
+          "H1",
+          "H3"
+        ],
+        "x": 1400.0,
+        "y": 400.0
+      },
+      {
+        "junction_id": "H3",
+        "connected_edges": [
+          "H3G3",
+          "H3H2",
+          "H3H4"
+        ],
+        "connected_nodes": [
+          "G3",
+          "H2",
+          "H4"
+        ],
+        "x": 1400.0,
+        "y": 600.0
+      },
+      {
+        "junction_id": "H4",
+        "connected_edges": [
+          "H4G4",
+          "H4H3",
+          "H4H5"
+        ],
+        "connected_nodes": [
+          "G4",
+          "H3",
+          "H5"
+        ],
+        "x": 1400.0,
+        "y": 800.0
+      },
+      {
+        "junction_id": "H5",
+        "connected_edges": [
+          "H5G5",
+          "H5H4",
+          "H5H6"
+        ],
+        "connected_nodes": [
+          "G5",
+          "H4",
+          "H6"
+        ],
+        "x": 1400.0,
+        "y": 1000.0
+      },
+      {
+        "junction_id": "H6",
+        "connected_edges": [
+          "H6G6",
+          "H6H5",
+          "H6H7"
+        ],
+        "connected_nodes": [
+          "G6",
+          "H5",
+          "H7"
+        ],
+        "x": 1400.0,
+        "y": 1200.0
+      },
+      {
+        "junction_id": "H7",
+        "connected_edges": [
+          "H7G7",
+          "H7H6"
+        ],
+        "connected_nodes": [
+          "G7",
+          "H6"
+        ],
+        "x": 1400.0,
+        "y": 1400.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,6856 @@
+{
+  "adjacency_list": {
+    "edges": [
+      {
+        "edge_id": "-1001",
+        "connected_edges": [
+          "-475",
+          "-528",
+          "1001"
+        ],
+        "connected_nodes": [
+          "474"
+        ]
+      },
+      {
+        "edge_id": "-1027",
+        "connected_edges": [
+          "-510",
+          "1027",
+          "965"
+        ],
+        "connected_nodes": [
+          "509"
+        ]
+      },
+      {
+        "edge_id": "-1039",
+        "connected_edges": [
+          "-727",
+          "1039",
+          "1040"
+        ],
+        "connected_nodes": [
+          "726"
+        ]
+      },
+      {
+        "edge_id": "-1040",
+        "connected_edges": [
+          "-727",
+          "1039",
+          "1040"
+        ],
+        "connected_nodes": [
+          "726"
+        ]
+      },
+      {
+        "edge_id": "-1042",
+        "connected_edges": [
+          "-1040",
+          "-971",
+          "1042"
+        ],
+        "connected_nodes": [
+          "970"
+        ]
+      },
+      {
+        "edge_id": "-1051",
+        "connected_edges": [
+          "-979",
+          "1051",
+          "1053",
+          "1057"
+        ],
+        "connected_nodes": [
+          "978"
+        ]
+      },
+      {
+        "edge_id": "-1053",
+        "connected_edges": [
+          "-979",
+          "1051",
+          "1053",
+          "1057"
+        ],
+        "connected_nodes": [
+          "978"
+        ]
+      },
+      {
+        "edge_id": "-1057",
+        "connected_edges": [
+          "-979",
+          "1051",
+          "1053",
+          "1057"
+        ],
+        "connected_nodes": [
+          "978"
+        ]
+      },
+      {
+        "edge_id": "-1059",
+        "connected_edges": [
+          "-2582",
+          "-331",
+          "1059"
+        ],
+        "connected_nodes": [
+          "330"
+        ]
+      },
+      {
+        "edge_id": "-1064",
+        "connected_edges": [
+          "-1059",
+          "-986",
+          "1064"
+        ],
+        "connected_nodes": [
+          "985"
+        ]
+      },
+      {
+        "edge_id": "-107",
+        "connected_edges": [
+          "-75",
+          "107",
+          "91",
+          "93"
+        ],
+        "connected_nodes": [
+          "74"
+        ]
+      },
+      {
+        "edge_id": "-1075",
+        "connected_edges": [
+          "-585"
+        ],
+        "connected_nodes": [
+          "584"
+        ]
+      },
+      {
+        "edge_id": "-113",
+        "connected_edges": [
+          "-82",
+          "113",
+          "115",
+          "119"
+        ],
+        "connected_nodes": [
+          "81"
+        ]
+      },
+      {
+        "edge_id": "-115",
+        "connected_edges": [
+          "-82",
+          "113",
+          "115",
+          "119"
+        ],
+        "connected_nodes": [
+          "81"
+        ]
+      },
+      {
+        "edge_id": "-1187",
+        "connected_edges": [
+          "-1027"
+        ],
+        "connected_nodes": [
+          "1026"
+        ]
+      },
+      {
+        "edge_id": "-119",
+        "connected_edges": [
+          "-82",
+          "113",
+          "115",
+          "119"
+        ],
+        "connected_nodes": [
+          "81"
+        ]
+      },
+      {
+        "edge_id": "-1192",
+        "connected_edges": [
+          "-1039",
+          "1192",
+          "1196"
+        ],
+        "connected_nodes": [
+          "1038"
+        ]
+      },
+      {
+        "edge_id": "-1196",
+        "connected_edges": [
+          "-1039",
+          "1192",
+          "1196"
+        ],
+        "connected_nodes": [
+          "1038"
+        ]
+      },
+      {
+        "edge_id": "-120",
+        "connected_edges": [
+          "-38"
+        ],
+        "connected_nodes": [
+          "37"
+        ]
+      },
+      {
+        "edge_id": "-1203",
+        "connected_edges": [
+          "-1051",
+          "-1064",
+          "1203",
+          "2071"
+        ],
+        "connected_nodes": [
+          "1050"
+        ]
+      },
+      {
+        "edge_id": "-1205",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1052"
+        ]
+      },
+      {
+        "edge_id": "-1211",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1052"
+        ]
+      },
+      {
+        "edge_id": "-1227",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1052"
+        ]
+      },
+      {
+        "edge_id": "-1243",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1052"
+        ]
+      },
+      {
+        "edge_id": "-1285",
+        "connected_edges": [
+          "-281",
+          "1285",
+          "528",
+          "585"
+        ],
+        "connected_nodes": [
+          "280"
+        ]
+      },
+      {
+        "edge_id": "-1307",
+        "connected_edges": [
+          "-1211",
+          "1307",
+          "1309"
+        ],
+        "connected_nodes": [
+          "1210"
+        ]
+      },
+      {
+        "edge_id": "-1309",
+        "connected_edges": [
+          "-1211",
+          "1307",
+          "1309"
+        ],
+        "connected_nodes": [
+          "1210"
+        ]
+      },
+      {
+        "edge_id": "-1311",
+        "connected_edges": [
+          "-1243",
+          "1311",
+          "1313"
+        ],
+        "connected_nodes": [
+          "1242"
+        ]
+      },
+      {
+        "edge_id": "-1313",
+        "connected_edges": [
+          "-1243",
+          "1311",
+          "1313"
+        ],
+        "connected_nodes": [
+          "1242"
+        ]
+      },
+      {
+        "edge_id": "-1325",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "79"
+        ]
+      },
+      {
+        "edge_id": "-1367",
+        "connected_edges": [
+          "-1285",
+          "-1325",
+          "1367"
+        ],
+        "connected_nodes": [
+          "1284"
+        ]
+      },
+      {
+        "edge_id": "-1393",
+        "connected_edges": [
+          "-1313",
+          "-1810",
+          "1393"
+        ],
+        "connected_nodes": [
+          "1312"
+        ]
+      },
+      {
+        "edge_id": "-1481",
+        "connected_edges": [
+          "-1367"
+        ],
+        "connected_nodes": [
+          "1366"
+        ]
+      },
+      {
+        "edge_id": "-1617",
+        "connected_edges": [
+          "-119",
+          "-357",
+          "1617"
+        ],
+        "connected_nodes": [
+          "118"
+        ]
+      },
+      {
+        "edge_id": "-1636",
+        "connected_edges": [
+          "-1227",
+          "-1307",
+          "1636"
+        ],
+        "connected_nodes": [
+          "1226"
+        ]
+      },
+      {
+        "edge_id": "-1638",
+        "connected_edges": [
+          "-1393",
+          "1638",
+          "1644"
+        ],
+        "connected_nodes": [
+          "1392"
+        ]
+      },
+      {
+        "edge_id": "-1644",
+        "connected_edges": [
+          "-1393",
+          "1638",
+          "1644"
+        ],
+        "connected_nodes": [
+          "1392"
+        ]
+      },
+      {
+        "edge_id": "-1646",
+        "connected_edges": [
+          "-1057",
+          "-1203",
+          "-1205",
+          "1646"
+        ],
+        "connected_nodes": [
+          "1056"
+        ]
+      },
+      {
+        "edge_id": "-1658",
+        "connected_edges": [
+          "-574",
+          "1658",
+          "1839",
+          "695"
+        ],
+        "connected_nodes": [
+          "573"
+        ]
+      },
+      {
+        "edge_id": "-1667",
+        "connected_edges": [
+          "-115"
+        ],
+        "connected_nodes": [
+          "114"
+        ]
+      },
+      {
+        "edge_id": "-17",
+        "connected_edges": [
+          "17",
+          "3",
+          "7",
+          "9"
+        ],
+        "connected_nodes": [
+          "1"
+        ]
+      },
+      {
+        "edge_id": "-1787",
+        "connected_edges": [
+          "-1636",
+          "-1646",
+          "1787",
+          "1807"
+        ],
+        "connected_nodes": [
+          "1635"
+        ]
+      },
+      {
+        "edge_id": "-1807",
+        "connected_edges": [
+          "-1636",
+          "-1646",
+          "1787",
+          "1807"
+        ],
+        "connected_nodes": [
+          "1635"
+        ]
+      },
+      {
+        "edge_id": "-1808",
+        "connected_edges": [
+          "-1638"
+        ],
+        "connected_nodes": [
+          "1637"
+        ]
+      },
+      {
+        "edge_id": "-1810",
+        "connected_edges": [
+          "-1644",
+          "-1808",
+          "1810",
+          "1816"
+        ],
+        "connected_nodes": [
+          "1643"
+        ]
+      },
+      {
+        "edge_id": "-1816",
+        "connected_edges": [
+          "-1644",
+          "-1808",
+          "1810",
+          "1816"
+        ],
+        "connected_nodes": [
+          "1643"
+        ]
+      },
+      {
+        "edge_id": "-1833",
+        "connected_edges": [
+          "-649",
+          "1833",
+          "768"
+        ],
+        "connected_nodes": [
+          "648"
+        ]
+      },
+      {
+        "edge_id": "-1837",
+        "connected_edges": [
+          "-572",
+          "1837",
+          "1916"
+        ],
+        "connected_nodes": [
+          "571"
+        ]
+      },
+      {
+        "edge_id": "-1839",
+        "connected_edges": [
+          "-574",
+          "1658",
+          "1839",
+          "695"
+        ],
+        "connected_nodes": [
+          "573"
+        ]
+      },
+      {
+        "edge_id": "-1848",
+        "connected_edges": [
+          "-784",
+          "1848",
+          "2412",
+          "2413"
+        ],
+        "connected_nodes": [
+          "783"
+        ]
+      },
+      {
+        "edge_id": "-1864",
+        "connected_edges": [
+          "-1617",
+          "-1667",
+          "1864"
+        ],
+        "connected_nodes": [
+          "1616"
+        ]
+      },
+      {
+        "edge_id": "-1881",
+        "connected_edges": [
+          "-543",
+          "1881",
+          "2579"
+        ],
+        "connected_nodes": [
+          "542"
+        ]
+      },
+      {
+        "edge_id": "-1887",
+        "connected_edges": [
+          "-1309",
+          "-1311",
+          "1887",
+          "1889"
+        ],
+        "connected_nodes": [
+          "1308"
+        ]
+      },
+      {
+        "edge_id": "-1889",
+        "connected_edges": [
+          "-1309",
+          "-1311",
+          "1887",
+          "1889"
+        ],
+        "connected_nodes": [
+          "1308"
+        ]
+      },
+      {
+        "edge_id": "-1901",
+        "connected_edges": [
+          "-631",
+          "-988",
+          "1901",
+          "1909"
+        ],
+        "connected_nodes": [
+          "630"
+        ]
+      },
+      {
+        "edge_id": "-1909",
+        "connected_edges": [
+          "-631",
+          "-988",
+          "1901",
+          "1909"
+        ],
+        "connected_nodes": [
+          "630"
+        ]
+      },
+      {
+        "edge_id": "-1914",
+        "connected_edges": [
+          "-1837",
+          "-1839",
+          "1914"
+        ],
+        "connected_nodes": [
+          "1836"
+        ]
+      },
+      {
+        "edge_id": "-1916",
+        "connected_edges": [
+          "-572",
+          "1837",
+          "1916"
+        ],
+        "connected_nodes": [
+          "571"
+        ]
+      },
+      {
+        "edge_id": "-1922",
+        "connected_edges": [
+          "-1848",
+          "1922",
+          "1926",
+          "1930"
+        ],
+        "connected_nodes": [
+          "1847"
+        ]
+      },
+      {
+        "edge_id": "-1926",
+        "connected_edges": [
+          "-1848",
+          "1922",
+          "1926",
+          "1930"
+        ],
+        "connected_nodes": [
+          "1847"
+        ]
+      },
+      {
+        "edge_id": "-1930",
+        "connected_edges": [
+          "-1848",
+          "1922",
+          "1926",
+          "1930"
+        ],
+        "connected_nodes": [
+          "1847"
+        ]
+      },
+      {
+        "edge_id": "-1933",
+        "connected_edges": [
+          "-1922",
+          "-317",
+          "1933",
+          "707"
+        ],
+        "connected_nodes": [
+          "316"
+        ]
+      },
+      {
+        "edge_id": "-1935",
+        "connected_edges": [
+          "-1864",
+          "1935",
+          "1939"
+        ],
+        "connected_nodes": [
+          "1863"
+        ]
+      },
+      {
+        "edge_id": "-1939",
+        "connected_edges": [
+          "-1864",
+          "1935",
+          "1939"
+        ],
+        "connected_nodes": [
+          "1863"
+        ]
+      },
+      {
+        "edge_id": "-2052",
+        "connected_edges": [
+          "-1881",
+          "2052",
+          "2056"
+        ],
+        "connected_nodes": [
+          "1880"
+        ]
+      },
+      {
+        "edge_id": "-2056",
+        "connected_edges": [
+          "-1881",
+          "2052",
+          "2056"
+        ],
+        "connected_nodes": [
+          "1880"
+        ]
+      },
+      {
+        "edge_id": "-2071",
+        "connected_edges": [
+          "-1051",
+          "-1064",
+          "1203",
+          "2071"
+        ],
+        "connected_nodes": [
+          "1050"
+        ]
+      },
+      {
+        "edge_id": "-2073",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1886"
+        ]
+      },
+      {
+        "edge_id": "-2077",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1886"
+        ]
+      },
+      {
+        "edge_id": "-2119",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1886"
+        ]
+      },
+      {
+        "edge_id": "-2133",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1886"
+        ]
+      },
+      {
+        "edge_id": "-2134",
+        "connected_edges": [
+          "-1889",
+          "2134",
+          "2136",
+          "2138"
+        ],
+        "connected_nodes": [
+          "1888"
+        ]
+      },
+      {
+        "edge_id": "-2136",
+        "connected_edges": [
+          "-1889",
+          "2134",
+          "2136",
+          "2138"
+        ],
+        "connected_nodes": [
+          "1888"
+        ]
+      },
+      {
+        "edge_id": "-2138",
+        "connected_edges": [
+          "-1889",
+          "2134",
+          "2136",
+          "2138"
+        ],
+        "connected_nodes": [
+          "1888"
+        ]
+      },
+      {
+        "edge_id": "-2152",
+        "connected_edges": [
+          "-1901",
+          "2152",
+          "2156",
+          "2160"
+        ],
+        "connected_nodes": [
+          "1900"
+        ]
+      },
+      {
+        "edge_id": "-2156",
+        "connected_edges": [
+          "-1901",
+          "2152",
+          "2156",
+          "2160"
+        ],
+        "connected_nodes": [
+          "1900"
+        ]
+      },
+      {
+        "edge_id": "-2160",
+        "connected_edges": [
+          "-1901",
+          "2152",
+          "2156",
+          "2160"
+        ],
+        "connected_nodes": [
+          "1900"
+        ]
+      },
+      {
+        "edge_id": "-2164",
+        "connected_edges": [
+          "-1909",
+          "2164",
+          "2166",
+          "2178"
+        ],
+        "connected_nodes": [
+          "1908"
+        ]
+      },
+      {
+        "edge_id": "-2166",
+        "connected_edges": [
+          "-1909",
+          "2164",
+          "2166",
+          "2178"
+        ],
+        "connected_nodes": [
+          "1908"
+        ]
+      },
+      {
+        "edge_id": "-2178",
+        "connected_edges": [
+          "-1909",
+          "2164",
+          "2166",
+          "2178"
+        ],
+        "connected_nodes": [
+          "1908"
+        ]
+      },
+      {
+        "edge_id": "-2185",
+        "connected_edges": [
+          "-1914",
+          "2185",
+          "2189",
+          "2203"
+        ],
+        "connected_nodes": [
+          "1913"
+        ]
+      },
+      {
+        "edge_id": "-2189",
+        "connected_edges": [
+          "-1914",
+          "2185",
+          "2189",
+          "2203"
+        ],
+        "connected_nodes": [
+          "1913"
+        ]
+      },
+      {
+        "edge_id": "-2203",
+        "connected_edges": [
+          "-1914",
+          "2185",
+          "2189",
+          "2203"
+        ],
+        "connected_nodes": [
+          "1913"
+        ]
+      },
+      {
+        "edge_id": "-226",
+        "connected_edges": [
+          "-90",
+          "226",
+          "543"
+        ],
+        "connected_nodes": [
+          "89"
+        ]
+      },
+      {
+        "edge_id": "-231",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "79"
+        ]
+      },
+      {
+        "edge_id": "-234",
+        "connected_edges": [
+          "-113",
+          "234",
+          "238",
+          "248"
+        ],
+        "connected_nodes": [
+          "112"
+        ]
+      },
+      {
+        "edge_id": "-238",
+        "connected_edges": [
+          "-113",
+          "234",
+          "238",
+          "248"
+        ],
+        "connected_nodes": [
+          "112"
+        ]
+      },
+      {
+        "edge_id": "-24",
+        "connected_edges": [
+          "-7",
+          "24",
+          "49"
+        ],
+        "connected_nodes": [
+          "6"
+        ]
+      },
+      {
+        "edge_id": "-2412",
+        "connected_edges": [
+          "-784",
+          "1848",
+          "2412",
+          "2413"
+        ],
+        "connected_nodes": [
+          "783"
+        ]
+      },
+      {
+        "edge_id": "-2413",
+        "connected_edges": [
+          "-784",
+          "1848",
+          "2412",
+          "2413"
+        ],
+        "connected_nodes": [
+          "783"
+        ]
+      },
+      {
+        "edge_id": "-2415",
+        "connected_edges": [
+          "-1933",
+          "2415",
+          "2417"
+        ],
+        "connected_nodes": [
+          "1932"
+        ]
+      },
+      {
+        "edge_id": "-2417",
+        "connected_edges": [
+          "-1933",
+          "2415",
+          "2417"
+        ],
+        "connected_nodes": [
+          "1932"
+        ]
+      },
+      {
+        "edge_id": "-248",
+        "connected_edges": [
+          "-113",
+          "234",
+          "238",
+          "248"
+        ],
+        "connected_nodes": [
+          "112"
+        ]
+      },
+      {
+        "edge_id": "-2529",
+        "connected_edges": [
+          "-1192"
+        ],
+        "connected_nodes": [
+          "1191"
+        ]
+      },
+      {
+        "edge_id": "-2535",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "-2537",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "-2541",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "-2543",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "-255",
+        "connected_edges": [
+          "-226",
+          "-231",
+          "255",
+          "263"
+        ],
+        "connected_nodes": [
+          "225"
+        ]
+      },
+      {
+        "edge_id": "-2569",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "-2579",
+        "connected_edges": [
+          "-543",
+          "1881",
+          "2579"
+        ],
+        "connected_nodes": [
+          "542"
+        ]
+      },
+      {
+        "edge_id": "-2582",
+        "connected_edges": [
+          "-2071",
+          "2582",
+          "2588"
+        ],
+        "connected_nodes": [
+          "2070"
+        ]
+      },
+      {
+        "edge_id": "-2588",
+        "connected_edges": [
+          "-2071",
+          "2582",
+          "2588"
+        ],
+        "connected_nodes": [
+          "2070"
+        ]
+      },
+      {
+        "edge_id": "-2602",
+        "connected_edges": [
+          "-2119"
+        ],
+        "connected_nodes": [
+          "2118"
+        ]
+      },
+      {
+        "edge_id": "-2604",
+        "connected_edges": [
+          "-2133",
+          "-2134",
+          "2604",
+          "2608"
+        ],
+        "connected_nodes": [
+          "2132"
+        ]
+      },
+      {
+        "edge_id": "-2608",
+        "connected_edges": [
+          "-2133",
+          "-2134",
+          "2604",
+          "2608"
+        ],
+        "connected_nodes": [
+          "2132"
+        ]
+      },
+      {
+        "edge_id": "-2610",
+        "connected_edges": [
+          "-2138"
+        ],
+        "connected_nodes": [
+          "2137"
+        ]
+      },
+      {
+        "edge_id": "-2615",
+        "connected_edges": [
+          "-1816"
+        ],
+        "connected_nodes": [
+          "1815"
+        ]
+      },
+      {
+        "edge_id": "-2624",
+        "connected_edges": [
+          "-2156",
+          "2624",
+          "2625"
+        ],
+        "connected_nodes": [
+          "2155"
+        ]
+      },
+      {
+        "edge_id": "-2625",
+        "connected_edges": [
+          "-2156",
+          "2624",
+          "2625"
+        ],
+        "connected_nodes": [
+          "2155"
+        ]
+      },
+      {
+        "edge_id": "-2627",
+        "connected_edges": [
+          "-2160",
+          "-2624",
+          "2627",
+          "2631"
+        ],
+        "connected_nodes": [
+          "2159"
+        ]
+      },
+      {
+        "edge_id": "-263",
+        "connected_edges": [
+          "-226",
+          "-231",
+          "255",
+          "263"
+        ],
+        "connected_nodes": [
+          "225"
+        ]
+      },
+      {
+        "edge_id": "-2631",
+        "connected_edges": [
+          "-2160",
+          "-2624",
+          "2627",
+          "2631"
+        ],
+        "connected_nodes": [
+          "2159"
+        ]
+      },
+      {
+        "edge_id": "-2634",
+        "connected_edges": [
+          "-2178"
+        ],
+        "connected_nodes": [
+          "2177"
+        ]
+      },
+      {
+        "edge_id": "-2646",
+        "connected_edges": [
+          "-2203",
+          "2646",
+          "2740"
+        ],
+        "connected_nodes": [
+          "2202"
+        ]
+      },
+      {
+        "edge_id": "-267",
+        "connected_edges": [
+          "-107",
+          "267",
+          "986"
+        ],
+        "connected_nodes": [
+          "106"
+        ]
+      },
+      {
+        "edge_id": "-272",
+        "connected_edges": [
+          "-234",
+          "272",
+          "274",
+          "276"
+        ],
+        "connected_nodes": [
+          "233"
+        ]
+      },
+      {
+        "edge_id": "-274",
+        "connected_edges": [
+          "-234",
+          "272",
+          "274",
+          "276"
+        ],
+        "connected_nodes": [
+          "233"
+        ]
+      },
+      {
+        "edge_id": "-2740",
+        "connected_edges": [
+          "-2203",
+          "2646",
+          "2740"
+        ],
+        "connected_nodes": [
+          "2202"
+        ]
+      },
+      {
+        "edge_id": "-276",
+        "connected_edges": [
+          "-234",
+          "272",
+          "274",
+          "276"
+        ],
+        "connected_nodes": [
+          "233"
+        ]
+      },
+      {
+        "edge_id": "-277",
+        "connected_edges": [
+          "-238",
+          "277",
+          "281"
+        ],
+        "connected_nodes": [
+          "237"
+        ]
+      },
+      {
+        "edge_id": "-281",
+        "connected_edges": [
+          "-238",
+          "277",
+          "281"
+        ],
+        "connected_nodes": [
+          "237"
+        ]
+      },
+      {
+        "edge_id": "-2850",
+        "connected_edges": [
+          "-2417",
+          "2850",
+          "2852",
+          "2860"
+        ],
+        "connected_nodes": [
+          "2416"
+        ]
+      },
+      {
+        "edge_id": "-2852",
+        "connected_edges": [
+          "-2417",
+          "2850",
+          "2852",
+          "2860"
+        ],
+        "connected_nodes": [
+          "2416"
+        ]
+      },
+      {
+        "edge_id": "-2860",
+        "connected_edges": [
+          "-2417",
+          "2850",
+          "2852",
+          "2860"
+        ],
+        "connected_nodes": [
+          "2416"
+        ]
+      },
+      {
+        "edge_id": "-287",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "247"
+        ]
+      },
+      {
+        "edge_id": "-293",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "247"
+        ]
+      },
+      {
+        "edge_id": "-2963",
+        "connected_edges": [
+          "-87",
+          "-91",
+          "2963"
+        ],
+        "connected_nodes": [
+          "86"
+        ]
+      },
+      {
+        "edge_id": "-2982",
+        "connected_edges": [
+          "-2052",
+          "-2535",
+          "-721",
+          "2982"
+        ],
+        "connected_nodes": [
+          "720"
+        ]
+      },
+      {
+        "edge_id": "-2983",
+        "connected_edges": [
+          "-2529",
+          "2983",
+          "2984",
+          "2992"
+        ],
+        "connected_nodes": [
+          "2528"
+        ]
+      },
+      {
+        "edge_id": "-2984",
+        "connected_edges": [
+          "-2529",
+          "2983",
+          "2984",
+          "2992"
+        ],
+        "connected_nodes": [
+          "2528"
+        ]
+      },
+      {
+        "edge_id": "-2992",
+        "connected_edges": [
+          "-2529",
+          "2983",
+          "2984",
+          "2992"
+        ],
+        "connected_nodes": [
+          "2528"
+        ]
+      },
+      {
+        "edge_id": "-2997",
+        "connected_edges": [
+          "-263",
+          "2997",
+          "602"
+        ],
+        "connected_nodes": [
+          "262"
+        ]
+      },
+      {
+        "edge_id": "-2999",
+        "connected_edges": [
+          "-2537",
+          "2999",
+          "3000"
+        ],
+        "connected_nodes": [
+          "2536"
+        ]
+      },
+      {
+        "edge_id": "-3",
+        "connected_edges": [
+          "17",
+          "3",
+          "7",
+          "9"
+        ],
+        "connected_nodes": [
+          "1"
+        ]
+      },
+      {
+        "edge_id": "-3000",
+        "connected_edges": [
+          "-2537",
+          "2999",
+          "3000"
+        ],
+        "connected_nodes": [
+          "2536"
+        ]
+      },
+      {
+        "edge_id": "-3103",
+        "connected_edges": [
+          "-2543",
+          "-2983",
+          "3103",
+          "3105"
+        ],
+        "connected_nodes": [
+          "2542"
+        ]
+      },
+      {
+        "edge_id": "-3105",
+        "connected_edges": [
+          "-2543",
+          "-2983",
+          "3103",
+          "3105"
+        ],
+        "connected_nodes": [
+          "2542"
+        ]
+      },
+      {
+        "edge_id": "-317",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "247"
+        ]
+      },
+      {
+        "edge_id": "-32",
+        "connected_edges": [
+          "-24",
+          "32",
+          "38"
+        ],
+        "connected_nodes": [
+          "23"
+        ]
+      },
+      {
+        "edge_id": "-3217",
+        "connected_edges": [
+          "-2602",
+          "-2615",
+          "3217"
+        ],
+        "connected_nodes": [
+          "2601"
+        ]
+      },
+      {
+        "edge_id": "-3228",
+        "connected_edges": [
+          "-2608",
+          "-2610",
+          "3228"
+        ],
+        "connected_nodes": [
+          "2607"
+        ]
+      },
+      {
+        "edge_id": "-326",
+        "connected_edges": [
+          "-93",
+          "326",
+          "514"
+        ],
+        "connected_nodes": [
+          "92"
+        ]
+      },
+      {
+        "edge_id": "-329",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "266"
+        ]
+      },
+      {
+        "edge_id": "-331",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "266"
+        ]
+      },
+      {
+        "edge_id": "-337",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "266"
+        ]
+      },
+      {
+        "edge_id": "-340",
+        "connected_edges": [
+          "-3",
+          "-626",
+          "340",
+          "45"
+        ],
+        "connected_nodes": [
+          "2"
+        ]
+      },
+      {
+        "edge_id": "-345",
+        "connected_edges": [
+          "-274",
+          "345",
+          "346",
+          "356"
+        ],
+        "connected_nodes": [
+          "273"
+        ]
+      },
+      {
+        "edge_id": "-346",
+        "connected_edges": [
+          "-274",
+          "345",
+          "346",
+          "356"
+        ],
+        "connected_nodes": [
+          "273"
+        ]
+      },
+      {
+        "edge_id": "-356",
+        "connected_edges": [
+          "-274",
+          "345",
+          "346",
+          "356"
+        ],
+        "connected_nodes": [
+          "273"
+        ]
+      },
+      {
+        "edge_id": "-357",
+        "connected_edges": [
+          "-276",
+          "357",
+          "363"
+        ],
+        "connected_nodes": [
+          "275"
+        ]
+      },
+      {
+        "edge_id": "-363",
+        "connected_edges": [
+          "-276",
+          "357",
+          "363"
+        ],
+        "connected_nodes": [
+          "275"
+        ]
+      },
+      {
+        "edge_id": "-38",
+        "connected_edges": [
+          "-24",
+          "32",
+          "38"
+        ],
+        "connected_nodes": [
+          "23"
+        ]
+      },
+      {
+        "edge_id": "-45",
+        "connected_edges": [
+          "-3",
+          "-626",
+          "340",
+          "45"
+        ],
+        "connected_nodes": [
+          "2"
+        ]
+      },
+      {
+        "edge_id": "-475",
+        "connected_edges": [
+          "-1075",
+          "-287",
+          "475"
+        ],
+        "connected_nodes": [
+          "286"
+        ]
+      },
+      {
+        "edge_id": "-49",
+        "connected_edges": [
+          "-7",
+          "24",
+          "49"
+        ],
+        "connected_nodes": [
+          "6"
+        ]
+      },
+      {
+        "edge_id": "-500",
+        "connected_edges": [
+          "-293",
+          "-346",
+          "500"
+        ],
+        "connected_nodes": [
+          "292"
+        ]
+      },
+      {
+        "edge_id": "-510",
+        "connected_edges": [
+          "-1187",
+          "-255",
+          "510"
+        ],
+        "connected_nodes": [
+          "254"
+        ]
+      },
+      {
+        "edge_id": "-514",
+        "connected_edges": [
+          "-93",
+          "326",
+          "514"
+        ],
+        "connected_nodes": [
+          "92"
+        ]
+      },
+      {
+        "edge_id": "-522",
+        "connected_edges": [
+          "-272",
+          "522",
+          "524"
+        ],
+        "connected_nodes": [
+          "271"
+        ]
+      },
+      {
+        "edge_id": "-524",
+        "connected_edges": [
+          "-272",
+          "522",
+          "524"
+        ],
+        "connected_nodes": [
+          "271"
+        ]
+      },
+      {
+        "edge_id": "-528",
+        "connected_edges": [
+          "-281",
+          "1285",
+          "528",
+          "585"
+        ],
+        "connected_nodes": [
+          "280"
+        ]
+      },
+      {
+        "edge_id": "-53",
+        "connected_edges": [
+          "-45",
+          "-49",
+          "53",
+          "75"
+        ],
+        "connected_nodes": [
+          "44"
+        ]
+      },
+      {
+        "edge_id": "-543",
+        "connected_edges": [
+          "-90",
+          "226",
+          "543"
+        ],
+        "connected_nodes": [
+          "89"
+        ]
+      },
+      {
+        "edge_id": "-552",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "339"
+        ]
+      },
+      {
+        "edge_id": "-556",
+        "connected_edges": [
+          "-524",
+          "556",
+          "572",
+          "574"
+        ],
+        "connected_nodes": [
+          "523"
+        ]
+      },
+      {
+        "edge_id": "-572",
+        "connected_edges": [
+          "-524",
+          "556",
+          "572",
+          "574"
+        ],
+        "connected_nodes": [
+          "523"
+        ]
+      },
+      {
+        "edge_id": "-574",
+        "connected_edges": [
+          "-524",
+          "556",
+          "572",
+          "574"
+        ],
+        "connected_nodes": [
+          "523"
+        ]
+      },
+      {
+        "edge_id": "-585",
+        "connected_edges": [
+          "-281",
+          "1285",
+          "528",
+          "585"
+        ],
+        "connected_nodes": [
+          "280"
+        ]
+      },
+      {
+        "edge_id": "-594",
+        "connected_edges": [
+          "-17"
+        ],
+        "connected_nodes": [
+          "16"
+        ]
+      },
+      {
+        "edge_id": "-602",
+        "connected_edges": [
+          "-263",
+          "2997",
+          "602"
+        ],
+        "connected_nodes": [
+          "262"
+        ]
+      },
+      {
+        "edge_id": "-623",
+        "connected_edges": [
+          "-337",
+          "-514",
+          "623"
+        ],
+        "connected_nodes": [
+          "336"
+        ]
+      },
+      {
+        "edge_id": "-626",
+        "connected_edges": [
+          "-552",
+          "-594",
+          "626",
+          "940"
+        ],
+        "connected_nodes": [
+          "551"
+        ]
+      },
+      {
+        "edge_id": "-631",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "339"
+        ]
+      },
+      {
+        "edge_id": "-649",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "339"
+        ]
+      },
+      {
+        "edge_id": "-691",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "339"
+        ]
+      },
+      {
+        "edge_id": "-695",
+        "connected_edges": [
+          "-574",
+          "1658",
+          "1839",
+          "695"
+        ],
+        "connected_nodes": [
+          "573"
+        ]
+      },
+      {
+        "edge_id": "-7",
+        "connected_edges": [
+          "17",
+          "3",
+          "7",
+          "9"
+        ],
+        "connected_nodes": [
+          "1"
+        ]
+      },
+      {
+        "edge_id": "-707",
+        "connected_edges": [
+          "-1922",
+          "-317",
+          "1933",
+          "707"
+        ],
+        "connected_nodes": [
+          "316"
+        ]
+      },
+      {
+        "edge_id": "-721",
+        "connected_edges": [
+          "-602",
+          "721",
+          "727",
+          "735"
+        ],
+        "connected_nodes": [
+          "601"
+        ]
+      },
+      {
+        "edge_id": "-727",
+        "connected_edges": [
+          "-602",
+          "721",
+          "727",
+          "735"
+        ],
+        "connected_nodes": [
+          "601"
+        ]
+      },
+      {
+        "edge_id": "-735",
+        "connected_edges": [
+          "-602",
+          "721",
+          "727",
+          "735"
+        ],
+        "connected_nodes": [
+          "601"
+        ]
+      },
+      {
+        "edge_id": "-740",
+        "connected_edges": [
+          "-329",
+          "-743",
+          "740"
+        ],
+        "connected_nodes": [
+          "328"
+        ]
+      },
+      {
+        "edge_id": "-743",
+        "connected_edges": [
+          "-623",
+          "743",
+          "747",
+          "763"
+        ],
+        "connected_nodes": [
+          "622"
+        ]
+      },
+      {
+        "edge_id": "-747",
+        "connected_edges": [
+          "-623",
+          "743",
+          "747",
+          "763"
+        ],
+        "connected_nodes": [
+          "622"
+        ]
+      },
+      {
+        "edge_id": "-75",
+        "connected_edges": [
+          "-45",
+          "-49",
+          "53",
+          "75"
+        ],
+        "connected_nodes": [
+          "44"
+        ]
+      },
+      {
+        "edge_id": "-763",
+        "connected_edges": [
+          "-623",
+          "743",
+          "747",
+          "763"
+        ],
+        "connected_nodes": [
+          "622"
+        ]
+      },
+      {
+        "edge_id": "-768",
+        "connected_edges": [
+          "-649",
+          "1833",
+          "768"
+        ],
+        "connected_nodes": [
+          "648"
+        ]
+      },
+      {
+        "edge_id": "-781",
+        "connected_edges": [
+          "-500"
+        ],
+        "connected_nodes": [
+          "499"
+        ]
+      },
+      {
+        "edge_id": "-784",
+        "connected_edges": [
+          "-707",
+          "-781",
+          "784"
+        ],
+        "connected_nodes": [
+          "706"
+        ]
+      },
+      {
+        "edge_id": "-80",
+        "connected_edges": [
+          "-32",
+          "80",
+          "82"
+        ],
+        "connected_nodes": [
+          "31"
+        ]
+      },
+      {
+        "edge_id": "-82",
+        "connected_edges": [
+          "-32",
+          "80",
+          "82"
+        ],
+        "connected_nodes": [
+          "31"
+        ]
+      },
+      {
+        "edge_id": "-87",
+        "connected_edges": [
+          "-53",
+          "87",
+          "88",
+          "90"
+        ],
+        "connected_nodes": [
+          "52"
+        ]
+      },
+      {
+        "edge_id": "-88",
+        "connected_edges": [
+          "-53",
+          "87",
+          "88",
+          "90"
+        ],
+        "connected_nodes": [
+          "52"
+        ]
+      },
+      {
+        "edge_id": "-9",
+        "connected_edges": [
+          "17",
+          "3",
+          "7",
+          "9"
+        ],
+        "connected_nodes": [
+          "1"
+        ]
+      },
+      {
+        "edge_id": "-90",
+        "connected_edges": [
+          "-53",
+          "87",
+          "88",
+          "90"
+        ],
+        "connected_nodes": [
+          "52"
+        ]
+      },
+      {
+        "edge_id": "-907",
+        "connected_edges": [
+          "-740",
+          "907",
+          "917",
+          "931"
+        ],
+        "connected_nodes": [
+          "739"
+        ]
+      },
+      {
+        "edge_id": "-91",
+        "connected_edges": [
+          "-75",
+          "107",
+          "91",
+          "93"
+        ],
+        "connected_nodes": [
+          "74"
+        ]
+      },
+      {
+        "edge_id": "-917",
+        "connected_edges": [
+          "-740",
+          "907",
+          "917",
+          "931"
+        ],
+        "connected_nodes": [
+          "739"
+        ]
+      },
+      {
+        "edge_id": "-93",
+        "connected_edges": [
+          "-75",
+          "107",
+          "91",
+          "93"
+        ],
+        "connected_nodes": [
+          "74"
+        ]
+      },
+      {
+        "edge_id": "-931",
+        "connected_edges": [
+          "-740",
+          "907",
+          "917",
+          "931"
+        ],
+        "connected_nodes": [
+          "739"
+        ]
+      },
+      {
+        "edge_id": "-940",
+        "connected_edges": [
+          "-552",
+          "-594",
+          "626",
+          "940"
+        ],
+        "connected_nodes": [
+          "551"
+        ]
+      },
+      {
+        "edge_id": "-965",
+        "connected_edges": [
+          "-510",
+          "1027",
+          "965"
+        ],
+        "connected_nodes": [
+          "509"
+        ]
+      },
+      {
+        "edge_id": "-971",
+        "connected_edges": [
+          "-735"
+        ],
+        "connected_nodes": [
+          "734"
+        ]
+      },
+      {
+        "edge_id": "-977",
+        "connected_edges": [
+          "-917",
+          "977",
+          "979"
+        ],
+        "connected_nodes": [
+          "916"
+        ]
+      },
+      {
+        "edge_id": "-979",
+        "connected_edges": [
+          "-917",
+          "977",
+          "979"
+        ],
+        "connected_nodes": [
+          "916"
+        ]
+      },
+      {
+        "edge_id": "-986",
+        "connected_edges": [
+          "-107",
+          "267",
+          "986"
+        ],
+        "connected_nodes": [
+          "106"
+        ]
+      },
+      {
+        "edge_id": "-988",
+        "connected_edges": [
+          "-940",
+          "988",
+          "989"
+        ],
+        "connected_nodes": [
+          "939"
+        ]
+      },
+      {
+        "edge_id": "-989",
+        "connected_edges": [
+          "-940",
+          "988",
+          "989"
+        ],
+        "connected_nodes": [
+          "939"
+        ]
+      },
+      {
+        "edge_id": "1001",
+        "connected_edges": [
+          "-1001",
+          "-2997",
+          "-965"
+        ],
+        "connected_nodes": [
+          "964"
+        ]
+      },
+      {
+        "edge_id": "1027",
+        "connected_edges": [
+          "1187"
+        ],
+        "connected_nodes": [
+          "1026"
+        ]
+      },
+      {
+        "edge_id": "1039",
+        "connected_edges": [
+          "-1039",
+          "1192",
+          "1196"
+        ],
+        "connected_nodes": [
+          "1038"
+        ]
+      },
+      {
+        "edge_id": "1040",
+        "connected_edges": [
+          "-1040",
+          "-971",
+          "1042"
+        ],
+        "connected_nodes": [
+          "970"
+        ]
+      },
+      {
+        "edge_id": "1042",
+        "connected_edges": [
+          "-1042"
+        ],
+        "connected_nodes": [
+          "1041"
+        ]
+      },
+      {
+        "edge_id": "1051",
+        "connected_edges": [
+          "-1051",
+          "-1064",
+          "1203",
+          "2071"
+        ],
+        "connected_nodes": [
+          "1050"
+        ]
+      },
+      {
+        "edge_id": "1053",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1052"
+        ]
+      },
+      {
+        "edge_id": "1057",
+        "connected_edges": [
+          "-1057",
+          "-1203",
+          "-1205",
+          "1646"
+        ],
+        "connected_nodes": [
+          "1056"
+        ]
+      },
+      {
+        "edge_id": "1059",
+        "connected_edges": [
+          "-1059",
+          "-986",
+          "1064"
+        ],
+        "connected_nodes": [
+          "985"
+        ]
+      },
+      {
+        "edge_id": "1064",
+        "connected_edges": [
+          "-1051",
+          "-1064",
+          "1203",
+          "2071"
+        ],
+        "connected_nodes": [
+          "1050"
+        ]
+      },
+      {
+        "edge_id": "107",
+        "connected_edges": [
+          "-107",
+          "267",
+          "986"
+        ],
+        "connected_nodes": [
+          "106"
+        ]
+      },
+      {
+        "edge_id": "1075",
+        "connected_edges": [
+          "-1075",
+          "-287",
+          "475"
+        ],
+        "connected_nodes": [
+          "286"
+        ]
+      },
+      {
+        "edge_id": "113",
+        "connected_edges": [
+          "-113",
+          "234",
+          "238",
+          "248"
+        ],
+        "connected_nodes": [
+          "112"
+        ]
+      },
+      {
+        "edge_id": "115",
+        "connected_edges": [
+          "1667"
+        ],
+        "connected_nodes": [
+          "114"
+        ]
+      },
+      {
+        "edge_id": "1187",
+        "connected_edges": [
+          "-1187",
+          "-255",
+          "510"
+        ],
+        "connected_nodes": [
+          "254"
+        ]
+      },
+      {
+        "edge_id": "119",
+        "connected_edges": [
+          "-119",
+          "-357",
+          "1617"
+        ],
+        "connected_nodes": [
+          "118"
+        ]
+      },
+      {
+        "edge_id": "1192",
+        "connected_edges": [
+          "2529"
+        ],
+        "connected_nodes": [
+          "1191"
+        ]
+      },
+      {
+        "edge_id": "1196",
+        "connected_edges": [
+          "-1196"
+        ],
+        "connected_nodes": [
+          "1195"
+        ]
+      },
+      {
+        "edge_id": "120",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "79"
+        ]
+      },
+      {
+        "edge_id": "1203",
+        "connected_edges": [
+          "-1057",
+          "-1203",
+          "-1205",
+          "1646"
+        ],
+        "connected_nodes": [
+          "1056"
+        ]
+      },
+      {
+        "edge_id": "1205",
+        "connected_edges": [
+          "-1057",
+          "-1203",
+          "-1205",
+          "1646"
+        ],
+        "connected_nodes": [
+          "1056"
+        ]
+      },
+      {
+        "edge_id": "1211",
+        "connected_edges": [
+          "-1211",
+          "1307",
+          "1309"
+        ],
+        "connected_nodes": [
+          "1210"
+        ]
+      },
+      {
+        "edge_id": "1227",
+        "connected_edges": [
+          "-1227",
+          "-1307",
+          "1636"
+        ],
+        "connected_nodes": [
+          "1226"
+        ]
+      },
+      {
+        "edge_id": "1243",
+        "connected_edges": [
+          "-1243",
+          "1311",
+          "1313"
+        ],
+        "connected_nodes": [
+          "1242"
+        ]
+      },
+      {
+        "edge_id": "1285",
+        "connected_edges": [
+          "-1285",
+          "-1325",
+          "1367"
+        ],
+        "connected_nodes": [
+          "1284"
+        ]
+      },
+      {
+        "edge_id": "1307",
+        "connected_edges": [
+          "-1227",
+          "-1307",
+          "1636"
+        ],
+        "connected_nodes": [
+          "1226"
+        ]
+      },
+      {
+        "edge_id": "1309",
+        "connected_edges": [
+          "-1309",
+          "-1311",
+          "1887",
+          "1889"
+        ],
+        "connected_nodes": [
+          "1308"
+        ]
+      },
+      {
+        "edge_id": "1311",
+        "connected_edges": [
+          "-1309",
+          "-1311",
+          "1887",
+          "1889"
+        ],
+        "connected_nodes": [
+          "1308"
+        ]
+      },
+      {
+        "edge_id": "1313",
+        "connected_edges": [
+          "-1313",
+          "-1810",
+          "1393"
+        ],
+        "connected_nodes": [
+          "1312"
+        ]
+      },
+      {
+        "edge_id": "1325",
+        "connected_edges": [
+          "-1285",
+          "-1325",
+          "1367"
+        ],
+        "connected_nodes": [
+          "1284"
+        ]
+      },
+      {
+        "edge_id": "1367",
+        "connected_edges": [
+          "1481"
+        ],
+        "connected_nodes": [
+          "1366"
+        ]
+      },
+      {
+        "edge_id": "1393",
+        "connected_edges": [
+          "-1393",
+          "1638",
+          "1644"
+        ],
+        "connected_nodes": [
+          "1392"
+        ]
+      },
+      {
+        "edge_id": "1481",
+        "connected_edges": [
+          "-1481"
+        ],
+        "connected_nodes": [
+          "1480"
+        ]
+      },
+      {
+        "edge_id": "1617",
+        "connected_edges": [
+          "-1617",
+          "-1667",
+          "1864"
+        ],
+        "connected_nodes": [
+          "1616"
+        ]
+      },
+      {
+        "edge_id": "1636",
+        "connected_edges": [
+          "-1636",
+          "-1646",
+          "1787",
+          "1807"
+        ],
+        "connected_nodes": [
+          "1635"
+        ]
+      },
+      {
+        "edge_id": "1638",
+        "connected_edges": [
+          "1808"
+        ],
+        "connected_nodes": [
+          "1637"
+        ]
+      },
+      {
+        "edge_id": "1644",
+        "connected_edges": [
+          "-1644",
+          "-1808",
+          "1810",
+          "1816"
+        ],
+        "connected_nodes": [
+          "1643"
+        ]
+      },
+      {
+        "edge_id": "1646",
+        "connected_edges": [
+          "-1636",
+          "-1646",
+          "1787",
+          "1807"
+        ],
+        "connected_nodes": [
+          "1635"
+        ]
+      },
+      {
+        "edge_id": "1658",
+        "connected_edges": [
+          "-1658",
+          "-9",
+          "-989"
+        ],
+        "connected_nodes": [
+          "8"
+        ]
+      },
+      {
+        "edge_id": "1667",
+        "connected_edges": [
+          "-1617",
+          "-1667",
+          "1864"
+        ],
+        "connected_nodes": [
+          "1616"
+        ]
+      },
+      {
+        "edge_id": "17",
+        "connected_edges": [
+          "594"
+        ],
+        "connected_nodes": [
+          "16"
+        ]
+      },
+      {
+        "edge_id": "1787",
+        "connected_edges": [
+          "-1787"
+        ],
+        "connected_nodes": [
+          "1786"
+        ]
+      },
+      {
+        "edge_id": "1807",
+        "connected_edges": [
+          "-1807"
+        ],
+        "connected_nodes": [
+          "1806"
+        ]
+      },
+      {
+        "edge_id": "1808",
+        "connected_edges": [
+          "-1644",
+          "-1808",
+          "1810",
+          "1816"
+        ],
+        "connected_nodes": [
+          "1643"
+        ]
+      },
+      {
+        "edge_id": "1810",
+        "connected_edges": [
+          "-1313",
+          "-1810",
+          "1393"
+        ],
+        "connected_nodes": [
+          "1312"
+        ]
+      },
+      {
+        "edge_id": "1816",
+        "connected_edges": [
+          "2615"
+        ],
+        "connected_nodes": [
+          "1815"
+        ]
+      },
+      {
+        "edge_id": "1833",
+        "connected_edges": [
+          "-1833"
+        ],
+        "connected_nodes": [
+          "1832"
+        ]
+      },
+      {
+        "edge_id": "1837",
+        "connected_edges": [
+          "-1837",
+          "-1839",
+          "1914"
+        ],
+        "connected_nodes": [
+          "1836"
+        ]
+      },
+      {
+        "edge_id": "1839",
+        "connected_edges": [
+          "-1837",
+          "-1839",
+          "1914"
+        ],
+        "connected_nodes": [
+          "1836"
+        ]
+      },
+      {
+        "edge_id": "1848",
+        "connected_edges": [
+          "-1848",
+          "1922",
+          "1926",
+          "1930"
+        ],
+        "connected_nodes": [
+          "1847"
+        ]
+      },
+      {
+        "edge_id": "1864",
+        "connected_edges": [
+          "-1864",
+          "1935",
+          "1939"
+        ],
+        "connected_nodes": [
+          "1863"
+        ]
+      },
+      {
+        "edge_id": "1881",
+        "connected_edges": [
+          "-1881",
+          "2052",
+          "2056"
+        ],
+        "connected_nodes": [
+          "1880"
+        ]
+      },
+      {
+        "edge_id": "1887",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1886"
+        ]
+      },
+      {
+        "edge_id": "1889",
+        "connected_edges": [
+          "-1889",
+          "2134",
+          "2136",
+          "2138"
+        ],
+        "connected_nodes": [
+          "1888"
+        ]
+      },
+      {
+        "edge_id": "1901",
+        "connected_edges": [
+          "-1901",
+          "2152",
+          "2156",
+          "2160"
+        ],
+        "connected_nodes": [
+          "1900"
+        ]
+      },
+      {
+        "edge_id": "1909",
+        "connected_edges": [
+          "-1909",
+          "2164",
+          "2166",
+          "2178"
+        ],
+        "connected_nodes": [
+          "1908"
+        ]
+      },
+      {
+        "edge_id": "1914",
+        "connected_edges": [
+          "-1914",
+          "2185",
+          "2189",
+          "2203"
+        ],
+        "connected_nodes": [
+          "1913"
+        ]
+      },
+      {
+        "edge_id": "1916",
+        "connected_edges": [
+          "-1916"
+        ],
+        "connected_nodes": [
+          "1915"
+        ]
+      },
+      {
+        "edge_id": "1922",
+        "connected_edges": [
+          "-1922",
+          "-317",
+          "1933",
+          "707"
+        ],
+        "connected_nodes": [
+          "316"
+        ]
+      },
+      {
+        "edge_id": "1926",
+        "connected_edges": [
+          "-2413"
+        ],
+        "connected_nodes": [
+          "1925"
+        ]
+      },
+      {
+        "edge_id": "1930",
+        "connected_edges": [
+          "-1930"
+        ],
+        "connected_nodes": [
+          "1929"
+        ]
+      },
+      {
+        "edge_id": "1933",
+        "connected_edges": [
+          "-1933",
+          "2415",
+          "2417"
+        ],
+        "connected_nodes": [
+          "1932"
+        ]
+      },
+      {
+        "edge_id": "1935",
+        "connected_edges": [
+          "-1935"
+        ],
+        "connected_nodes": [
+          "1934"
+        ]
+      },
+      {
+        "edge_id": "1939",
+        "connected_edges": [
+          "-1939"
+        ],
+        "connected_nodes": [
+          "1938"
+        ]
+      },
+      {
+        "edge_id": "2052",
+        "connected_edges": [
+          "-2052",
+          "-2535",
+          "-721",
+          "2982"
+        ],
+        "connected_nodes": [
+          "720"
+        ]
+      },
+      {
+        "edge_id": "2056",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "2055"
+        ]
+      },
+      {
+        "edge_id": "2071",
+        "connected_edges": [
+          "-2071",
+          "2582",
+          "2588"
+        ],
+        "connected_nodes": [
+          "2070"
+        ]
+      },
+      {
+        "edge_id": "2073",
+        "connected_edges": [
+          "-2604"
+        ],
+        "connected_nodes": [
+          "2072"
+        ]
+      },
+      {
+        "edge_id": "2077",
+        "connected_edges": [
+          "-2077"
+        ],
+        "connected_nodes": [
+          "2076"
+        ]
+      },
+      {
+        "edge_id": "2119",
+        "connected_edges": [
+          "2602"
+        ],
+        "connected_nodes": [
+          "2118"
+        ]
+      },
+      {
+        "edge_id": "2133",
+        "connected_edges": [
+          "-2133",
+          "-2134",
+          "2604",
+          "2608"
+        ],
+        "connected_nodes": [
+          "2132"
+        ]
+      },
+      {
+        "edge_id": "2134",
+        "connected_edges": [
+          "-2133",
+          "-2134",
+          "2604",
+          "2608"
+        ],
+        "connected_nodes": [
+          "2132"
+        ]
+      },
+      {
+        "edge_id": "2136",
+        "connected_edges": [
+          "-2136"
+        ],
+        "connected_nodes": [
+          "2135"
+        ]
+      },
+      {
+        "edge_id": "2138",
+        "connected_edges": [
+          "2610"
+        ],
+        "connected_nodes": [
+          "2137"
+        ]
+      },
+      {
+        "edge_id": "2152",
+        "connected_edges": [
+          "-2152"
+        ],
+        "connected_nodes": [
+          "2151"
+        ]
+      },
+      {
+        "edge_id": "2156",
+        "connected_edges": [
+          "-2156",
+          "2624",
+          "2625"
+        ],
+        "connected_nodes": [
+          "2155"
+        ]
+      },
+      {
+        "edge_id": "2160",
+        "connected_edges": [
+          "-2160",
+          "-2624",
+          "2627",
+          "2631"
+        ],
+        "connected_nodes": [
+          "2159"
+        ]
+      },
+      {
+        "edge_id": "2164",
+        "connected_edges": [
+          "-2627"
+        ],
+        "connected_nodes": [
+          "2163"
+        ]
+      },
+      {
+        "edge_id": "2166",
+        "connected_edges": [
+          "-2166"
+        ],
+        "connected_nodes": [
+          "2165"
+        ]
+      },
+      {
+        "edge_id": "2178",
+        "connected_edges": [
+          "2634"
+        ],
+        "connected_nodes": [
+          "2177"
+        ]
+      },
+      {
+        "edge_id": "2185",
+        "connected_edges": [
+          "-2185"
+        ],
+        "connected_nodes": [
+          "2184"
+        ]
+      },
+      {
+        "edge_id": "2189",
+        "connected_edges": [
+          "-2189"
+        ],
+        "connected_nodes": [
+          "2188"
+        ]
+      },
+      {
+        "edge_id": "2203",
+        "connected_edges": [
+          "-2203",
+          "2646",
+          "2740"
+        ],
+        "connected_nodes": [
+          "2202"
+        ]
+      },
+      {
+        "edge_id": "226",
+        "connected_edges": [
+          "-226",
+          "-231",
+          "255",
+          "263"
+        ],
+        "connected_nodes": [
+          "225"
+        ]
+      },
+      {
+        "edge_id": "231",
+        "connected_edges": [
+          "-226",
+          "-231",
+          "255",
+          "263"
+        ],
+        "connected_nodes": [
+          "225"
+        ]
+      },
+      {
+        "edge_id": "234",
+        "connected_edges": [
+          "-234",
+          "272",
+          "274",
+          "276"
+        ],
+        "connected_nodes": [
+          "233"
+        ]
+      },
+      {
+        "edge_id": "238",
+        "connected_edges": [
+          "-238",
+          "277",
+          "281"
+        ],
+        "connected_nodes": [
+          "237"
+        ]
+      },
+      {
+        "edge_id": "24",
+        "connected_edges": [
+          "-24",
+          "32",
+          "38"
+        ],
+        "connected_nodes": [
+          "23"
+        ]
+      },
+      {
+        "edge_id": "2412",
+        "connected_edges": [
+          "-345"
+        ],
+        "connected_nodes": [
+          "344"
+        ]
+      },
+      {
+        "edge_id": "2413",
+        "connected_edges": [
+          "-1926"
+        ],
+        "connected_nodes": [
+          "1925"
+        ]
+      },
+      {
+        "edge_id": "2415",
+        "connected_edges": [
+          "-2415"
+        ],
+        "connected_nodes": [
+          "2414"
+        ]
+      },
+      {
+        "edge_id": "2417",
+        "connected_edges": [
+          "-2417",
+          "2850",
+          "2852",
+          "2860"
+        ],
+        "connected_nodes": [
+          "2416"
+        ]
+      },
+      {
+        "edge_id": "248",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "247"
+        ]
+      },
+      {
+        "edge_id": "2529",
+        "connected_edges": [
+          "-2529",
+          "2983",
+          "2984",
+          "2992"
+        ],
+        "connected_nodes": [
+          "2528"
+        ]
+      },
+      {
+        "edge_id": "2535",
+        "connected_edges": [
+          "-2052",
+          "-2535",
+          "-721",
+          "2982"
+        ],
+        "connected_nodes": [
+          "720"
+        ]
+      },
+      {
+        "edge_id": "2537",
+        "connected_edges": [
+          "-2537",
+          "2999",
+          "3000"
+        ],
+        "connected_nodes": [
+          "2536"
+        ]
+      },
+      {
+        "edge_id": "2541",
+        "connected_edges": [
+          "-3103"
+        ],
+        "connected_nodes": [
+          "2540"
+        ]
+      },
+      {
+        "edge_id": "2543",
+        "connected_edges": [
+          "-2543",
+          "-2983",
+          "3103",
+          "3105"
+        ],
+        "connected_nodes": [
+          "2542"
+        ]
+      },
+      {
+        "edge_id": "255",
+        "connected_edges": [
+          "-1187",
+          "-255",
+          "510"
+        ],
+        "connected_nodes": [
+          "254"
+        ]
+      },
+      {
+        "edge_id": "2569",
+        "connected_edges": [
+          "-2569",
+          "-2984",
+          "-2999"
+        ],
+        "connected_nodes": [
+          "2568"
+        ]
+      },
+      {
+        "edge_id": "2579",
+        "connected_edges": [
+          "-2963"
+        ],
+        "connected_nodes": [
+          "2578"
+        ]
+      },
+      {
+        "edge_id": "2582",
+        "connected_edges": [
+          "-2582",
+          "-331",
+          "1059"
+        ],
+        "connected_nodes": [
+          "330"
+        ]
+      },
+      {
+        "edge_id": "2588",
+        "connected_edges": [
+          "-2588"
+        ],
+        "connected_nodes": [
+          "2587"
+        ]
+      },
+      {
+        "edge_id": "2602",
+        "connected_edges": [
+          "-2602",
+          "-2615",
+          "3217"
+        ],
+        "connected_nodes": [
+          "2601"
+        ]
+      },
+      {
+        "edge_id": "2604",
+        "connected_edges": [
+          "-2073"
+        ],
+        "connected_nodes": [
+          "2072"
+        ]
+      },
+      {
+        "edge_id": "2608",
+        "connected_edges": [
+          "-2608",
+          "-2610",
+          "3228"
+        ],
+        "connected_nodes": [
+          "2607"
+        ]
+      },
+      {
+        "edge_id": "2610",
+        "connected_edges": [
+          "-2608",
+          "-2610",
+          "3228"
+        ],
+        "connected_nodes": [
+          "2607"
+        ]
+      },
+      {
+        "edge_id": "2615",
+        "connected_edges": [
+          "-2602",
+          "-2615",
+          "3217"
+        ],
+        "connected_nodes": [
+          "2601"
+        ]
+      },
+      {
+        "edge_id": "2624",
+        "connected_edges": [
+          "-2160",
+          "-2624",
+          "2627",
+          "2631"
+        ],
+        "connected_nodes": [
+          "2159"
+        ]
+      },
+      {
+        "edge_id": "2625",
+        "connected_edges": [
+          "-747"
+        ],
+        "connected_nodes": [
+          "746"
+        ]
+      },
+      {
+        "edge_id": "2627",
+        "connected_edges": [
+          "-2164"
+        ],
+        "connected_nodes": [
+          "2163"
+        ]
+      },
+      {
+        "edge_id": "263",
+        "connected_edges": [
+          "-263",
+          "2997",
+          "602"
+        ],
+        "connected_nodes": [
+          "262"
+        ]
+      },
+      {
+        "edge_id": "2631",
+        "connected_edges": [
+          "-2634"
+        ],
+        "connected_nodes": [
+          "2630"
+        ]
+      },
+      {
+        "edge_id": "2634",
+        "connected_edges": [
+          "-2631"
+        ],
+        "connected_nodes": [
+          "2630"
+        ]
+      },
+      {
+        "edge_id": "2646",
+        "connected_edges": [
+          "-2646"
+        ],
+        "connected_nodes": [
+          "2645"
+        ]
+      },
+      {
+        "edge_id": "267",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "266"
+        ]
+      },
+      {
+        "edge_id": "272",
+        "connected_edges": [
+          "-272",
+          "522",
+          "524"
+        ],
+        "connected_nodes": [
+          "271"
+        ]
+      },
+      {
+        "edge_id": "274",
+        "connected_edges": [
+          "-274",
+          "345",
+          "346",
+          "356"
+        ],
+        "connected_nodes": [
+          "273"
+        ]
+      },
+      {
+        "edge_id": "2740",
+        "connected_edges": [
+          "-2740"
+        ],
+        "connected_nodes": [
+          "2739"
+        ]
+      },
+      {
+        "edge_id": "276",
+        "connected_edges": [
+          "-276",
+          "357",
+          "363"
+        ],
+        "connected_nodes": [
+          "275"
+        ]
+      },
+      {
+        "edge_id": "277",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "247"
+        ]
+      },
+      {
+        "edge_id": "281",
+        "connected_edges": [
+          "-281",
+          "1285",
+          "528",
+          "585"
+        ],
+        "connected_nodes": [
+          "280"
+        ]
+      },
+      {
+        "edge_id": "2850",
+        "connected_edges": [
+          "-2850"
+        ],
+        "connected_nodes": [
+          "2849"
+        ]
+      },
+      {
+        "edge_id": "2852",
+        "connected_edges": [
+          "-2852"
+        ],
+        "connected_nodes": [
+          "2851"
+        ]
+      },
+      {
+        "edge_id": "2860",
+        "connected_edges": [
+          "-2860"
+        ],
+        "connected_nodes": [
+          "2859"
+        ]
+      },
+      {
+        "edge_id": "287",
+        "connected_edges": [
+          "-1075",
+          "-287",
+          "475"
+        ],
+        "connected_nodes": [
+          "286"
+        ]
+      },
+      {
+        "edge_id": "293",
+        "connected_edges": [
+          "-293",
+          "-346",
+          "500"
+        ],
+        "connected_nodes": [
+          "292"
+        ]
+      },
+      {
+        "edge_id": "2963",
+        "connected_edges": [
+          "-2579"
+        ],
+        "connected_nodes": [
+          "2578"
+        ]
+      },
+      {
+        "edge_id": "2982",
+        "connected_edges": [
+          "-3000"
+        ],
+        "connected_nodes": [
+          "2981"
+        ]
+      },
+      {
+        "edge_id": "2983",
+        "connected_edges": [
+          "-2543",
+          "-2983",
+          "3103",
+          "3105"
+        ],
+        "connected_nodes": [
+          "2542"
+        ]
+      },
+      {
+        "edge_id": "2984",
+        "connected_edges": [
+          "-2569",
+          "-2984",
+          "-2999"
+        ],
+        "connected_nodes": [
+          "2568"
+        ]
+      },
+      {
+        "edge_id": "2992",
+        "connected_edges": [
+          "-2992"
+        ],
+        "connected_nodes": [
+          "2991"
+        ]
+      },
+      {
+        "edge_id": "2997",
+        "connected_edges": [
+          "-1001",
+          "-2997",
+          "-965"
+        ],
+        "connected_nodes": [
+          "964"
+        ]
+      },
+      {
+        "edge_id": "2999",
+        "connected_edges": [
+          "-2569",
+          "-2984",
+          "-2999"
+        ],
+        "connected_nodes": [
+          "2568"
+        ]
+      },
+      {
+        "edge_id": "3",
+        "connected_edges": [
+          "-3",
+          "-626",
+          "340",
+          "45"
+        ],
+        "connected_nodes": [
+          "2"
+        ]
+      },
+      {
+        "edge_id": "3000",
+        "connected_edges": [
+          "-2982"
+        ],
+        "connected_nodes": [
+          "2981"
+        ]
+      },
+      {
+        "edge_id": "3103",
+        "connected_edges": [
+          "-2541"
+        ],
+        "connected_nodes": [
+          "2540"
+        ]
+      },
+      {
+        "edge_id": "3105",
+        "connected_edges": [
+          "-3105"
+        ],
+        "connected_nodes": [
+          "3104"
+        ]
+      },
+      {
+        "edge_id": "317",
+        "connected_edges": [
+          "-1922",
+          "-317",
+          "1933",
+          "707"
+        ],
+        "connected_nodes": [
+          "316"
+        ]
+      },
+      {
+        "edge_id": "32",
+        "connected_edges": [
+          "-32",
+          "80",
+          "82"
+        ],
+        "connected_nodes": [
+          "31"
+        ]
+      },
+      {
+        "edge_id": "3217",
+        "connected_edges": [
+          "-3217"
+        ],
+        "connected_nodes": [
+          "3216"
+        ]
+      },
+      {
+        "edge_id": "3228",
+        "connected_edges": [
+          "-3228"
+        ],
+        "connected_nodes": [
+          "3227"
+        ]
+      },
+      {
+        "edge_id": "326",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "266"
+        ]
+      },
+      {
+        "edge_id": "329",
+        "connected_edges": [
+          "-329",
+          "-743",
+          "740"
+        ],
+        "connected_nodes": [
+          "328"
+        ]
+      },
+      {
+        "edge_id": "331",
+        "connected_edges": [
+          "-2582",
+          "-331",
+          "1059"
+        ],
+        "connected_nodes": [
+          "330"
+        ]
+      },
+      {
+        "edge_id": "337",
+        "connected_edges": [
+          "-337",
+          "-514",
+          "623"
+        ],
+        "connected_nodes": [
+          "336"
+        ]
+      },
+      {
+        "edge_id": "340",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "339"
+        ]
+      },
+      {
+        "edge_id": "345",
+        "connected_edges": [
+          "-2412"
+        ],
+        "connected_nodes": [
+          "344"
+        ]
+      },
+      {
+        "edge_id": "346",
+        "connected_edges": [
+          "-293",
+          "-346",
+          "500"
+        ],
+        "connected_nodes": [
+          "292"
+        ]
+      },
+      {
+        "edge_id": "356",
+        "connected_edges": [
+          "-522"
+        ],
+        "connected_nodes": [
+          "355"
+        ]
+      },
+      {
+        "edge_id": "357",
+        "connected_edges": [
+          "-119",
+          "-357",
+          "1617"
+        ],
+        "connected_nodes": [
+          "118"
+        ]
+      },
+      {
+        "edge_id": "363",
+        "connected_edges": [
+          "-363",
+          "-556",
+          "-695"
+        ],
+        "connected_nodes": [
+          "362"
+        ]
+      },
+      {
+        "edge_id": "38",
+        "connected_edges": [
+          "120"
+        ],
+        "connected_nodes": [
+          "37"
+        ]
+      },
+      {
+        "edge_id": "45",
+        "connected_edges": [
+          "-45",
+          "-49",
+          "53",
+          "75"
+        ],
+        "connected_nodes": [
+          "44"
+        ]
+      },
+      {
+        "edge_id": "475",
+        "connected_edges": [
+          "-475",
+          "-528",
+          "1001"
+        ],
+        "connected_nodes": [
+          "474"
+        ]
+      },
+      {
+        "edge_id": "49",
+        "connected_edges": [
+          "-45",
+          "-49",
+          "53",
+          "75"
+        ],
+        "connected_nodes": [
+          "44"
+        ]
+      },
+      {
+        "edge_id": "500",
+        "connected_edges": [
+          "781"
+        ],
+        "connected_nodes": [
+          "499"
+        ]
+      },
+      {
+        "edge_id": "510",
+        "connected_edges": [
+          "-510",
+          "1027",
+          "965"
+        ],
+        "connected_nodes": [
+          "509"
+        ]
+      },
+      {
+        "edge_id": "514",
+        "connected_edges": [
+          "-337",
+          "-514",
+          "623"
+        ],
+        "connected_nodes": [
+          "336"
+        ]
+      },
+      {
+        "edge_id": "522",
+        "connected_edges": [
+          "-356"
+        ],
+        "connected_nodes": [
+          "355"
+        ]
+      },
+      {
+        "edge_id": "524",
+        "connected_edges": [
+          "-524",
+          "556",
+          "572",
+          "574"
+        ],
+        "connected_nodes": [
+          "523"
+        ]
+      },
+      {
+        "edge_id": "528",
+        "connected_edges": [
+          "-475",
+          "-528",
+          "1001"
+        ],
+        "connected_nodes": [
+          "474"
+        ]
+      },
+      {
+        "edge_id": "53",
+        "connected_edges": [
+          "-53",
+          "87",
+          "88",
+          "90"
+        ],
+        "connected_nodes": [
+          "52"
+        ]
+      },
+      {
+        "edge_id": "543",
+        "connected_edges": [
+          "-543",
+          "1881",
+          "2579"
+        ],
+        "connected_nodes": [
+          "542"
+        ]
+      },
+      {
+        "edge_id": "552",
+        "connected_edges": [
+          "-552",
+          "-594",
+          "626",
+          "940"
+        ],
+        "connected_nodes": [
+          "551"
+        ]
+      },
+      {
+        "edge_id": "556",
+        "connected_edges": [
+          "-363",
+          "-556",
+          "-695"
+        ],
+        "connected_nodes": [
+          "362"
+        ]
+      },
+      {
+        "edge_id": "572",
+        "connected_edges": [
+          "-572",
+          "1837",
+          "1916"
+        ],
+        "connected_nodes": [
+          "571"
+        ]
+      },
+      {
+        "edge_id": "574",
+        "connected_edges": [
+          "-574",
+          "1658",
+          "1839",
+          "695"
+        ],
+        "connected_nodes": [
+          "573"
+        ]
+      },
+      {
+        "edge_id": "585",
+        "connected_edges": [
+          "1075"
+        ],
+        "connected_nodes": [
+          "584"
+        ]
+      },
+      {
+        "edge_id": "594",
+        "connected_edges": [
+          "-552",
+          "-594",
+          "626",
+          "940"
+        ],
+        "connected_nodes": [
+          "551"
+        ]
+      },
+      {
+        "edge_id": "602",
+        "connected_edges": [
+          "-602",
+          "721",
+          "727",
+          "735"
+        ],
+        "connected_nodes": [
+          "601"
+        ]
+      },
+      {
+        "edge_id": "623",
+        "connected_edges": [
+          "-623",
+          "743",
+          "747",
+          "763"
+        ],
+        "connected_nodes": [
+          "622"
+        ]
+      },
+      {
+        "edge_id": "626",
+        "connected_edges": [
+          "-3",
+          "-626",
+          "340",
+          "45"
+        ],
+        "connected_nodes": [
+          "2"
+        ]
+      },
+      {
+        "edge_id": "631",
+        "connected_edges": [
+          "-631",
+          "-988",
+          "1901",
+          "1909"
+        ],
+        "connected_nodes": [
+          "630"
+        ]
+      },
+      {
+        "edge_id": "649",
+        "connected_edges": [
+          "-649",
+          "1833",
+          "768"
+        ],
+        "connected_nodes": [
+          "648"
+        ]
+      },
+      {
+        "edge_id": "691",
+        "connected_edges": [
+          "-768"
+        ],
+        "connected_nodes": [
+          "690"
+        ]
+      },
+      {
+        "edge_id": "695",
+        "connected_edges": [
+          "-363",
+          "-556",
+          "-695"
+        ],
+        "connected_nodes": [
+          "362"
+        ]
+      },
+      {
+        "edge_id": "7",
+        "connected_edges": [
+          "-7",
+          "24",
+          "49"
+        ],
+        "connected_nodes": [
+          "6"
+        ]
+      },
+      {
+        "edge_id": "707",
+        "connected_edges": [
+          "-707",
+          "-781",
+          "784"
+        ],
+        "connected_nodes": [
+          "706"
+        ]
+      },
+      {
+        "edge_id": "721",
+        "connected_edges": [
+          "-2052",
+          "-2535",
+          "-721",
+          "2982"
+        ],
+        "connected_nodes": [
+          "720"
+        ]
+      },
+      {
+        "edge_id": "727",
+        "connected_edges": [
+          "-727",
+          "1039",
+          "1040"
+        ],
+        "connected_nodes": [
+          "726"
+        ]
+      },
+      {
+        "edge_id": "735",
+        "connected_edges": [
+          "971"
+        ],
+        "connected_nodes": [
+          "734"
+        ]
+      },
+      {
+        "edge_id": "740",
+        "connected_edges": [
+          "-740",
+          "907",
+          "917",
+          "931"
+        ],
+        "connected_nodes": [
+          "739"
+        ]
+      },
+      {
+        "edge_id": "743",
+        "connected_edges": [
+          "-329",
+          "-743",
+          "740"
+        ],
+        "connected_nodes": [
+          "328"
+        ]
+      },
+      {
+        "edge_id": "747",
+        "connected_edges": [
+          "-2625"
+        ],
+        "connected_nodes": [
+          "746"
+        ]
+      },
+      {
+        "edge_id": "75",
+        "connected_edges": [
+          "-75",
+          "107",
+          "91",
+          "93"
+        ],
+        "connected_nodes": [
+          "74"
+        ]
+      },
+      {
+        "edge_id": "763",
+        "connected_edges": [
+          "-763"
+        ],
+        "connected_nodes": [
+          "762"
+        ]
+      },
+      {
+        "edge_id": "768",
+        "connected_edges": [
+          "-691"
+        ],
+        "connected_nodes": [
+          "690"
+        ]
+      },
+      {
+        "edge_id": "781",
+        "connected_edges": [
+          "-707",
+          "-781",
+          "784"
+        ],
+        "connected_nodes": [
+          "706"
+        ]
+      },
+      {
+        "edge_id": "784",
+        "connected_edges": [
+          "-784",
+          "1848",
+          "2412",
+          "2413"
+        ],
+        "connected_nodes": [
+          "783"
+        ]
+      },
+      {
+        "edge_id": "80",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "79"
+        ]
+      },
+      {
+        "edge_id": "82",
+        "connected_edges": [
+          "-82",
+          "113",
+          "115",
+          "119"
+        ],
+        "connected_nodes": [
+          "81"
+        ]
+      },
+      {
+        "edge_id": "87",
+        "connected_edges": [
+          "-87",
+          "-91",
+          "2963"
+        ],
+        "connected_nodes": [
+          "86"
+        ]
+      },
+      {
+        "edge_id": "88",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "79"
+        ]
+      },
+      {
+        "edge_id": "9",
+        "connected_edges": [
+          "-1658",
+          "-9",
+          "-989"
+        ],
+        "connected_nodes": [
+          "8"
+        ]
+      },
+      {
+        "edge_id": "90",
+        "connected_edges": [
+          "-90",
+          "226",
+          "543"
+        ],
+        "connected_nodes": [
+          "89"
+        ]
+      },
+      {
+        "edge_id": "907",
+        "connected_edges": [
+          "-907"
+        ],
+        "connected_nodes": [
+          "906"
+        ]
+      },
+      {
+        "edge_id": "91",
+        "connected_edges": [
+          "-87",
+          "-91",
+          "2963"
+        ],
+        "connected_nodes": [
+          "86"
+        ]
+      },
+      {
+        "edge_id": "917",
+        "connected_edges": [
+          "-917",
+          "977",
+          "979"
+        ],
+        "connected_nodes": [
+          "916"
+        ]
+      },
+      {
+        "edge_id": "93",
+        "connected_edges": [
+          "-93",
+          "326",
+          "514"
+        ],
+        "connected_nodes": [
+          "92"
+        ]
+      },
+      {
+        "edge_id": "931",
+        "connected_edges": [
+          "-977"
+        ],
+        "connected_nodes": [
+          "930"
+        ]
+      },
+      {
+        "edge_id": "940",
+        "connected_edges": [
+          "-940",
+          "988",
+          "989"
+        ],
+        "connected_nodes": [
+          "939"
+        ]
+      },
+      {
+        "edge_id": "965",
+        "connected_edges": [
+          "-1001",
+          "-2997",
+          "-965"
+        ],
+        "connected_nodes": [
+          "964"
+        ]
+      },
+      {
+        "edge_id": "971",
+        "connected_edges": [
+          "-1040",
+          "-971",
+          "1042"
+        ],
+        "connected_nodes": [
+          "970"
+        ]
+      },
+      {
+        "edge_id": "977",
+        "connected_edges": [
+          "-931"
+        ],
+        "connected_nodes": [
+          "930"
+        ]
+      },
+      {
+        "edge_id": "979",
+        "connected_edges": [
+          "-979",
+          "1051",
+          "1053",
+          "1057"
+        ],
+        "connected_nodes": [
+          "978"
+        ]
+      },
+      {
+        "edge_id": "986",
+        "connected_edges": [
+          "-1059",
+          "-986",
+          "1064"
+        ],
+        "connected_nodes": [
+          "985"
+        ]
+      },
+      {
+        "edge_id": "988",
+        "connected_edges": [
+          "-631",
+          "-988",
+          "1901",
+          "1909"
+        ],
+        "connected_nodes": [
+          "630"
+        ]
+      },
+      {
+        "edge_id": "989",
+        "connected_edges": [
+          "-1658",
+          "-9",
+          "-989"
+        ],
+        "connected_nodes": [
+          "8"
+        ]
+      }
+    ],
+    "junctions": [
+      {
+        "junction_id": "964",
+        "connected_edges": [
+          "-1001",
+          "-2997",
+          "-965"
+        ],
+        "connected_nodes": [
+          "262",
+          "474",
+          "509"
+        ],
+        "x": 1379.0,
+        "y": 2383.68
+      },
+      {
+        "junction_id": "474",
+        "connected_edges": [
+          "-475",
+          "-528",
+          "1001"
+        ],
+        "connected_nodes": [
+          "280",
+          "286",
+          "964"
+        ],
+        "x": 1310.16,
+        "y": 2602.37
+      },
+      {
+        "junction_id": "1026",
+        "connected_edges": [
+          "-1027",
+          "1187"
+        ],
+        "connected_nodes": [
+          "254",
+          "509"
+        ],
+        "x": 1693.1,
+        "y": 2427.93
+      },
+      {
+        "junction_id": "509",
+        "connected_edges": [
+          "-510",
+          "1027",
+          "965"
+        ],
+        "connected_nodes": [
+          "1026",
+          "254",
+          "964"
+        ],
+        "x": 1573.82,
+        "y": 2484.49
+      },
+      {
+        "junction_id": "1038",
+        "connected_edges": [
+          "-1039",
+          "1192",
+          "1196"
+        ],
+        "connected_nodes": [
+          "1191",
+          "1195",
+          "726"
+        ],
+        "x": 565.92,
+        "y": 1954.7
+      },
+      {
+        "junction_id": "726",
+        "connected_edges": [
+          "-727",
+          "1039",
+          "1040"
+        ],
+        "connected_nodes": [
+          "1038",
+          "601",
+          "970"
+        ],
+        "x": 848.38,
+        "y": 2097.44
+      },
+      {
+        "junction_id": "970",
+        "connected_edges": [
+          "-1040",
+          "-971",
+          "1042"
+        ],
+        "connected_nodes": [
+          "1041",
+          "726",
+          "734"
+        ],
+        "x": 908.65,
+        "y": 2323.84
+      },
+      {
+        "junction_id": "1041",
+        "connected_edges": [
+          "-1042"
+        ],
+        "connected_nodes": [
+          "970"
+        ],
+        "x": 1122.21,
+        "y": 2581.23
+      },
+      {
+        "junction_id": "1050",
+        "connected_edges": [
+          "-1051",
+          "-1064",
+          "1203",
+          "2071"
+        ],
+        "connected_nodes": [
+          "1056",
+          "2070",
+          "978",
+          "985"
+        ],
+        "x": 2515.27,
+        "y": 1224.16
+      },
+      {
+        "junction_id": "978",
+        "connected_edges": [
+          "-979",
+          "1051",
+          "1053",
+          "1057"
+        ],
+        "connected_nodes": [
+          "1050",
+          "1052",
+          "1056",
+          "916"
+        ],
+        "x": 2484.35,
+        "y": 881.18
+      },
+      {
+        "junction_id": "1052",
+        "connected_edges": [
+          "-1053",
+          "1205",
+          "1211",
+          "1227",
+          "1243"
+        ],
+        "connected_nodes": [
+          "1056",
+          "1210",
+          "1226",
+          "1242",
+          "978"
+        ],
+        "x": 2197.26,
+        "y": 839.28
+      },
+      {
+        "junction_id": "1056",
+        "connected_edges": [
+          "-1057",
+          "-1203",
+          "-1205",
+          "1646"
+        ],
+        "connected_nodes": [
+          "1050",
+          "1052",
+          "1635",
+          "978"
+        ],
+        "x": 2268.63,
+        "y": 1054.13
+      },
+      {
+        "junction_id": "985",
+        "connected_edges": [
+          "-1059",
+          "-986",
+          "1064"
+        ],
+        "connected_nodes": [
+          "1050",
+          "106",
+          "330"
+        ],
+        "x": 2296.85,
+        "y": 1528.06
+      },
+      {
+        "junction_id": "330",
+        "connected_edges": [
+          "-2582",
+          "-331",
+          "1059"
+        ],
+        "connected_nodes": [
+          "2070",
+          "266",
+          "985"
+        ],
+        "x": 2440.53,
+        "y": 1525.15
+      },
+      {
+        "junction_id": "106",
+        "connected_edges": [
+          "-107",
+          "267",
+          "986"
+        ],
+        "connected_nodes": [
+          "266",
+          "74",
+          "985"
+        ],
+        "x": 2344.72,
+        "y": 1719.26
+      },
+      {
+        "junction_id": "74",
+        "connected_edges": [
+          "-75",
+          "107",
+          "91",
+          "93"
+        ],
+        "connected_nodes": [
+          "106",
+          "44",
+          "86",
+          "92"
+        ],
+        "x": 2387.47,
+        "y": 1873.08
+      },
+      {
+        "junction_id": "286",
+        "connected_edges": [
+          "-1075",
+          "-287",
+          "475"
+        ],
+        "connected_nodes": [
+          "247",
+          "474",
+          "584"
+        ],
+        "x": 1445.71,
+        "y": 2788.38
+      },
+      {
+        "junction_id": "584",
+        "connected_edges": [
+          "-585",
+          "1075"
+        ],
+        "connected_nodes": [
+          "280",
+          "286"
+        ],
+        "x": 1555.83,
+        "y": 2609.28
+      },
+      {
+        "junction_id": "112",
+        "connected_edges": [
+          "-113",
+          "234",
+          "238",
+          "248"
+        ],
+        "connected_nodes": [
+          "233",
+          "237",
+          "247",
+          "81"
+        ],
+        "x": 1906.85,
+        "y": 2949.31
+      },
+      {
+        "junction_id": "81",
+        "connected_edges": [
+          "-82",
+          "113",
+          "115",
+          "119"
+        ],
+        "connected_nodes": [
+          "112",
+          "114",
+          "118",
+          "31"
+        ],
+        "x": 2144.91,
+        "y": 2655.83
+      },
+      {
+        "junction_id": "114",
+        "connected_edges": [
+          "-115",
+          "1667"
+        ],
+        "connected_nodes": [
+          "1616",
+          "81"
+        ],
+        "x": 2260.89,
+        "y": 2587.2
+      },
+      {
+        "junction_id": "254",
+        "connected_edges": [
+          "-1187",
+          "-255",
+          "510"
+        ],
+        "connected_nodes": [
+          "1026",
+          "225",
+          "509"
+        ],
+        "x": 1597.63,
+        "y": 2327.55
+      },
+      {
+        "junction_id": "118",
+        "connected_edges": [
+          "-119",
+          "-357",
+          "1617"
+        ],
+        "connected_nodes": [
+          "1616",
+          "275",
+          "81"
+        ],
+        "x": 2309.43,
+        "y": 2768.26
+      },
+      {
+        "junction_id": "1191",
+        "connected_edges": [
+          "-1192",
+          "2529"
+        ],
+        "connected_nodes": [
+          "1038",
+          "2528"
+        ],
+        "x": 364.65,
+        "y": 1832.11
+      },
+      {
+        "junction_id": "1195",
+        "connected_edges": [
+          "-1196"
+        ],
+        "connected_nodes": [
+          "1038"
+        ],
+        "x": 567.5,
+        "y": 2096.95
+      },
+      {
+        "junction_id": "79",
+        "connected_edges": [
+          "-120",
+          "-80",
+          "-88",
+          "1325",
+          "231"
+        ],
+        "connected_nodes": [
+          "1284",
+          "225",
+          "31",
+          "37",
+          "52"
+        ],
+        "x": 1937.01,
+        "y": 2274.82
+      },
+      {
+        "junction_id": "37",
+        "connected_edges": [
+          "-38",
+          "120"
+        ],
+        "connected_nodes": [
+          "23",
+          "79"
+        ],
+        "x": 2233.91,
+        "y": 2260.39
+      },
+      {
+        "junction_id": "1210",
+        "connected_edges": [
+          "-1211",
+          "1307",
+          "1309"
+        ],
+        "connected_nodes": [
+          "1052",
+          "1226",
+          "1308"
+        ],
+        "x": 1899.56,
+        "y": 810.81
+      },
+      {
+        "junction_id": "1226",
+        "connected_edges": [
+          "-1227",
+          "-1307",
+          "1636"
+        ],
+        "connected_nodes": [
+          "1052",
+          "1210",
+          "1635"
+        ],
+        "x": 1981.28,
+        "y": 1138.98
+      },
+      {
+        "junction_id": "1242",
+        "connected_edges": [
+          "-1243",
+          "1311",
+          "1313"
+        ],
+        "connected_nodes": [
+          "1052",
+          "1308",
+          "1312"
+        ],
+        "x": 2223.07,
+        "y": 572.63
+      },
+      {
+        "junction_id": "1284",
+        "connected_edges": [
+          "-1285",
+          "-1325",
+          "1367"
+        ],
+        "connected_nodes": [
+          "1366",
+          "280",
+          "79"
+        ],
+        "x": 1795.95,
+        "y": 2411.44
+      },
+      {
+        "junction_id": "280",
+        "connected_edges": [
+          "-281",
+          "1285",
+          "528",
+          "585"
+        ],
+        "connected_nodes": [
+          "1284",
+          "237",
+          "474",
+          "584"
+        ],
+        "x": 1590.02,
+        "y": 2486.44
+      },
+      {
+        "junction_id": "1308",
+        "connected_edges": [
+          "-1309",
+          "-1311",
+          "1887",
+          "1889"
+        ],
+        "connected_nodes": [
+          "1210",
+          "1242",
+          "1886",
+          "1888"
+        ],
+        "x": 2053.01,
+        "y": 470.63
+      },
+      {
+        "junction_id": "1312",
+        "connected_edges": [
+          "-1313",
+          "-1810",
+          "1393"
+        ],
+        "connected_nodes": [
+          "1242",
+          "1392",
+          "1643"
+        ],
+        "x": 2303.91,
+        "y": 414.24
+      },
+      {
+        "junction_id": "1366",
+        "connected_edges": [
+          "-1367",
+          "1481"
+        ],
+        "connected_nodes": [
+          "1284",
+          "1480"
+        ],
+        "x": 1861.78,
+        "y": 2491.04
+      },
+      {
+        "junction_id": "1392",
+        "connected_edges": [
+          "-1393",
+          "1638",
+          "1644"
+        ],
+        "connected_nodes": [
+          "1312",
+          "1637",
+          "1643"
+        ],
+        "x": 2432.72,
+        "y": 708.71
+      },
+      {
+        "junction_id": "1480",
+        "connected_edges": [
+          "-1481"
+        ],
+        "connected_nodes": [
+          "1366"
+        ],
+        "x": 1928.55,
+        "y": 2668.07
+      },
+      {
+        "junction_id": "1616",
+        "connected_edges": [
+          "-1617",
+          "-1667",
+          "1864"
+        ],
+        "connected_nodes": [
+          "114",
+          "118",
+          "1863"
+        ],
+        "x": 2349.85,
+        "y": 2665.28
+      },
+      {
+        "junction_id": "1635",
+        "connected_edges": [
+          "-1636",
+          "-1646",
+          "1787",
+          "1807"
+        ],
+        "connected_nodes": [
+          "1056",
+          "1226",
+          "1786",
+          "1806"
+        ],
+        "x": 2109.58,
+        "y": 1244.4
+      },
+      {
+        "junction_id": "1637",
+        "connected_edges": [
+          "-1638",
+          "1808"
+        ],
+        "connected_nodes": [
+          "1392",
+          "1643"
+        ],
+        "x": 2759.72,
+        "y": 878.26
+      },
+      {
+        "junction_id": "1643",
+        "connected_edges": [
+          "-1644",
+          "-1808",
+          "1810",
+          "1816"
+        ],
+        "connected_nodes": [
+          "1312",
+          "1392",
+          "1637",
+          "1815"
+        ],
+        "x": 2663.9,
+        "y": 554.8
+      },
+      {
+        "junction_id": "8",
+        "connected_edges": [
+          "-1658",
+          "-9",
+          "-989"
+        ],
+        "connected_nodes": [
+          "1",
+          "573",
+          "939"
+        ],
+        "x": 2680.28,
+        "y": 2842.78
+      },
+      {
+        "junction_id": "573",
+        "connected_edges": [
+          "-574",
+          "1658",
+          "1839",
+          "695"
+        ],
+        "connected_nodes": [
+          "1836",
+          "362",
+          "523",
+          "8"
+        ],
+        "x": 2555.94,
+        "y": 3055.15
+      },
+      {
+        "junction_id": "16",
+        "connected_edges": [
+          "-17",
+          "594"
+        ],
+        "connected_nodes": [
+          "1",
+          "551"
+        ],
+        "x": 2664.94,
+        "y": 2626.66
+      },
+      {
+        "junction_id": "1",
+        "connected_edges": [
+          "17",
+          "3",
+          "7",
+          "9"
+        ],
+        "connected_nodes": [
+          "16",
+          "2",
+          "6",
+          "8"
+        ],
+        "x": 2550.1,
+        "y": 2648.63
+      },
+      {
+        "junction_id": "1786",
+        "connected_edges": [
+          "-1787"
+        ],
+        "connected_nodes": [
+          "1635"
+        ],
+        "x": 1871.53,
+        "y": 1284.85
+      },
+      {
+        "junction_id": "1806",
+        "connected_edges": [
+          "-1807"
+        ],
+        "connected_nodes": [
+          "1635"
+        ],
+        "x": 2183.9,
+        "y": 1311.86
+      },
+      {
+        "junction_id": "1815",
+        "connected_edges": [
+          "-1816",
+          "2615"
+        ],
+        "connected_nodes": [
+          "1643",
+          "2601"
+        ],
+        "x": 2800.24,
+        "y": 613.0
+      },
+      {
+        "junction_id": "1832",
+        "connected_edges": [
+          "-1833"
+        ],
+        "connected_nodes": [
+          "648"
+        ],
+        "x": 2680.69,
+        "y": 2060.32
+      },
+      {
+        "junction_id": "648",
+        "connected_edges": [
+          "-649",
+          "1833",
+          "768"
+        ],
+        "connected_nodes": [
+          "1832",
+          "339",
+          "690"
+        ],
+        "x": 2784.13,
+        "y": 2216.7
+      },
+      {
+        "junction_id": "1836",
+        "connected_edges": [
+          "-1837",
+          "-1839",
+          "1914"
+        ],
+        "connected_nodes": [
+          "1913",
+          "571",
+          "573"
+        ],
+        "x": 2719.0,
+        "y": 3160.91
+      },
+      {
+        "junction_id": "571",
+        "connected_edges": [
+          "-572",
+          "1837",
+          "1916"
+        ],
+        "connected_nodes": [
+          "1836",
+          "1915",
+          "523"
+        ],
+        "x": 2439.51,
+        "y": 3343.7
+      },
+      {
+        "junction_id": "1847",
+        "connected_edges": [
+          "-1848",
+          "1922",
+          "1926",
+          "1930"
+        ],
+        "connected_nodes": [
+          "1925",
+          "1929",
+          "316",
+          "783"
+        ],
+        "x": 1348.06,
+        "y": 3499.63
+      },
+      {
+        "junction_id": "783",
+        "connected_edges": [
+          "-784",
+          "1848",
+          "2412",
+          "2413"
+        ],
+        "connected_nodes": [
+          "1847",
+          "1925",
+          "344",
+          "706"
+        ],
+        "x": 1596.19,
+        "y": 3472.01
+      },
+      {
+        "junction_id": "1863",
+        "connected_edges": [
+          "-1864",
+          "1935",
+          "1939"
+        ],
+        "connected_nodes": [
+          "1616",
+          "1934",
+          "1938"
+        ],
+        "x": 2481.98,
+        "y": 2810.89
+      },
+      {
+        "junction_id": "1880",
+        "connected_edges": [
+          "-1881",
+          "2052",
+          "2056"
+        ],
+        "connected_nodes": [
+          "2055",
+          "542",
+          "720"
+        ],
+        "x": 1337.51,
+        "y": 1716.15
+      },
+      {
+        "junction_id": "542",
+        "connected_edges": [
+          "-543",
+          "1881",
+          "2579"
+        ],
+        "connected_nodes": [
+          "1880",
+          "2578",
+          "89"
+        ],
+        "x": 1620.64,
+        "y": 1970.89
+      },
+      {
+        "junction_id": "1886",
+        "connected_edges": [
+          "-1887",
+          "2073",
+          "2077",
+          "2119",
+          "2133"
+        ],
+        "connected_nodes": [
+          "1308",
+          "2072",
+          "2076",
+          "2118",
+          "2132"
+        ],
+        "x": 2315.21,
+        "y": 194.81
+      },
+      {
+        "junction_id": "1888",
+        "connected_edges": [
+          "-1889",
+          "2134",
+          "2136",
+          "2138"
+        ],
+        "connected_nodes": [
+          "1308",
+          "2132",
+          "2135",
+          "2137"
+        ],
+        "x": 1831.25,
+        "y": 248.02
+      },
+      {
+        "junction_id": "1900",
+        "connected_edges": [
+          "-1901",
+          "2152",
+          "2156",
+          "2160"
+        ],
+        "connected_nodes": [
+          "2151",
+          "2155",
+          "2159",
+          "630"
+        ],
+        "x": 3254.97,
+        "y": 2064.2
+      },
+      {
+        "junction_id": "630",
+        "connected_edges": [
+          "-631",
+          "-988",
+          "1901",
+          "1909"
+        ],
+        "connected_nodes": [
+          "1900",
+          "1908",
+          "339",
+          "939"
+        ],
+        "x": 3140.38,
+        "y": 2318.85
+      },
+      {
+        "junction_id": "1908",
+        "connected_edges": [
+          "-1909",
+          "2164",
+          "2166",
+          "2178"
+        ],
+        "connected_nodes": [
+          "2163",
+          "2165",
+          "2177",
+          "630"
+        ],
+        "x": 3435.27,
+        "y": 2436.36
+      },
+      {
+        "junction_id": "1913",
+        "connected_edges": [
+          "-1914",
+          "2185",
+          "2189",
+          "2203"
+        ],
+        "connected_nodes": [
+          "1836",
+          "2184",
+          "2188",
+          "2202"
+        ],
+        "x": 2887.86,
+        "y": 2985.08
+      },
+      {
+        "junction_id": "1915",
+        "connected_edges": [
+          "-1916"
+        ],
+        "connected_nodes": [
+          "571"
+        ],
+        "x": 2360.55,
+        "y": 3489.45
+      },
+      {
+        "junction_id": "316",
+        "connected_edges": [
+          "-1922",
+          "-317",
+          "1933",
+          "707"
+        ],
+        "connected_nodes": [
+          "1847",
+          "1932",
+          "247",
+          "706"
+        ],
+        "x": 1384.02,
+        "y": 3170.25
+      },
+      {
+        "junction_id": "1925",
+        "connected_edges": [
+          "-1926",
+          "-2413"
+        ],
+        "connected_nodes": [
+          "1847",
+          "783"
+        ],
+        "x": 1479.5,
+        "y": 3711.65
+      },
+      {
+        "junction_id": "1929",
+        "connected_edges": [
+          "-1930"
+        ],
+        "connected_nodes": [
+          "1847"
+        ],
+        "x": 1264.72,
+        "y": 3646.13
+      },
+      {
+        "junction_id": "1932",
+        "connected_edges": [
+          "-1933",
+          "2415",
+          "2417"
+        ],
+        "connected_nodes": [
+          "2414",
+          "2416",
+          "316"
+        ],
+        "x": 1238.67,
+        "y": 2969.33
+      },
+      {
+        "junction_id": "1934",
+        "connected_edges": [
+          "-1935"
+        ],
+        "connected_nodes": [
+          "1863"
+        ],
+        "x": 2350.75,
+        "y": 2902.19
+      },
+      {
+        "junction_id": "1938",
+        "connected_edges": [
+          "-1939"
+        ],
+        "connected_nodes": [
+          "1863"
+        ],
+        "x": 2513.38,
+        "y": 2915.48
+      },
+      {
+        "junction_id": "720",
+        "connected_edges": [
+          "-2052",
+          "-2535",
+          "-721",
+          "2982"
+        ],
+        "connected_nodes": [
+          "1880",
+          "2055",
+          "2981",
+          "601"
+        ],
+        "x": 1155.27,
+        "y": 1989.66
+      },
+      {
+        "junction_id": "2055",
+        "connected_edges": [
+          "-2056",
+          "2535",
+          "2537",
+          "2541",
+          "2543",
+          "2569"
+        ],
+        "connected_nodes": [
+          "1880",
+          "2536",
+          "2540",
+          "2542",
+          "2568",
+          "720"
+        ],
+        "x": 944.67,
+        "y": 1766.04
+      },
+      {
+        "junction_id": "2070",
+        "connected_edges": [
+          "-2071",
+          "2582",
+          "2588"
+        ],
+        "connected_nodes": [
+          "1050",
+          "2587",
+          "330"
+        ],
+        "x": 2588.51,
+        "y": 1304.87
+      },
+      {
+        "junction_id": "2072",
+        "connected_edges": [
+          "-2073",
+          "-2604"
+        ],
+        "connected_nodes": [
+          "1886",
+          "2132"
+        ],
+        "x": 2275.02,
+        "y": 57.5
+      },
+      {
+        "junction_id": "2076",
+        "connected_edges": [
+          "-2077"
+        ],
+        "connected_nodes": [
+          "1886"
+        ],
+        "x": 2461.27,
+        "y": 166.86
+      },
+      {
+        "junction_id": "2118",
+        "connected_edges": [
+          "-2119",
+          "2602"
+        ],
+        "connected_nodes": [
+          "1886",
+          "2601"
+        ],
+        "x": 2564.1,
+        "y": 398.37
+      },
+      {
+        "junction_id": "2132",
+        "connected_edges": [
+          "-2133",
+          "-2134",
+          "2604",
+          "2608"
+        ],
+        "connected_nodes": [
+          "1886",
+          "1888",
+          "2072",
+          "2607"
+        ],
+        "x": 2133.49,
+        "y": 142.64
+      },
+      {
+        "junction_id": "2135",
+        "connected_edges": [
+          "-2136"
+        ],
+        "connected_nodes": [
+          "1888"
+        ],
+        "x": 1741.58,
+        "y": 425.13
+      },
+      {
+        "junction_id": "2137",
+        "connected_edges": [
+          "-2138",
+          "2610"
+        ],
+        "connected_nodes": [
+          "1888",
+          "2607"
+        ],
+        "x": 1669.34,
+        "y": 114.37
+      },
+      {
+        "junction_id": "2151",
+        "connected_edges": [
+          "-2152"
+        ],
+        "connected_nodes": [
+          "1900"
+        ],
+        "x": 3150.8,
+        "y": 2000.76
+      },
+      {
+        "junction_id": "2155",
+        "connected_edges": [
+          "-2156",
+          "2624",
+          "2625"
+        ],
+        "connected_nodes": [
+          "1900",
+          "2159",
+          "746"
+        ],
+        "x": 3271.74,
+        "y": 1778.84
+      },
+      {
+        "junction_id": "2159",
+        "connected_edges": [
+          "-2160",
+          "-2624",
+          "2627",
+          "2631"
+        ],
+        "connected_nodes": [
+          "1900",
+          "2155",
+          "2163",
+          "2630"
+        ],
+        "x": 3597.41,
+        "y": 1956.44
+      },
+      {
+        "junction_id": "2163",
+        "connected_edges": [
+          "-2164",
+          "-2627"
+        ],
+        "connected_nodes": [
+          "1908",
+          "2159"
+        ],
+        "x": 3477.28,
+        "y": 2337.2
+      },
+      {
+        "junction_id": "2165",
+        "connected_edges": [
+          "-2166"
+        ],
+        "connected_nodes": [
+          "1908"
+        ],
+        "x": 3338.44,
+        "y": 2527.06
+      },
+      {
+        "junction_id": "2177",
+        "connected_edges": [
+          "-2178",
+          "2634"
+        ],
+        "connected_nodes": [
+          "1908",
+          "2630"
+        ],
+        "x": 3689.96,
+        "y": 2465.67
+      },
+      {
+        "junction_id": "2184",
+        "connected_edges": [
+          "-2185"
+        ],
+        "connected_nodes": [
+          "1913"
+        ],
+        "x": 3242.38,
+        "y": 2881.26
+      },
+      {
+        "junction_id": "2188",
+        "connected_edges": [
+          "-2189"
+        ],
+        "connected_nodes": [
+          "1913"
+        ],
+        "x": 2926.35,
+        "y": 3096.71
+      },
+      {
+        "junction_id": "2202",
+        "connected_edges": [
+          "-2203",
+          "2646",
+          "2740"
+        ],
+        "connected_nodes": [
+          "1913",
+          "2645",
+          "2739"
+        ],
+        "x": 2790.26,
+        "y": 2903.99
+      },
+      {
+        "junction_id": "225",
+        "connected_edges": [
+          "-226",
+          "-231",
+          "255",
+          "263"
+        ],
+        "connected_nodes": [
+          "254",
+          "262",
+          "79",
+          "89"
+        ],
+        "x": 1563.53,
+        "y": 2197.92
+      },
+      {
+        "junction_id": "89",
+        "connected_edges": [
+          "-90",
+          "226",
+          "543"
+        ],
+        "connected_nodes": [
+          "225",
+          "52",
+          "542"
+        ],
+        "x": 1796.93,
+        "y": 2025.7
+      },
+      {
+        "junction_id": "233",
+        "connected_edges": [
+          "-234",
+          "272",
+          "274",
+          "276"
+        ],
+        "connected_nodes": [
+          "112",
+          "271",
+          "273",
+          "275"
+        ],
+        "x": 2004.9,
+        "y": 3181.95
+      },
+      {
+        "junction_id": "237",
+        "connected_edges": [
+          "-238",
+          "277",
+          "281"
+        ],
+        "connected_nodes": [
+          "112",
+          "247",
+          "280"
+        ],
+        "x": 1819.91,
+        "y": 2771.66
+      },
+      {
+        "junction_id": "23",
+        "connected_edges": [
+          "-24",
+          "32",
+          "38"
+        ],
+        "connected_nodes": [
+          "31",
+          "37",
+          "6"
+        ],
+        "x": 2206.02,
+        "y": 2384.48
+      },
+      {
+        "junction_id": "6",
+        "connected_edges": [
+          "-7",
+          "24",
+          "49"
+        ],
+        "connected_nodes": [
+          "1",
+          "23",
+          "44"
+        ],
+        "x": 2320.7,
+        "y": 2488.79
+      },
+      {
+        "junction_id": "344",
+        "connected_edges": [
+          "-2412",
+          "-345"
+        ],
+        "connected_nodes": [
+          "273",
+          "783"
+        ],
+        "x": 1713.78,
+        "y": 3661.89
+      },
+      {
+        "junction_id": "2414",
+        "connected_edges": [
+          "-2415"
+        ],
+        "connected_nodes": [
+          "1932"
+        ],
+        "x": 1273.0,
+        "y": 2601.45
+      },
+      {
+        "junction_id": "2416",
+        "connected_edges": [
+          "-2417",
+          "2850",
+          "2852",
+          "2860"
+        ],
+        "connected_nodes": [
+          "1932",
+          "2849",
+          "2851",
+          "2859"
+        ],
+        "x": 1175.91,
+        "y": 3108.26
+      },
+      {
+        "junction_id": "247",
+        "connected_edges": [
+          "-248",
+          "-277",
+          "287",
+          "293",
+          "317"
+        ],
+        "connected_nodes": [
+          "112",
+          "237",
+          "286",
+          "292",
+          "316"
+        ],
+        "x": 1692.17,
+        "y": 2925.27
+      },
+      {
+        "junction_id": "2528",
+        "connected_edges": [
+          "-2529",
+          "2983",
+          "2984",
+          "2992"
+        ],
+        "connected_nodes": [
+          "1191",
+          "2542",
+          "2568",
+          "2991"
+        ],
+        "x": 394.67,
+        "y": 1704.96
+      },
+      {
+        "junction_id": "2536",
+        "connected_edges": [
+          "-2537",
+          "2999",
+          "3000"
+        ],
+        "connected_nodes": [
+          "2055",
+          "2568",
+          "2981"
+        ],
+        "x": 912.31,
+        "y": 1939.44
+      },
+      {
+        "junction_id": "2540",
+        "connected_edges": [
+          "-2541",
+          "-3103"
+        ],
+        "connected_nodes": [
+          "2055",
+          "2542"
+        ],
+        "x": 1016.78,
+        "y": 1402.59
+      },
+      {
+        "junction_id": "2542",
+        "connected_edges": [
+          "-2543",
+          "-2983",
+          "3103",
+          "3105"
+        ],
+        "connected_nodes": [
+          "2055",
+          "2528",
+          "2540",
+          "3104"
+        ],
+        "x": 718.47,
+        "y": 1502.19
+      },
+      {
+        "junction_id": "2568",
+        "connected_edges": [
+          "-2569",
+          "-2984",
+          "-2999"
+        ],
+        "connected_nodes": [
+          "2055",
+          "2528",
+          "2536"
+        ],
+        "x": 744.56,
+        "y": 1814.82
+      },
+      {
+        "junction_id": "2578",
+        "connected_edges": [
+          "-2579",
+          "-2963"
+        ],
+        "connected_nodes": [
+          "542",
+          "86"
+        ],
+        "x": 1765.13,
+        "y": 1710.16
+      },
+      {
+        "junction_id": "2587",
+        "connected_edges": [
+          "-2588"
+        ],
+        "connected_nodes": [
+          "2070"
+        ],
+        "x": 2626.75,
+        "y": 1120.16
+      },
+      {
+        "junction_id": "2601",
+        "connected_edges": [
+          "-2602",
+          "-2615",
+          "3217"
+        ],
+        "connected_nodes": [
+          "1815",
+          "2118",
+          "3216"
+        ],
+        "x": 2925.64,
+        "y": 325.84
+      },
+      {
+        "junction_id": "2607",
+        "connected_edges": [
+          "-2608",
+          "-2610",
+          "3228"
+        ],
+        "connected_nodes": [
+          "2132",
+          "2137",
+          "3227"
+        ],
+        "x": 2025.87,
+        "y": 62.49
+      },
+      {
+        "junction_id": "746",
+        "connected_edges": [
+          "-2625",
+          "-747"
+        ],
+        "connected_nodes": [
+          "2155",
+          "622"
+        ],
+        "x": 2973.41,
+        "y": 1687.8
+      },
+      {
+        "junction_id": "262",
+        "connected_edges": [
+          "-263",
+          "2997",
+          "602"
+        ],
+        "connected_nodes": [
+          "225",
+          "601",
+          "964"
+        ],
+        "x": 1298.43,
+        "y": 2170.11
+      },
+      {
+        "junction_id": "2630",
+        "connected_edges": [
+          "-2631",
+          "-2634"
+        ],
+        "connected_nodes": [
+          "2159",
+          "2177"
+        ],
+        "x": 3743.93,
+        "y": 2199.58
+      },
+      {
+        "junction_id": "2645",
+        "connected_edges": [
+          "-2646"
+        ],
+        "connected_nodes": [
+          "2202"
+        ],
+        "x": 3050.4,
+        "y": 2657.45
+      },
+      {
+        "junction_id": "266",
+        "connected_edges": [
+          "-267",
+          "-326",
+          "329",
+          "331",
+          "337"
+        ],
+        "connected_nodes": [
+          "106",
+          "328",
+          "330",
+          "336",
+          "92"
+        ],
+        "x": 2469.64,
+        "y": 1691.68
+      },
+      {
+        "junction_id": "271",
+        "connected_edges": [
+          "-272",
+          "522",
+          "524"
+        ],
+        "connected_nodes": [
+          "233",
+          "355",
+          "523"
+        ],
+        "x": 2113.82,
+        "y": 3450.65
+      },
+      {
+        "junction_id": "273",
+        "connected_edges": [
+          "-274",
+          "345",
+          "346",
+          "356"
+        ],
+        "connected_nodes": [
+          "233",
+          "292",
+          "344",
+          "355"
+        ],
+        "x": 1897.69,
+        "y": 3331.07
+      },
+      {
+        "junction_id": "2739",
+        "connected_edges": [
+          "-2740"
+        ],
+        "connected_nodes": [
+          "2202"
+        ],
+        "x": 2697.92,
+        "y": 3022.28
+      },
+      {
+        "junction_id": "275",
+        "connected_edges": [
+          "-276",
+          "357",
+          "363"
+        ],
+        "connected_nodes": [
+          "118",
+          "233",
+          "362"
+        ],
+        "x": 2186.26,
+        "y": 2921.0
+      },
+      {
+        "junction_id": "2849",
+        "connected_edges": [
+          "-2850"
+        ],
+        "connected_nodes": [
+          "2416"
+        ],
+        "x": 1121.96,
+        "y": 3496.99
+      },
+      {
+        "junction_id": "2851",
+        "connected_edges": [
+          "-2852"
+        ],
+        "connected_nodes": [
+          "2416"
+        ],
+        "x": 880.27,
+        "y": 3249.91
+      },
+      {
+        "junction_id": "2859",
+        "connected_edges": [
+          "-2860"
+        ],
+        "connected_nodes": [
+          "2416"
+        ],
+        "x": 1089.16,
+        "y": 3027.1
+      },
+      {
+        "junction_id": "292",
+        "connected_edges": [
+          "-293",
+          "-346",
+          "500"
+        ],
+        "connected_nodes": [
+          "247",
+          "273",
+          "499"
+        ],
+        "x": 1790.6,
+        "y": 3082.12
+      },
+      {
+        "junction_id": "86",
+        "connected_edges": [
+          "-87",
+          "-91",
+          "2963"
+        ],
+        "connected_nodes": [
+          "2578",
+          "52",
+          "74"
+        ],
+        "x": 2083.31,
+        "y": 1906.72
+      },
+      {
+        "junction_id": "2981",
+        "connected_edges": [
+          "-2982",
+          "-3000"
+        ],
+        "connected_nodes": [
+          "2536",
+          "720"
+        ],
+        "x": 1015.8,
+        "y": 2037.31
+      },
+      {
+        "junction_id": "2991",
+        "connected_edges": [
+          "-2992"
+        ],
+        "connected_nodes": [
+          "2528"
+        ],
+        "x": 0.0,
+        "y": 1687.47
+      },
+      {
+        "junction_id": "2",
+        "connected_edges": [
+          "-3",
+          "-626",
+          "340",
+          "45"
+        ],
+        "connected_nodes": [
+          "1",
+          "339",
+          "44",
+          "551"
+        ],
+        "x": 2611.32,
+        "y": 2445.28
+      },
+      {
+        "junction_id": "3104",
+        "connected_edges": [
+          "-3105"
+        ],
+        "connected_nodes": [
+          "2542"
+        ],
+        "x": 545.41,
+        "y": 1183.93
+      },
+      {
+        "junction_id": "31",
+        "connected_edges": [
+          "-32",
+          "80",
+          "82"
+        ],
+        "connected_nodes": [
+          "23",
+          "79",
+          "81"
+        ],
+        "x": 1976.77,
+        "y": 2551.35
+      },
+      {
+        "junction_id": "3216",
+        "connected_edges": [
+          "-3217"
+        ],
+        "connected_nodes": [
+          "2601"
+        ],
+        "x": 2779.26,
+        "y": 218.57
+      },
+      {
+        "junction_id": "3227",
+        "connected_edges": [
+          "-3228"
+        ],
+        "connected_nodes": [
+          "2607"
+        ],
+        "x": 2120.85,
+        "y": 0.0
+      },
+      {
+        "junction_id": "92",
+        "connected_edges": [
+          "-93",
+          "326",
+          "514"
+        ],
+        "connected_nodes": [
+          "266",
+          "336",
+          "74"
+        ],
+        "x": 2589.58,
+        "y": 1828.24
+      },
+      {
+        "junction_id": "328",
+        "connected_edges": [
+          "-329",
+          "-743",
+          "740"
+        ],
+        "connected_nodes": [
+          "266",
+          "622",
+          "739"
+        ],
+        "x": 2632.51,
+        "y": 1504.98
+      },
+      {
+        "junction_id": "336",
+        "connected_edges": [
+          "-337",
+          "-514",
+          "623"
+        ],
+        "connected_nodes": [
+          "266",
+          "622",
+          "92"
+        ],
+        "x": 2622.69,
+        "y": 1686.44
+      },
+      {
+        "junction_id": "339",
+        "connected_edges": [
+          "-340",
+          "552",
+          "631",
+          "649",
+          "691"
+        ],
+        "connected_nodes": [
+          "2",
+          "551",
+          "630",
+          "648",
+          "690"
+        ],
+        "x": 2769.51,
+        "y": 2351.55
+      },
+      {
+        "junction_id": "355",
+        "connected_edges": [
+          "-356",
+          "-522"
+        ],
+        "connected_nodes": [
+          "271",
+          "273"
+        ],
+        "x": 2016.68,
+        "y": 3545.9
+      },
+      {
+        "junction_id": "362",
+        "connected_edges": [
+          "-363",
+          "-556",
+          "-695"
+        ],
+        "connected_nodes": [
+          "275",
+          "523",
+          "573"
+        ],
+        "x": 2285.5,
+        "y": 2990.44
+      },
+      {
+        "junction_id": "44",
+        "connected_edges": [
+          "-45",
+          "-49",
+          "53",
+          "75"
+        ],
+        "connected_nodes": [
+          "2",
+          "52",
+          "6",
+          "74"
+        ],
+        "x": 2332.01,
+        "y": 2221.38
+      },
+      {
+        "junction_id": "499",
+        "connected_edges": [
+          "-500",
+          "781"
+        ],
+        "connected_nodes": [
+          "292",
+          "706"
+        ],
+        "x": 1656.79,
+        "y": 3118.05
+      },
+      {
+        "junction_id": "523",
+        "connected_edges": [
+          "-524",
+          "556",
+          "572",
+          "574"
+        ],
+        "connected_nodes": [
+          "271",
+          "362",
+          "571",
+          "573"
+        ],
+        "x": 2234.87,
+        "y": 3272.22
+      },
+      {
+        "junction_id": "52",
+        "connected_edges": [
+          "-53",
+          "87",
+          "88",
+          "90"
+        ],
+        "connected_nodes": [
+          "44",
+          "79",
+          "86",
+          "89"
+        ],
+        "x": 1972.72,
+        "y": 2070.47
+      },
+      {
+        "junction_id": "551",
+        "connected_edges": [
+          "-552",
+          "-594",
+          "626",
+          "940"
+        ],
+        "connected_nodes": [
+          "16",
+          "2",
+          "339",
+          "939"
+        ],
+        "x": 2769.49,
+        "y": 2563.16
+      },
+      {
+        "junction_id": "601",
+        "connected_edges": [
+          "-602",
+          "721",
+          "727",
+          "735"
+        ],
+        "connected_nodes": [
+          "262",
+          "720",
+          "726",
+          "734"
+        ],
+        "x": 1189.46,
+        "y": 2212.04
+      },
+      {
+        "junction_id": "622",
+        "connected_edges": [
+          "-623",
+          "743",
+          "747",
+          "763"
+        ],
+        "connected_nodes": [
+          "328",
+          "336",
+          "746",
+          "762"
+        ],
+        "x": 2792.06,
+        "y": 1672.19
+      },
+      {
+        "junction_id": "690",
+        "connected_edges": [
+          "-691",
+          "-768"
+        ],
+        "connected_nodes": [
+          "339",
+          "648"
+        ],
+        "x": 2673.34,
+        "y": 2261.09
+      },
+      {
+        "junction_id": "706",
+        "connected_edges": [
+          "-707",
+          "-781",
+          "784"
+        ],
+        "connected_nodes": [
+          "316",
+          "499",
+          "783"
+        ],
+        "x": 1687.11,
+        "y": 3232.65
+      },
+      {
+        "junction_id": "734",
+        "connected_edges": [
+          "-735",
+          "971"
+        ],
+        "connected_nodes": [
+          "601",
+          "970"
+        ],
+        "x": 1085.72,
+        "y": 2313.53
+      },
+      {
+        "junction_id": "739",
+        "connected_edges": [
+          "-740",
+          "907",
+          "917",
+          "931"
+        ],
+        "connected_nodes": [
+          "328",
+          "906",
+          "916",
+          "930"
+        ],
+        "x": 2823.29,
+        "y": 1213.04
+      },
+      {
+        "junction_id": "762",
+        "connected_edges": [
+          "-763"
+        ],
+        "connected_nodes": [
+          "622"
+        ],
+        "x": 2790.8,
+        "y": 1810.93
+      },
+      {
+        "junction_id": "906",
+        "connected_edges": [
+          "-907"
+        ],
+        "connected_nodes": [
+          "739"
+        ],
+        "x": 2911.28,
+        "y": 1407.22
+      },
+      {
+        "junction_id": "916",
+        "connected_edges": [
+          "-917",
+          "977",
+          "979"
+        ],
+        "connected_nodes": [
+          "739",
+          "930",
+          "978"
+        ],
+        "x": 2718.93,
+        "y": 994.48
+      },
+      {
+        "junction_id": "930",
+        "connected_edges": [
+          "-931",
+          "-977"
+        ],
+        "connected_nodes": [
+          "739",
+          "916"
+        ],
+        "x": 2992.04,
+        "y": 1089.86
+      },
+      {
+        "junction_id": "939",
+        "connected_edges": [
+          "-940",
+          "988",
+          "989"
+        ],
+        "connected_nodes": [
+          "551",
+          "630",
+          "8"
+        ],
+        "x": 2940.46,
+        "y": 2571.26
+      }
+    ]
+  }
+}

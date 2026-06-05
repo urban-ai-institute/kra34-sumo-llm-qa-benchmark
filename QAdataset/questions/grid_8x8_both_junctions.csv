@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,both_junctions,0,"What are the from-junction and to-junction ids of edge C0C1? Answer format: <from_junction>, <to_junction>","C0, C1",net
+grid_8x8,both_junctions,1,"What are the from-junction and to-junction ids of edge F3F2? Answer format: <from_junction>, <to_junction>","F3, F2",net
+grid_8x8,both_junctions,2,"What are the from-junction and to-junction ids of edge A7B7? Answer format: <from_junction>, <to_junction>","A7, B7",net
+grid_8x8,both_junctions,3,"What are the from-junction and to-junction ids of edge E5F5? Answer format: <from_junction>, <to_junction>","E5, F5",net
+grid_8x8,both_junctions,4,"What are the from-junction and to-junction ids of edge B7A7? Answer format: <from_junction>, <to_junction>","B7, A7",net

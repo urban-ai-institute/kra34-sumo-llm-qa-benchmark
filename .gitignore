@@ -1,0 +1,10 @@
+__pycache__/
+QAdataset/results/
+claude_api.txt
+*_api.txt
+# Heavy simulation output (large FCD XML, >100MB files)
+data/output/
+logs/
+*.log
+.vscode/
+.claude/

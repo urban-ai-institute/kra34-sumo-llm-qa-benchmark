@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,edge_peak_vehicle_count,0,At which simulation second did edge D1C1 have the most vehicles present simultaneously? Answer format: <integer>,1869,fcd
+grid_8x8,edge_peak_vehicle_count,1,At which simulation second did edge F4G4 have the most vehicles present simultaneously? Answer format: <integer>,3311,fcd
+grid_8x8,edge_peak_vehicle_count,2,At which simulation second did edge C1C2 have the most vehicles present simultaneously? Answer format: <integer>,981,fcd
+grid_8x8,edge_peak_vehicle_count,3,At which simulation second did edge C1B1 have the most vehicles present simultaneously? Answer format: <integer>,2400,fcd
+grid_8x8,edge_peak_vehicle_count,4,At which simulation second did edge D7C7 have the most vehicles present simultaneously? Answer format: <integer>,823,fcd

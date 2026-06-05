@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,edge_removal_reachability,0,"If edge -45 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
+random,edge_removal_reachability,1,"If edge -17 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",29,net
+random,edge_removal_reachability,2,"If edge -119 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",29,net
+random,edge_removal_reachability,3,"If edge -53 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
+random,edge_removal_reachability,4,"If edge -120 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net

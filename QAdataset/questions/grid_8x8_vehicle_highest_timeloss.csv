@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,vehicle_highest_timeloss,0,"Among vehicles departing between time 2063 and 2663 (seconds), which experienced the highest time loss? Answer format: <vehicle_id>",v_956,tripinfo
+grid_8x8,vehicle_highest_timeloss,1,"Among vehicles departing between time 2491 and 3091 (seconds), which experienced the highest time loss? Answer format: <vehicle_id>",v_956,tripinfo
+grid_8x8,vehicle_highest_timeloss,2,"Among vehicles departing between time 427 and 1027 (seconds), which experienced the highest time loss? Answer format: <vehicle_id>",v_176,tripinfo
+grid_8x8,vehicle_highest_timeloss,3,"Among vehicles departing between time 988 and 1588 (seconds), which experienced the highest time loss? Answer format: <vehicle_id>",v_461,tripinfo
+grid_8x8,vehicle_highest_timeloss,4,"Among vehicles departing between time 1238 and 1838 (seconds), which experienced the highest time loss? Answer format: <vehicle_id>",v_678,tripinfo

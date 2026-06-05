@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+random,vehicles_with_same_origin,0,"How many other vehicles depart from the same edge as vehicle v_282 (i.e., share V's origin edge)? Answer format: <integer>",52,rou
+random,vehicles_with_same_origin,1,"How many other vehicles depart from the same edge as vehicle v_520 (i.e., share V's origin edge)? Answer format: <integer>",155,rou
+random,vehicles_with_same_origin,2,"How many other vehicles depart from the same edge as vehicle v_1 (i.e., share V's origin edge)? Answer format: <integer>",66,rou
+random,vehicles_with_same_origin,3,"How many other vehicles depart from the same edge as vehicle v_123 (i.e., share V's origin edge)? Answer format: <integer>",155,rou
+random,vehicles_with_same_origin,4,"How many other vehicles depart from the same edge as vehicle v_140 (i.e., share V's origin edge)? Answer format: <integer>",98,rou

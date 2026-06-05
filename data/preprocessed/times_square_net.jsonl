@@ -1,0 +1,493 @@
+{"_kind": "junction", "id": "10164937728", "x": 753.6, "y": 364.47, "type": "traffic_light", "outgoing_edges": ["464516471#4"], "neighbor_junctions": ["10166333059"]}
+{"_kind": "junction", "id": "10164937729", "x": 761.29, "y": 351.56, "type": "traffic_light", "outgoing_edges": ["1061622296#1"], "neighbor_junctions": ["42430344"]}
+{"_kind": "junction", "id": "10164937730", "x": 746.42, "y": 351.18, "type": "traffic_light", "outgoing_edges": ["464516471#2"], "neighbor_junctions": ["42430344"]}
+{"_kind": "junction", "id": "10166333058", "x": 791.63, "y": 433.98, "type": "traffic_light", "outgoing_edges": ["464516471#7"], "neighbor_junctions": ["10166333086"]}
+{"_kind": "junction", "id": "10166333059", "x": 783.61, "y": 419.22, "type": "traffic_light", "outgoing_edges": ["464516471#5"], "neighbor_junctions": ["42430347"]}
+{"_kind": "junction", "id": "10166333085", "x": 836.94, "y": 490.61, "type": "dead_end", "outgoing_edges": ["5672036#2"], "neighbor_junctions": ["42430350"]}
+{"_kind": "junction", "id": "10166333086", "x": 822.27, "y": 490.82, "type": "traffic_light", "outgoing_edges": ["464516471#8"], "neighbor_junctions": ["42430350"]}
+{"_kind": "junction", "id": "10166333087", "x": 829.25, "y": 503.81, "type": "traffic_light", "outgoing_edges": ["464516471#10"], "neighbor_junctions": ["3971196607"]}
+{"_kind": "junction", "id": "10168047523", "x": 0.0, "y": 671.13, "type": "dead_end", "outgoing_edges": ["226041027#1"], "neighbor_junctions": ["5481887476"]}
+{"_kind": "junction", "id": "10168047568", "x": 75.12, "y": 812.34, "type": "dead_end", "outgoing_edges": ["846142552#1"], "neighbor_junctions": ["5481886057"]}
+{"_kind": "junction", "id": "10168088451", "x": 362.32, "y": 192.35, "type": "traffic_light", "outgoing_edges": ["803047266#2"], "neighbor_junctions": ["42439972"]}
+{"_kind": "junction", "id": "10168088452", "x": 355.69, "y": 204.54, "type": "traffic_light", "outgoing_edges": ["167922070#2"], "neighbor_junctions": ["42439972"]}
+{"_kind": "junction", "id": "10168088453", "x": 348.84, "y": 191.87, "type": "traffic_light", "outgoing_edges": ["195743344#1"], "neighbor_junctions": ["5475605304"]}
+{"_kind": "junction", "id": "10168088454", "x": 344.31, "y": 201.95, "type": "traffic_light", "outgoing_edges": ["195743209#1"], "neighbor_junctions": ["9538820160"]}
+{"_kind": "junction", "id": "10168088471", "x": 196.57, "y": 485.09, "type": "traffic_light", "outgoing_edges": ["1198594026#1"], "neighbor_junctions": ["10168088478"]}
+{"_kind": "junction", "id": "10168088472", "x": 189.03, "y": 471.14, "type": "traffic_light", "outgoing_edges": ["1027181007#1"], "neighbor_junctions": ["5849918504"]}
+{"_kind": "junction", "id": "10168088473", "x": 179.83, "y": 484.65, "type": "traffic_light", "outgoing_edges": ["194926846#1"], "neighbor_junctions": ["8441992773"]}
+{"_kind": "junction", "id": "10168088476", "x": 240.38, "y": 541.62, "type": "priority", "outgoing_edges": ["1198594027#1"], "neighbor_junctions": ["42443559"]}
+{"_kind": "junction", "id": "10168088477", "x": 233.67, "y": 553.78, "type": "priority", "outgoing_edges": ["1207834766#1"], "neighbor_junctions": ["11191334801"]}
+{"_kind": "junction", "id": "10168088478", "x": 227.04, "y": 541.49, "type": "priority", "outgoing_edges": ["1198594026#2"], "neighbor_junctions": ["42435671"]}
+{"_kind": "junction", "id": "10168088479", "x": 217.72, "y": 553.83, "type": "priority", "outgoing_edges": ["226041027#3"], "neighbor_junctions": ["42435671"]}
+{"_kind": "junction", "id": "10168088482", "x": 271.71, "y": 624.29, "type": "traffic_light", "outgoing_edges": ["194926851#1"], "neighbor_junctions": ["2435108451"]}
+{"_kind": "junction", "id": "10168088483", "x": 264.47, "y": 610.89, "type": "traffic_light", "outgoing_edges": ["1198594029#1"], "neighbor_junctions": ["42432700"]}
+{"_kind": "junction", "id": "10168088484", "x": 255.6, "y": 623.86, "type": "traffic_light", "outgoing_edges": ["1198594028#1"], "neighbor_junctions": ["9665064785"]}
+{"_kind": "junction", "id": "10168088490", "x": 354.1, "y": 750.88, "type": "priority", "outgoing_edges": ["452322756#3"], "neighbor_junctions": ["42435677"]}
+{"_kind": "junction", "id": "10168088491", "x": 346.96, "y": 763.98, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "10168088492", "x": 340.23, "y": 751.4, "type": "priority", "outgoing_edges": ["1027189508#1"], "neighbor_junctions": ["42435677"]}
+{"_kind": "junction", "id": "10168088493", "x": 331.08, "y": 763.28, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "10168088498", "x": 392.01, "y": 820.97, "type": "dead_end", "outgoing_edges": ["226041028#1"], "neighbor_junctions": ["1758380526"]}
+{"_kind": "junction", "id": "10168381348", "x": 47.2, "y": 183.99, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "10169532531", "x": 325.57, "y": 123.35, "type": "traffic_light", "outgoing_edges": ["569345546#1"], "neighbor_junctions": ["10268944141"]}
+{"_kind": "junction", "id": "10169532532", "x": 318.83, "y": 135.07, "type": "traffic_light", "outgoing_edges": ["569345545#1"], "neighbor_junctions": ["42439968"]}
+{"_kind": "junction", "id": "10169532533", "x": 312.25, "y": 122.62, "type": "traffic_light", "outgoing_edges": ["1049920716#1"], "neighbor_junctions": ["10169532540"]}
+{"_kind": "junction", "id": "10169532534", "x": 304.6, "y": 134.7, "type": "traffic_light", "outgoing_edges": ["542258060#2"], "neighbor_junctions": ["42439968"]}
+{"_kind": "junction", "id": "10169532539", "x": 289.42, "y": 55.85, "type": "traffic_light", "outgoing_edges": ["1049920715#1"], "neighbor_junctions": ["42439964"]}
+{"_kind": "junction", "id": "10169532540", "x": 283.53, "y": 68.28, "type": "traffic_light", "outgoing_edges": ["1049920716#2"], "neighbor_junctions": ["42439964"]}
+{"_kind": "junction", "id": "10169532541", "x": 275.06, "y": 52.46, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "10169532542", "x": 268.59, "y": 66.5, "type": "traffic_light", "outgoing_edges": ["542257982#1"], "neighbor_junctions": ["10168381348"]}
+{"_kind": "junction", "id": "10169532593", "x": 545.74, "y": 5.02, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "10169532642", "x": 597.69, "y": 74.45, "type": "traffic_light", "outgoing_edges": ["1021065071#1"], "neighbor_junctions": ["9417458967"]}
+{"_kind": "junction", "id": "10169532643", "x": 590.76, "y": 61.39, "type": "traffic_light", "outgoing_edges": ["440122868#1"], "neighbor_junctions": ["42430329"]}
+{"_kind": "junction", "id": "10169532644", "x": 582.97, "y": 73.87, "type": "traffic_light", "outgoing_edges": ["5673323#1"], "neighbor_junctions": ["8751484600"]}
+{"_kind": "junction", "id": "10172901884", "x": 611.24, "y": 703.07, "type": "traffic_light", "outgoing_edges": ["167922074#2"], "neighbor_junctions": ["42439996"]}
+{"_kind": "junction", "id": "10172901886", "x": 626.38, "y": 703.89, "type": "traffic_light", "outgoing_edges": ["569345540#5"], "neighbor_junctions": ["42439996"]}
+{"_kind": "junction", "id": "10172901888", "x": 632.46, "y": 691.56, "type": "traffic_light", "outgoing_edges": ["167922073#1"], "neighbor_junctions": ["1745991210"]}
+{"_kind": "junction", "id": "10172901890", "x": 618.98, "y": 690.38, "type": "traffic_light", "outgoing_edges": ["167922071#1"], "neighbor_junctions": ["10228962335"]}
+{"_kind": "junction", "id": "10173032937", "x": 419.54, "y": 170.19, "type": "traffic_light", "outgoing_edges": ["35027229#2"], "neighbor_junctions": ["42428283"]}
+{"_kind": "junction", "id": "10173032938", "x": 416.26, "y": 155.8, "type": "traffic_light", "outgoing_edges": ["803047267#1"], "neighbor_junctions": ["10173490587"]}
+{"_kind": "junction", "id": "10173032939", "x": 408.69, "y": 168.16, "type": "traffic_light", "outgoing_edges": ["803047266#1"], "neighbor_junctions": ["10168088451"]}
+{"_kind": "junction", "id": "10173043408", "x": 670.8, "y": 210.57, "type": "traffic_light", "outgoing_edges": ["127693103#2"], "neighbor_junctions": ["42430338"]}
+{"_kind": "junction", "id": "10173043410", "x": 685.4, "y": 211.53, "type": "traffic_light", "outgoing_edges": ["5672464#2"], "neighbor_junctions": ["42430338"]}
+{"_kind": "junction", "id": "10173043412", "x": 678.04, "y": 223.92, "type": "traffic_light", "outgoing_edges": ["127693103#4"], "neighbor_junctions": ["10173121976"]}
+{"_kind": "junction", "id": "10173121975", "x": 716.03, "y": 294.33, "type": "traffic_light", "outgoing_edges": ["464516471#1"], "neighbor_junctions": ["10164937730"]}
+{"_kind": "junction", "id": "10173121976", "x": 708.86, "y": 280.95, "type": "traffic_light", "outgoing_edges": ["127693103#5"], "neighbor_junctions": ["42430342"]}
+{"_kind": "junction", "id": "10173121980", "x": 578.37, "y": 720.78, "type": "traffic_light", "outgoing_edges": ["167922074#1"], "neighbor_junctions": ["10172901884"]}
+{"_kind": "junction", "id": "10173490585", "x": 403.89, "y": 80.88, "type": "priority", "outgoing_edges": ["542258061#1"], "neighbor_junctions": ["10268795802"]}
+{"_kind": "junction", "id": "10173490587", "x": 401.67, "y": 91.35, "type": "traffic_light", "outgoing_edges": ["803047267#2"], "neighbor_junctions": ["42428277"]}
+{"_kind": "junction", "id": "10173490588", "x": 390.61, "y": 88.11, "type": "traffic_light", "outgoing_edges": ["569345546#3"], "neighbor_junctions": ["42428277"]}
+{"_kind": "junction", "id": "10222417542", "x": 448.18, "y": 339.42, "type": "traffic_light", "outgoing_edges": ["1049844343#3"], "neighbor_junctions": ["4578017558"]}
+{"_kind": "junction", "id": "10222417558", "x": 469.81, "y": 327.85, "type": "traffic_light", "outgoing_edges": ["1049844343#1"], "neighbor_junctions": ["12055677929"]}
+{"_kind": "junction", "id": "10224024800", "x": 483.22, "y": 411.15, "type": "traffic_light", "outgoing_edges": ["1117867029#1"], "neighbor_junctions": ["12055677931"]}
+{"_kind": "junction", "id": "10224024813", "x": 464.1, "y": 421.27, "type": "priority", "outgoing_edges": ["1117867026"], "neighbor_junctions": ["42439984"]}
+{"_kind": "junction", "id": "10224024814", "x": 457.17, "y": 424.91, "type": "priority", "outgoing_edges": ["1117867027#0"], "neighbor_junctions": ["3974095828"]}
+{"_kind": "junction", "id": "10224024816", "x": 480.15, "y": 412.8, "type": "priority", "outgoing_edges": ["1117867029#0"], "neighbor_junctions": ["10224024800"]}
+{"_kind": "junction", "id": "10224032629", "x": 500.34, "y": 492.38, "type": "priority", "outgoing_edges": ["1117867039#0"], "neighbor_junctions": ["3974095832"]}
+{"_kind": "junction", "id": "10224032630", "x": 518.16, "y": 482.92, "type": "priority", "outgoing_edges": ["1117867040#0"], "neighbor_junctions": ["42428297"]}
+{"_kind": "junction", "id": "10224032638", "x": 520.06, "y": 481.88, "type": "traffic_light", "outgoing_edges": ["1117867041#1"], "neighbor_junctions": ["10224032630"]}
+{"_kind": "junction", "id": "10228962331", "x": 575.46, "y": 633.37, "type": "traffic_light", "outgoing_edges": ["452322757#1"], "neighbor_junctions": ["2435108448"]}
+{"_kind": "junction", "id": "10228962335", "x": 588.56, "y": 633.23, "type": "traffic_light", "outgoing_edges": ["167922071#2"], "neighbor_junctions": ["42439994"]}
+{"_kind": "junction", "id": "10228962338", "x": 595.09, "y": 622.77, "type": "traffic_light", "outgoing_edges": ["5672036#5"], "neighbor_junctions": ["42439994"]}
+{"_kind": "junction", "id": "10228962352", "x": 517.53, "y": 573.89, "type": "traffic_light", "outgoing_edges": ["846142553#4"], "neighbor_junctions": ["10228962353"]}
+{"_kind": "junction", "id": "10228962353", "x": 538.74, "y": 562.69, "type": "traffic_light", "outgoing_edges": ["846142553#5"], "neighbor_junctions": ["42439990"]}
+{"_kind": "junction", "id": "10228962357", "x": 535.84, "y": 654.31, "type": "traffic_light", "outgoing_edges": ["452322756#1"], "neighbor_junctions": ["8250892563"]}
+{"_kind": "junction", "id": "10228962523", "x": 543.44, "y": 657.77, "type": "traffic_light", "outgoing_edges": ["626514137#2"], "neighbor_junctions": ["42428303"]}
+{"_kind": "junction", "id": "10268795802", "x": 414.37, "y": 75.28, "type": "traffic_light", "outgoing_edges": ["542258061#2"], "neighbor_junctions": ["10169532593"]}
+{"_kind": "junction", "id": "10268944141", "x": 349.49, "y": 110.38, "type": "priority", "outgoing_edges": ["569345546#2"], "neighbor_junctions": ["10173490588"]}
+{"_kind": "junction", "id": "10268944197", "x": 431.38, "y": 155.99, "type": "traffic_light", "outgoing_edges": ["5673323#6"], "neighbor_junctions": ["10268944200"]}
+{"_kind": "junction", "id": "10268944200", "x": 421.64, "y": 161.17, "type": "priority", "outgoing_edges": ["5673323#7"], "neighbor_junctions": ["42428283"]}
+{"_kind": "junction", "id": "10598594003", "x": 480.65, "y": 225.09, "type": "right_before_left", "outgoing_edges": ["-167922072#1", "1136952921#0"], "neighbor_junctions": ["3974095818", "6597464528"]}
+{"_kind": "junction", "id": "10691086259", "x": 259.72, "y": 343.83, "type": "traffic_light", "outgoing_edges": ["-525729008#3", "525729008#4"], "neighbor_junctions": ["5651033419", "9235539540"]}
+{"_kind": "junction", "id": "10691086260", "x": 276.02, "y": 335.05, "type": "traffic_light", "outgoing_edges": ["-525729008#1", "525729008#2"], "neighbor_junctions": ["5651033419", "6597464529"]}
+{"_kind": "junction", "id": "10942563108", "x": 573.92, "y": 732.69, "type": "traffic_light", "outgoing_edges": ["972926362#1"], "neighbor_junctions": ["42428305"]}
+{"_kind": "junction", "id": "10942563109", "x": 585.65, "y": 766.58, "type": "dead_end", "outgoing_edges": ["972926362#0"], "neighbor_junctions": ["10942563108"]}
+{"_kind": "junction", "id": "11191334801", "x": 247.46, "y": 579.34, "type": "priority", "outgoing_edges": ["1198594029#0"], "neighbor_junctions": ["10168088483"]}
+{"_kind": "junction", "id": "12055677929", "x": 459.15, "y": 333.55, "type": "traffic_light", "outgoing_edges": ["1049844343#2"], "neighbor_junctions": ["10222417542"]}
+{"_kind": "junction", "id": "12055677931", "x": 486.16, "y": 409.57, "type": "traffic_light", "outgoing_edges": ["1117867029#2"], "neighbor_junctions": ["6598535230"]}
+{"_kind": "junction", "id": "12055680088", "x": 475.82, "y": 324.62, "type": "traffic_light", "outgoing_edges": ["1117867024#1"], "neighbor_junctions": ["4578017557"]}
+{"_kind": "junction", "id": "12055680089", "x": 441.61, "y": 362.27, "type": "traffic_light", "outgoing_edges": ["397795464#2"], "neighbor_junctions": ["3974095825"]}
+{"_kind": "junction", "id": "12231119049", "x": 81.78, "y": 439.33, "type": "priority", "outgoing_edges": ["-1321771943#1"], "neighbor_junctions": ["9235539543"]}
+{"_kind": "junction", "id": "1289222420", "x": 778.69, "y": 63.95, "type": "traffic_light", "outgoing_edges": ["-511699183#1", "511699183#2"], "neighbor_junctions": ["1289222431", "3826754271"]}
+{"_kind": "junction", "id": "1289222431", "x": 674.82, "y": 120.06, "type": "right_before_left", "outgoing_edges": ["-511699183#2", "1320232776#0"], "neighbor_junctions": ["1289222420", "8375523265"]}
+{"_kind": "junction", "id": "12988501260", "x": 224.75, "y": 731.24, "type": "priority", "outgoing_edges": ["1413358695"], "neighbor_junctions": ["12988501262"]}
+{"_kind": "junction", "id": "12988501262", "x": 247.82, "y": 718.72, "type": "priority", "outgoing_edges": ["1413358696"], "neighbor_junctions": ["12988501268"]}
+{"_kind": "junction", "id": "12988501268", "x": 267.22, "y": 708.2, "type": "priority", "outgoing_edges": ["1413358692#0"], "neighbor_junctions": ["9749419125"]}
+{"_kind": "junction", "id": "12989986304", "x": 554.54, "y": 657.73, "type": "priority", "outgoing_edges": ["1413518739#0"], "neighbor_junctions": ["12989986306"]}
+{"_kind": "junction", "id": "12989986305", "x": 551.43, "y": 646.16, "type": "priority", "outgoing_edges": ["-1413518739#1", "452322757#3"], "neighbor_junctions": ["12989986306", "42428303"]}
+{"_kind": "junction", "id": "12989986306", "x": 553.27, "y": 652.98, "type": "traffic_light", "outgoing_edges": ["-1413518739#0", "1413518739#1"], "neighbor_junctions": ["12989986304", "12989986305"]}
+{"_kind": "junction", "id": "12989986307", "x": 570.41, "y": 716.2, "type": "traffic_light", "outgoing_edges": ["-1413518738"], "neighbor_junctions": ["42428305"]}
+{"_kind": "junction", "id": "1745991210", "x": 708.62, "y": 650.05, "type": "priority", "outgoing_edges": ["167922073#2"], "neighbor_junctions": ["3971196620"]}
+{"_kind": "junction", "id": "1745991212", "x": 746.31, "y": 720.68, "type": "priority", "outgoing_edges": ["542258337#4"], "neighbor_junctions": ["9665064838"]}
+{"_kind": "junction", "id": "1752946328", "x": 548.92, "y": 285.11, "type": "priority", "outgoing_edges": ["226041025#2"], "neighbor_junctions": ["8396878498"]}
+{"_kind": "junction", "id": "1758380526", "x": 517.43, "y": 753.42, "type": "priority", "outgoing_edges": ["226041028#2"], "neighbor_junctions": ["2435108436"]}
+{"_kind": "junction", "id": "2435108436", "x": 557.22, "y": 732.21, "type": "traffic_light", "outgoing_edges": ["226041028#3"], "neighbor_junctions": ["42428305"]}
+{"_kind": "junction", "id": "2435108448", "x": 555.99, "y": 643.72, "type": "traffic_light", "outgoing_edges": ["452322757#2"], "neighbor_junctions": ["12989986305"]}
+{"_kind": "junction", "id": "2435108451", "x": 302.31, "y": 681.07, "type": "traffic_light", "outgoing_edges": ["194926851#2"], "neighbor_junctions": ["42435675"]}
+{"_kind": "junction", "id": "2435108452", "x": 557.21, "y": 552.85, "type": "traffic_light", "outgoing_edges": ["420494981#1"], "neighbor_junctions": ["8250908767"]}
+{"_kind": "junction", "id": "2435108457", "x": 309.58, "y": 694.49, "type": "traffic_light", "outgoing_edges": ["1198594030#1"], "neighbor_junctions": ["9469961217"]}
+{"_kind": "junction", "id": "2435108458", "x": 657.78, "y": 760.3, "type": "traffic_light", "outgoing_edges": ["569345540#4"], "neighbor_junctions": ["10172901886"]}
+{"_kind": "junction", "id": "2435108459", "x": 560.28, "y": 720.26, "type": "traffic_light", "outgoing_edges": ["626514137#1"], "neighbor_junctions": ["10228962523"]}
+{"_kind": "junction", "id": "3573482145", "x": 210.48, "y": 738.98, "type": "priority", "outgoing_edges": ["1413358693"], "neighbor_junctions": ["12988501260"]}
+{"_kind": "junction", "id": "3826754271", "x": 896.63, "y": 0.0, "type": "traffic_light", "outgoing_edges": ["511699183#1"], "neighbor_junctions": ["1289222420"]}
+{"_kind": "junction", "id": "3942050704", "x": 938.14, "y": 76.53, "type": "dead_end", "outgoing_edges": ["5672464#1"], "neighbor_junctions": ["10173043410"]}
+{"_kind": "junction", "id": "3944708044", "x": 1051.34, "y": 285.4, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "3944708045", "x": 723.3, "y": 281.42, "type": "traffic_light", "outgoing_edges": ["464515890#1"], "neighbor_junctions": ["9666047678"]}
+{"_kind": "junction", "id": "3944708047", "x": 701.24, "y": 293.33, "type": "traffic_light", "outgoing_edges": ["226041026#2"], "neighbor_junctions": ["42430342"]}
+{"_kind": "junction", "id": "3944708055", "x": 798.83, "y": 420.81, "type": "traffic_light", "outgoing_edges": ["46522000#1"], "neighbor_junctions": ["3944708044"]}
+{"_kind": "junction", "id": "3944708058", "x": 776.12, "y": 433.08, "type": "traffic_light", "outgoing_edges": ["1051744070#1"], "neighbor_junctions": ["42430347"]}
+{"_kind": "junction", "id": "3971196607", "x": 837.54, "y": 519.23, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "3971196619", "x": 851.01, "y": 573.76, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "3971196620", "x": 795.69, "y": 603.41, "type": "priority", "outgoing_edges": ["1160618888#0"], "neighbor_junctions": ["3971196619"]}
+{"_kind": "junction", "id": "3971196624", "x": 792.99, "y": 695.53, "type": "priority", "outgoing_edges": ["542258337#3"], "neighbor_junctions": ["1745991212"]}
+{"_kind": "junction", "id": "3974095817", "x": 435.05, "y": 236.79, "type": "traffic_light", "outgoing_edges": ["35027229#1"], "neighbor_junctions": ["10173032937"]}
+{"_kind": "junction", "id": "3974095818", "x": 449.2, "y": 242.14, "type": "traffic_light", "outgoing_edges": ["-1136952921#0", "1136952921#1"], "neighbor_junctions": ["10598594003", "42428287"]}
+{"_kind": "junction", "id": "3974095821", "x": 398.86, "y": 282.46, "type": "traffic_light", "outgoing_edges": ["569345544#2"], "neighbor_junctions": ["42437363"]}
+{"_kind": "junction", "id": "3974095823", "x": 429.66, "y": 339.83, "type": "traffic_light", "outgoing_edges": ["569345544#1"], "neighbor_junctions": ["3974095821"]}
+{"_kind": "junction", "id": "3974095824", "x": 424.6, "y": 352.07, "type": "traffic_light", "outgoing_edges": ["569345543#1"], "neighbor_junctions": ["8669764313"]}
+{"_kind": "junction", "id": "3974095825", "x": 438.72, "y": 356.73, "type": "traffic_light", "outgoing_edges": ["397795464#3"], "neighbor_junctions": ["42439981"]}
+{"_kind": "junction", "id": "3974095826", "x": 466.94, "y": 410.78, "type": "traffic_light", "outgoing_edges": ["397795464#1"], "neighbor_junctions": ["12055680089"]}
+{"_kind": "junction", "id": "3974095828", "x": 461.76, "y": 422.52, "type": "traffic_light", "outgoing_edges": ["1117867027#1"], "neighbor_junctions": ["10224024813"]}
+{"_kind": "junction", "id": "3974095829", "x": 475.53, "y": 426.41, "type": "traffic_light", "outgoing_edges": ["682360554#2"], "neighbor_junctions": ["42439984"]}
+{"_kind": "junction", "id": "3974095832", "x": 497.42, "y": 493.94, "type": "traffic_light", "outgoing_edges": ["1117867039#1"], "neighbor_junctions": ["6597464445"]}
+{"_kind": "junction", "id": "4207957613", "x": 129.76, "y": 361.27, "type": "priority", "outgoing_edges": ["420907902#0"], "neighbor_junctions": ["9235539542"]}
+{"_kind": "junction", "id": "42428277", "x": 399.68, "y": 83.15, "type": "traffic_light", "outgoing_edges": ["542258061#0"], "neighbor_junctions": ["10173490585"]}
+{"_kind": "junction", "id": "42428283", "x": 417.88, "y": 163.14, "type": "traffic_light", "outgoing_edges": ["803047266#0", "803047267#0"], "neighbor_junctions": ["10173032938", "10173032939"]}
+{"_kind": "junction", "id": "42428287", "x": 437.69, "y": 248.35, "type": "traffic_light", "outgoing_edges": ["-1136952921#1", "167922076#0", "35027229#0"], "neighbor_junctions": ["3974095817", "3974095818", "9235539555"]}
+{"_kind": "junction", "id": "42428297", "x": 510.18, "y": 487.23, "type": "traffic_light", "outgoing_edges": ["1117867040#1", "682360554#0"], "neighbor_junctions": ["10224032629", "6597464486"]}
+{"_kind": "junction", "id": "42428303", "x": 541.75, "y": 651.31, "type": "traffic_light", "outgoing_edges": ["452322756#0"], "neighbor_junctions": ["10228962357"]}
+{"_kind": "junction", "id": "42428305", "x": 567.68, "y": 726.5, "type": "traffic_light", "outgoing_edges": ["1413518738", "167922074#0", "626514137#0"], "neighbor_junctions": ["10173121980", "12989986307", "2435108459"]}
+{"_kind": "junction", "id": "42430329", "x": 594.18, "y": 67.83, "type": "traffic_light", "outgoing_edges": ["1021065071#0", "5673323#0"], "neighbor_junctions": ["10169532642", "10169532644"]}
+{"_kind": "junction", "id": "42430333", "x": 633.67, "y": 142.11, "type": "traffic_light", "outgoing_edges": ["-1320232776#1", "127693103#0", "167922072#0"], "neighbor_junctions": ["6597464528", "8375523265", "8375523266"]}
+{"_kind": "junction", "id": "42430338", "x": 674.51, "y": 217.41, "type": "traffic_light", "outgoing_edges": ["127693103#3", "226041025#0"], "neighbor_junctions": ["10173043412", "6598535224"]}
+{"_kind": "junction", "id": "42430342", "x": 712.32, "y": 287.36, "type": "traffic_light", "outgoing_edges": ["464515890#0", "464516471#0"], "neighbor_junctions": ["10173121975", "3944708045"]}
+{"_kind": "junction", "id": "42430344", "x": 749.89, "y": 357.64, "type": "traffic_light", "outgoing_edges": ["1117867038#0", "464516471#3"], "neighbor_junctions": ["10164937728", "8373393481"]}
+{"_kind": "junction", "id": "42430347", "x": 787.77, "y": 426.81, "type": "traffic_light", "outgoing_edges": ["464516471#6", "46522000#0"], "neighbor_junctions": ["10166333058", "3944708055"]}
+{"_kind": "junction", "id": "42430350", "x": 825.47, "y": 496.75, "type": "traffic_light", "outgoing_edges": ["464516471#9", "5672036#3"], "neighbor_junctions": ["10166333087", "8375496966"]}
+{"_kind": "junction", "id": "42432585", "x": 661.21, "y": 766.52, "type": "traffic_light", "outgoing_edges": ["569345540#3"], "neighbor_junctions": ["2435108458"]}
+{"_kind": "junction", "id": "42432697", "x": 408.68, "y": 541.4, "type": "priority", "outgoing_edges": ["46522008#2"], "neighbor_junctions": ["6598535204"]}
+{"_kind": "junction", "id": "42432700", "x": 267.88, "y": 617.23, "type": "traffic_light", "outgoing_edges": ["1198594028#0", "194926851#0"], "neighbor_junctions": ["10168088482", "10168088484"]}
+{"_kind": "junction", "id": "42435663", "x": 151.7, "y": 402.06, "type": "traffic_light", "outgoing_edges": ["-525729008#5", "125480075#0", "1321771943#0"], "neighbor_junctions": ["9235539540", "9235539541", "9235539543"]}
+{"_kind": "junction", "id": "42435671", "x": 230.1, "y": 547.16, "type": "traffic_light", "outgoing_edges": ["1198594027#0", "1207834766#0"], "neighbor_junctions": ["10168088476", "10168088477"]}
+{"_kind": "junction", "id": "42435675", "x": 305.68, "y": 687.32, "type": "traffic_light", "outgoing_edges": ["1198594030#0", "846142553#0"], "neighbor_junctions": ["2435108457", "6598535175"]}
+{"_kind": "junction", "id": "42435677", "x": 343.14, "y": 756.79, "type": "traffic_light", "outgoing_edges": ["1027189507#0", "452322756#4"], "neighbor_junctions": ["10168088491", "10168088493"]}
+{"_kind": "junction", "id": "42437363", "x": 393.17, "y": 271.9, "type": "traffic_light", "outgoing_edges": ["-167922076#2", "167922070#0", "525729008#0"], "neighbor_junctions": ["6597464529", "9235539548", "9235539549"]}
+{"_kind": "junction", "id": "42439964", "x": 279.6, "y": 60.91, "type": "traffic_light", "outgoing_edges": ["1049920718#0", "542257982#0"], "neighbor_junctions": ["10169532541", "10169532542"]}
+{"_kind": "junction", "id": "42439968", "x": 315.53, "y": 128.82, "type": "traffic_light", "outgoing_edges": ["1049920716#0", "569345546#0"], "neighbor_junctions": ["10169532531", "10169532533"]}
+{"_kind": "junction", "id": "42439972", "x": 351.98, "y": 197.81, "type": "traffic_light", "outgoing_edges": ["195743209#0", "195743344#0"], "neighbor_junctions": ["10168088453", "10168088454"]}
+{"_kind": "junction", "id": "42439981", "x": 433.75, "y": 347.19, "type": "priority", "outgoing_edges": ["569345543#0", "569345544#0"], "neighbor_junctions": ["3974095823", "3974095824"]}
+{"_kind": "junction", "id": "42439984", "x": 470.62, "y": 417.83, "type": "traffic_light", "outgoing_edges": ["1117867028", "397795464#0"], "neighbor_junctions": ["10224024816", "3974095826"]}
+{"_kind": "junction", "id": "42439990", "x": 547.69, "y": 557.98, "type": "traffic_light", "outgoing_edges": ["397795463#0", "420494981#0"], "neighbor_junctions": ["2435108452", "6598535188"]}
+{"_kind": "junction", "id": "42439994", "x": 585.72, "y": 627.9, "type": "traffic_light", "outgoing_edges": ["452322757#0", "483360105#0"], "neighbor_junctions": ["10228962331", "6598535157"]}
+{"_kind": "junction", "id": "42439996", "x": 622.52, "y": 696.98, "type": "traffic_light", "outgoing_edges": ["167922071#0", "167922073#0"], "neighbor_junctions": ["10172901888", "10172901890"]}
+{"_kind": "junction", "id": "42443559", "x": 370.59, "y": 471.46, "type": "priority", "outgoing_edges": ["1198594027#2"], "neighbor_junctions": ["10224024814"]}
+{"_kind": "junction", "id": "4544917699", "x": 533.96, "y": 100.28, "type": "priority", "outgoing_edges": ["5673323#3"], "neighbor_junctions": ["8751484591"]}
+{"_kind": "junction", "id": "4578017557", "x": 473.0, "y": 326.14, "type": "priority", "outgoing_edges": ["1049844343#0"], "neighbor_junctions": ["10222417558"]}
+{"_kind": "junction", "id": "4578017558", "x": 442.37, "y": 342.55, "type": "priority", "outgoing_edges": ["1117867025"], "neighbor_junctions": ["42439981"]}
+{"_kind": "junction", "id": "4707407261", "x": 514.45, "y": 495.28, "type": "traffic_light", "outgoing_edges": ["569345542#1"], "neighbor_junctions": ["42428297"]}
+{"_kind": "junction", "id": "4782363332", "x": 669.83, "y": 761.87, "type": "traffic_light", "outgoing_edges": ["1051745205#1"], "neighbor_junctions": ["42432585"]}
+{"_kind": "junction", "id": "4782506031", "x": 860.74, "y": 659.03, "type": "dead_end", "outgoing_edges": ["542258337#2"], "neighbor_junctions": ["3971196624"]}
+{"_kind": "junction", "id": "5475605303", "x": 534.08, "y": 532.3, "type": "priority", "outgoing_edges": ["569345542#0"], "neighbor_junctions": ["4707407261"]}
+{"_kind": "junction", "id": "5475605304", "x": 331.74, "y": 159.5, "type": "priority", "outgoing_edges": ["569345545#0"], "neighbor_junctions": ["10169532532"]}
+{"_kind": "junction", "id": "5481886057", "x": 183.71, "y": 753.5, "type": "priority", "outgoing_edges": ["846142552#2"], "neighbor_junctions": ["3573482145"]}
+{"_kind": "junction", "id": "5481887476", "x": 176.37, "y": 576.1, "type": "priority", "outgoing_edges": ["226041027#2"], "neighbor_junctions": ["10168088479"]}
+{"_kind": "junction", "id": "5522182776", "x": 489.01, "y": 589.41, "type": "priority", "outgoing_edges": ["846142553#3"], "neighbor_junctions": ["10228962352"]}
+{"_kind": "junction", "id": "5522182777", "x": 451.26, "y": 518.67, "type": "priority", "outgoing_edges": ["46522008#1"], "neighbor_junctions": ["42432697"]}
+{"_kind": "junction", "id": "5651033419", "x": 268.34, "y": 339.19, "type": "traffic_light", "outgoing_edges": ["-525729008#2", "525729008#3"], "neighbor_junctions": ["10691086259", "10691086260"]}
+{"_kind": "junction", "id": "5849918504", "x": 192.64, "y": 477.83, "type": "traffic_light", "outgoing_edges": ["1198594026#0", "194926846#0"], "neighbor_junctions": ["10168088471", "10168088473"]}
+{"_kind": "junction", "id": "6597464445", "x": 493.32, "y": 496.15, "type": "priority", "outgoing_edges": ["46522008#0"], "neighbor_junctions": ["5522182777"]}
+{"_kind": "junction", "id": "6597464446", "x": 523.82, "y": 479.83, "type": "priority", "outgoing_edges": ["1117867041#0"], "neighbor_junctions": ["10224032638"]}
+{"_kind": "junction", "id": "6597464486", "x": 505.6, "y": 479.22, "type": "traffic_light", "outgoing_edges": ["682360554#1"], "neighbor_junctions": ["3974095829"]}
+{"_kind": "junction", "id": "6597464528", "x": 621.84, "y": 148.53, "type": "traffic_light", "outgoing_edges": ["-167922072#0", "167922072#1"], "neighbor_junctions": ["10598594003", "42430333"]}
+{"_kind": "junction", "id": "6597464529", "x": 382.93, "y": 277.42, "type": "traffic_light", "outgoing_edges": ["-525729008#0", "525729008#1"], "neighbor_junctions": ["10691086260", "42437363"]}
+{"_kind": "junction", "id": "6597498398", "x": 203.4, "y": 471.99, "type": "traffic_light", "outgoing_edges": ["1049845754#1"], "neighbor_junctions": ["5849918504"]}
+{"_kind": "junction", "id": "6598535157", "x": 581.06, "y": 619.51, "type": "traffic_light", "outgoing_edges": ["483360105#1"], "neighbor_junctions": ["6598535159"]}
+{"_kind": "junction", "id": "6598535159", "x": 552.01, "y": 565.93, "type": "traffic_light", "outgoing_edges": ["483360105#2"], "neighbor_junctions": ["42439990"]}
+{"_kind": "junction", "id": "6598535175", "x": 316.83, "y": 681.29, "type": "traffic_light", "outgoing_edges": ["846142553#1"], "neighbor_junctions": ["8250892565"]}
+{"_kind": "junction", "id": "6598535188", "x": 543.38, "y": 549.84, "type": "traffic_light", "outgoing_edges": ["397795463#1"], "neighbor_junctions": ["5475605303"]}
+{"_kind": "junction", "id": "6598535204", "x": 278.64, "y": 611.43, "type": "traffic_light", "outgoing_edges": ["46522008#3"], "neighbor_junctions": ["42432700"]}
+{"_kind": "junction", "id": "6598535224", "x": 663.15, "y": 223.56, "type": "traffic_light", "outgoing_edges": ["226041025#1"], "neighbor_junctions": ["1752946328"]}
+{"_kind": "junction", "id": "6598535230", "x": 494.77, "y": 404.95, "type": "traffic_light", "outgoing_edges": ["1117867029#3"], "neighbor_junctions": ["9235539560"]}
+{"_kind": "junction", "id": "8250892563", "x": 378.38, "y": 737.79, "type": "priority", "outgoing_edges": ["452322756#2"], "neighbor_junctions": ["10168088490"]}
+{"_kind": "junction", "id": "8250892565", "x": 348.84, "y": 663.99, "type": "priority", "outgoing_edges": ["846142553#2"], "neighbor_junctions": ["5522182776"]}
+{"_kind": "junction", "id": "8250908767", "x": 615.8, "y": 521.04, "type": "priority", "outgoing_edges": ["420494981#2"], "neighbor_junctions": ["8318633104"]}
+{"_kind": "junction", "id": "8318633103", "x": 684.83, "y": 392.82, "type": "priority", "outgoing_edges": ["1117867038#2"], "neighbor_junctions": ["6597464446"]}
+{"_kind": "junction", "id": "8318633104", "x": 749.61, "y": 447.36, "type": "priority", "outgoing_edges": ["1051744070#0"], "neighbor_junctions": ["3944708058"]}
+{"_kind": "junction", "id": "8373393481", "x": 739.21, "y": 363.41, "type": "traffic_light", "outgoing_edges": ["1117867038#1"], "neighbor_junctions": ["8318633103"]}
+{"_kind": "junction", "id": "8375496966", "x": 813.71, "y": 503.11, "type": "traffic_light", "outgoing_edges": ["5672036#4"], "neighbor_junctions": ["10228962338"]}
+{"_kind": "junction", "id": "8375523265", "x": 646.41, "y": 135.29, "type": "traffic_light", "outgoing_edges": ["-1320232776#0", "1320232776#1"], "neighbor_junctions": ["1289222431", "42430333"]}
+{"_kind": "junction", "id": "8375523266", "x": 639.91, "y": 153.56, "type": "traffic_light", "outgoing_edges": ["127693103#1"], "neighbor_junctions": ["10173043408"]}
+{"_kind": "junction", "id": "8375523268", "x": 628.77, "y": 132.91, "type": "traffic_light", "outgoing_edges": ["448686048#1"], "neighbor_junctions": ["42430333"]}
+{"_kind": "junction", "id": "8396878495", "x": 637.98, "y": 327.54, "type": "priority", "outgoing_edges": ["226041026#1"], "neighbor_junctions": ["3944708047"]}
+{"_kind": "junction", "id": "8396878498", "x": 525.77, "y": 297.62, "type": "priority", "outgoing_edges": ["226041025#3"], "neighbor_junctions": ["9647769356"]}
+{"_kind": "junction", "id": "8441992773", "x": 73.14, "y": 541.69, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "8669764313", "x": 270.34, "y": 435.7, "type": "priority", "outgoing_edges": ["1049845754#0"], "neighbor_junctions": ["6597498398"]}
+{"_kind": "junction", "id": "8751484448", "x": 518.68, "y": 108.82, "type": "priority", "outgoing_edges": ["5673323#5"], "neighbor_junctions": ["10268944197"]}
+{"_kind": "junction", "id": "8751484591", "x": 526.4, "y": 104.57, "type": "priority", "outgoing_edges": ["5673323#4"], "neighbor_junctions": ["8751484448"]}
+{"_kind": "junction", "id": "8751484600", "x": 536.37, "y": 98.98, "type": "priority", "outgoing_edges": ["5673323#2"], "neighbor_junctions": ["4544917699"]}
+{"_kind": "junction", "id": "9235539540", "x": 163.03, "y": 395.94, "type": "traffic_light", "outgoing_edges": ["-525729008#4", "525729008#5"], "neighbor_junctions": ["10691086259", "42435663"]}
+{"_kind": "junction", "id": "9235539541", "x": 157.58, "y": 412.93, "type": "traffic_light", "outgoing_edges": ["125480075#1"], "neighbor_junctions": ["9469803476"]}
+{"_kind": "junction", "id": "9235539542", "x": 146.3, "y": 392.03, "type": "traffic_light", "outgoing_edges": ["420907902#1"], "neighbor_junctions": ["42435663"]}
+{"_kind": "junction", "id": "9235539543", "x": 140.09, "y": 408.02, "type": "traffic_light", "outgoing_edges": ["-1321771943#0", "1321771943#1"], "neighbor_junctions": ["12231119049", "42435663"]}
+{"_kind": "junction", "id": "9235539548", "x": 403.22, "y": 266.71, "type": "traffic_light", "outgoing_edges": ["-167922076#1", "167922076#2"], "neighbor_junctions": ["42437363", "9235539555"]}
+{"_kind": "junction", "id": "9235539549", "x": 387.74, "y": 262.14, "type": "traffic_light", "outgoing_edges": ["167922070#1"], "neighbor_junctions": ["10168088452"]}
+{"_kind": "junction", "id": "9235539555", "x": 430.57, "y": 252.14, "type": "traffic_light", "outgoing_edges": ["-167922076#0", "167922076#1"], "neighbor_junctions": ["42428287", "9235539548"]}
+{"_kind": "junction", "id": "9235539560", "x": 497.91, "y": 403.27, "type": "priority", "outgoing_edges": ["226041026#0"], "neighbor_junctions": ["8396878495"]}
+{"_kind": "junction", "id": "9417458967", "x": 607.72, "y": 93.48, "type": "priority", "outgoing_edges": ["448686048#0"], "neighbor_junctions": ["8375523268"]}
+{"_kind": "junction", "id": "9417469211", "x": 565.37, "y": 13.52, "type": "dead_end", "outgoing_edges": ["440122868#0"], "neighbor_junctions": ["10169532643"]}
+{"_kind": "junction", "id": "9469803476", "x": 181.13, "y": 456.52, "type": "priority", "outgoing_edges": ["1027181007#0"], "neighbor_junctions": ["10168088472"]}
+{"_kind": "junction", "id": "9469961217", "x": 325.3, "y": 723.36, "type": "priority", "outgoing_edges": ["1027189508#0"], "neighbor_junctions": ["10168088492"]}
+{"_kind": "junction", "id": "9538820160", "x": 123.46, "y": 321.22, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "9538820161", "x": 115.18, "y": 334.18, "type": "dead_end", "outgoing_edges": ["195743345#1"], "neighbor_junctions": ["4207957613"]}
+{"_kind": "junction", "id": "9538820166", "x": 86.34, "y": 252.05, "type": "dead_end", "outgoing_edges": ["542258060#1"], "neighbor_junctions": ["10169532534"]}
+{"_kind": "junction", "id": "9647769356", "x": 491.26, "y": 316.27, "type": "priority", "outgoing_edges": ["1117867024#0"], "neighbor_junctions": ["12055680088"]}
+{"_kind": "junction", "id": "9665064785", "x": 55.04, "y": 732.11, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "9665064838", "x": 700.88, "y": 745.15, "type": "priority", "outgoing_edges": ["1051745205#0"], "neighbor_junctions": ["4782363332"]}
+{"_kind": "junction", "id": "9666047678", "x": 942.46, "y": 163.38, "type": "dead_end", "outgoing_edges": [], "neighbor_junctions": []}
+{"_kind": "junction", "id": "9749419125", "x": 293.55, "y": 693.92, "type": "traffic_light", "outgoing_edges": ["1413358692#1"], "neighbor_junctions": ["42435675"]}
+{"_kind": "junction", "id": "9753722444", "x": 978.67, "y": 234.59, "type": "dead_end", "outgoing_edges": ["5670124"], "neighbor_junctions": ["9753722445"]}
+{"_kind": "junction", "id": "9753722445", "x": 783.76, "y": 339.6, "type": "priority", "outgoing_edges": ["1061622296#0"], "neighbor_junctions": ["10164937729"]}
+{"_kind": "junction", "id": "9821598084", "x": 317.22, "y": 40.82, "type": "dead_end", "outgoing_edges": ["1049920715#0"], "neighbor_junctions": ["10169532539"]}
+{"_kind": "edge", "id": "-1136952921#0", "from": "3974095818", "to": "10598594003", "length": 35.77, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922072#1"]}
+{"_kind": "edge", "id": "-1136952921#1", "from": "42428287", "to": "3974095818", "length": 13.08, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-1136952921#0"]}
+{"_kind": "edge", "id": "-1320232776#0", "from": "8375523265", "to": "1289222431", "length": 32.23, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-511699183#2"]}
+{"_kind": "edge", "id": "-1320232776#1", "from": "42430333", "to": "8375523265", "length": 14.45, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-1320232776#0"]}
+{"_kind": "edge", "id": "-1321771943#0", "from": "9235539543", "to": "42435663", "length": 13.05, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["-525729008#5", "125480075#0", "1321771943#0"]}
+{"_kind": "edge", "id": "-1321771943#1", "from": "12231119049", "to": "9235539543", "length": 66.18, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["-1321771943#0"]}
+{"_kind": "edge", "id": "-1413518738", "from": "12989986307", "to": "42428305", "length": 14.48, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["1413518738", "167922074#0", "626514137#0"]}
+{"_kind": "edge", "id": "-1413518739#0", "from": "12989986306", "to": "12989986304", "length": 4.92, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["1413518739#0"]}
+{"_kind": "edge", "id": "-1413518739#1", "from": "12989986305", "to": "12989986306", "length": 8.07, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["-1413518739#0"]}
+{"_kind": "edge", "id": "-167922072#0", "from": "6597464528", "to": "42430333", "length": 13.46, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-1320232776#1"]}
+{"_kind": "edge", "id": "-167922072#1", "from": "10598594003", "to": "6597464528", "length": 160.61, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922072#0"]}
+{"_kind": "edge", "id": "-167922076#0", "from": "9235539555", "to": "42428287", "length": 8.07, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-1136952921#1", "35027229#0"]}
+{"_kind": "edge", "id": "-167922076#1", "from": "9235539548", "to": "9235539555", "length": 30.99, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922076#0"]}
+{"_kind": "edge", "id": "-167922076#2", "from": "42437363", "to": "9235539548", "length": 11.31, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922076#1"]}
+{"_kind": "edge", "id": "-511699183#1", "from": "1289222420", "to": "3826754271", "length": 134.16, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["511699183#1"]}
+{"_kind": "edge", "id": "-511699183#2", "from": "1289222431", "to": "1289222420", "length": 118.06, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-511699183#1"]}
+{"_kind": "edge", "id": "-525729008#0", "from": "6597464529", "to": "42437363", "length": 11.63, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922076#2", "525729008#0"]}
+{"_kind": "edge", "id": "-525729008#1", "from": "10691086260", "to": "6597464529", "length": 121.45, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#0"]}
+{"_kind": "edge", "id": "-525729008#2", "from": "5651033419", "to": "10691086260", "length": 8.72, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#1"]}
+{"_kind": "edge", "id": "-525729008#3", "from": "10691086259", "to": "5651033419", "length": 9.79, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#2"]}
+{"_kind": "edge", "id": "-525729008#4", "from": "9235539540", "to": "10691086259", "length": 109.84, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#3"]}
+{"_kind": "edge", "id": "-525729008#5", "from": "42435663", "to": "9235539540", "length": 12.88, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#4"]}
+{"_kind": "edge", "id": "1021065071#0", "from": "42430329", "to": "10169532642", "length": 7.49, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["1021065071#1"]}
+{"_kind": "edge", "id": "1021065071#1", "from": "10169532642", "to": "9417458967", "length": 21.51, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["448686048#0"]}
+{"_kind": "edge", "id": "1027181007#0", "from": "9469803476", "to": "10168088472", "length": 16.62, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1027181007#1"]}
+{"_kind": "edge", "id": "1027181007#1", "from": "10168088472", "to": "5849918504", "length": 8.86, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1198594026#0", "194926846#0"]}
+{"_kind": "edge", "id": "1027189507#0", "from": "42435677", "to": "10168088491", "length": 8.14, "speed": 11.18, "lanes": 2, "type": "highway.secondary", "next_edges": []}
+{"_kind": "edge", "id": "1027189508#0", "from": "9469961217", "to": "10168088492", "length": 31.77, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1027189508#1"]}
+{"_kind": "edge", "id": "1027189508#1", "from": "10168088492", "to": "42435677", "length": 6.13, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1027189507#0", "452322756#4"]}
+{"_kind": "edge", "id": "1049844343#0", "from": "4578017557", "to": "10222417558", "length": 3.62, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1049844343#1"]}
+{"_kind": "edge", "id": "1049844343#1", "from": "10222417558", "to": "12055677929", "length": 12.09, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1049844343#2"]}
+{"_kind": "edge", "id": "1049844343#2", "from": "12055677929", "to": "10222417542", "length": 12.44, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1049844343#3"]}
+{"_kind": "edge", "id": "1049844343#3", "from": "10222417542", "to": "4578017558", "length": 6.6, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1117867025"]}
+{"_kind": "edge", "id": "1049845754#0", "from": "8669764313", "to": "6597498398", "length": 76.14, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1049845754#1"]}
+{"_kind": "edge", "id": "1049845754#1", "from": "6597498398", "to": "5849918504", "length": 12.24, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1198594026#0", "194926846#0"]}
+{"_kind": "edge", "id": "1049920715#0", "from": "9821598084", "to": "10169532539", "length": 31.6, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["1049920715#1"]}
+{"_kind": "edge", "id": "1049920715#1", "from": "10169532539", "to": "42439964", "length": 11.05, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["1049920718#0", "542257982#0"]}
+{"_kind": "edge", "id": "1049920716#0", "from": "42439968", "to": "10169532533", "length": 8.88, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1049920716#1"]}
+{"_kind": "edge", "id": "1049920716#1", "from": "10169532533", "to": "10169532540", "length": 61.46, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1049920716#2"]}
+{"_kind": "edge", "id": "1049920716#2", "from": "10169532540", "to": "42439964", "length": 8.35, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1049920718#0", "542257982#0"]}
+{"_kind": "edge", "id": "1049920718#0", "from": "42439964", "to": "10169532541", "length": 9.59, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": []}
+{"_kind": "edge", "id": "1051744070#0", "from": "8318633104", "to": "3944708058", "length": 30.11, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["1051744070#1"]}
+{"_kind": "edge", "id": "1051744070#1", "from": "3944708058", "to": "42430347", "length": 13.23, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["464516471#6", "46522000#0"]}
+{"_kind": "edge", "id": "1051745205#0", "from": "9665064838", "to": "4782363332", "length": 35.27, "speed": 27.78, "lanes": 3, "type": "highway.secondary", "next_edges": ["1051745205#1"]}
+{"_kind": "edge", "id": "1051745205#1", "from": "4782363332", "to": "42432585", "length": 9.79, "speed": 27.78, "lanes": 3, "type": "highway.secondary", "next_edges": ["569345540#3"]}
+{"_kind": "edge", "id": "1061622296#0", "from": "9753722445", "to": "10164937729", "length": 25.45, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["1061622296#1"]}
+{"_kind": "edge", "id": "1061622296#1", "from": "10164937729", "to": "42430344", "length": 12.92, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["1117867038#0", "464516471#3"]}
+{"_kind": "edge", "id": "1117867024#0", "from": "9647769356", "to": "12055680088", "length": 17.55, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1117867024#1"]}
+{"_kind": "edge", "id": "1117867024#1", "from": "12055680088", "to": "4578017557", "length": 3.2, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1049844343#0"]}
+{"_kind": "edge", "id": "1117867025", "from": "4578017558", "to": "42439981", "length": 10.39, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["569345543#0", "569345544#0"]}
+{"_kind": "edge", "id": "1117867026", "from": "10224024813", "to": "42439984", "length": 10.43, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867028", "397795464#0"]}
+{"_kind": "edge", "id": "1117867027#0", "from": "10224024814", "to": "3974095828", "length": 5.17, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867027#1"]}
+{"_kind": "edge", "id": "1117867027#1", "from": "3974095828", "to": "10224024813", "length": 2.65, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867026"]}
+{"_kind": "edge", "id": "1117867028", "from": "42439984", "to": "10224024816", "length": 10.78, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867029#0"]}
+{"_kind": "edge", "id": "1117867029#0", "from": "10224024816", "to": "10224024800", "length": 3.49, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867029#1"]}
+{"_kind": "edge", "id": "1117867029#1", "from": "10224024800", "to": "12055677931", "length": 3.34, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867029#2"]}
+{"_kind": "edge", "id": "1117867029#2", "from": "12055677931", "to": "6598535230", "length": 9.77, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867029#3"]}
+{"_kind": "edge", "id": "1117867029#3", "from": "6598535230", "to": "9235539560", "length": 3.56, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["226041026#0"]}
+{"_kind": "edge", "id": "1117867038#0", "from": "42430344", "to": "8373393481", "length": 12.14, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867038#1"]}
+{"_kind": "edge", "id": "1117867038#1", "from": "8373393481", "to": "8318633103", "length": 61.82, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867038#2"]}
+{"_kind": "edge", "id": "1117867038#2", "from": "8318633103", "to": "6597464446", "length": 183.02, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867041#0"]}
+{"_kind": "edge", "id": "1117867039#0", "from": "10224032629", "to": "3974095832", "length": 3.31, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867039#1"]}
+{"_kind": "edge", "id": "1117867039#1", "from": "3974095832", "to": "6597464445", "length": 4.66, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["46522008#0"]}
+{"_kind": "edge", "id": "1117867040#0", "from": "10224032630", "to": "42428297", "length": 12.02, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867040#1", "682360554#0"]}
+{"_kind": "edge", "id": "1117867040#1", "from": "42428297", "to": "10224032629", "length": 12.02, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867039#0"]}
+{"_kind": "edge", "id": "1117867041#0", "from": "6597464446", "to": "10224032638", "length": 4.28, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867041#1"]}
+{"_kind": "edge", "id": "1117867041#1", "from": "10224032638", "to": "10224032630", "length": 2.17, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1117867040#0"]}
+{"_kind": "edge", "id": "1136952921#0", "from": "10598594003", "to": "3974095818", "length": 35.77, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["1136952921#1"]}
+{"_kind": "edge", "id": "1136952921#1", "from": "3974095818", "to": "42428287", "length": 13.08, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["167922076#0", "35027229#0"]}
+{"_kind": "edge", "id": "1160618888#0", "from": "3971196620", "to": "3971196619", "length": 62.76, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": []}
+{"_kind": "edge", "id": "1198594026#0", "from": "5849918504", "to": "10168088471", "length": 8.84, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594026#1"]}
+{"_kind": "edge", "id": "1198594026#1", "from": "10168088471", "to": "10168088478", "length": 64.1, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594026#2"]}
+{"_kind": "edge", "id": "1198594026#2", "from": "10168088478", "to": "42435671", "length": 6.44, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594027#0", "1207834766#0"]}
+{"_kind": "edge", "id": "1198594027#0", "from": "42435671", "to": "10168088476", "length": 11.68, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1198594027#1"]}
+{"_kind": "edge", "id": "1198594027#1", "from": "10168088476", "to": "42443559", "length": 147.91, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1198594027#2"]}
+{"_kind": "edge", "id": "1198594027#2", "from": "42443559", "to": "10224024814", "length": 98.3, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1117867027#0"]}
+{"_kind": "edge", "id": "1198594028#0", "from": "42432700", "to": "10168088484", "length": 13.96, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1198594028#1"]}
+{"_kind": "edge", "id": "1198594028#1", "from": "10168088484", "to": "9665064785", "length": 227.91, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": []}
+{"_kind": "edge", "id": "1198594029#0", "from": "11191334801", "to": "10168088483", "length": 35.84, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594029#1"]}
+{"_kind": "edge", "id": "1198594029#1", "from": "10168088483", "to": "42432700", "length": 7.2, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594028#0", "194926851#0"]}
+{"_kind": "edge", "id": "1198594030#0", "from": "42435675", "to": "2435108457", "length": 8.16, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594030#1"]}
+{"_kind": "edge", "id": "1198594030#1", "from": "2435108457", "to": "9469961217", "length": 32.87, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1027189508#0"]}
+{"_kind": "edge", "id": "1207834766#0", "from": "42435671", "to": "10168088477", "length": 7.52, "speed": 11.18, "lanes": 2, "type": "highway.secondary", "next_edges": ["1207834766#1"]}
+{"_kind": "edge", "id": "1207834766#1", "from": "10168088477", "to": "11191334801", "length": 29.04, "speed": 11.18, "lanes": 2, "type": "highway.secondary", "next_edges": ["1198594029#0"]}
+{"_kind": "edge", "id": "125480075#0", "from": "42435663", "to": "9235539541", "length": 12.36, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["125480075#1"]}
+{"_kind": "edge", "id": "125480075#1", "from": "9235539541", "to": "9469803476", "length": 49.54, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1027181007#0"]}
+{"_kind": "edge", "id": "127693103#0", "from": "42430333", "to": "8375523266", "length": 13.7, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["127693103#1"]}
+{"_kind": "edge", "id": "127693103#1", "from": "8375523266", "to": "10173043408", "length": 64.84, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["127693103#2"]}
+{"_kind": "edge", "id": "127693103#2", "from": "10173043408", "to": "42430338", "length": 8.86, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["127693103#3", "226041025#0"]}
+{"_kind": "edge", "id": "127693103#3", "from": "42430338", "to": "10173043412", "length": 8.85, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["127693103#4"]}
+{"_kind": "edge", "id": "127693103#4", "from": "10173043412", "to": "10173121976", "length": 64.83, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["127693103#5"]}
+{"_kind": "edge", "id": "127693103#5", "from": "10173121976", "to": "42430342", "length": 7.28, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464515890#0", "464516471#0"]}
+{"_kind": "edge", "id": "1320232776#0", "from": "1289222431", "to": "8375523265", "length": 32.23, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["1320232776#1"]}
+{"_kind": "edge", "id": "1320232776#1", "from": "8375523265", "to": "42430333", "length": 14.45, "speed": 11.18, "lanes": 3, "type": "highway.primary", "next_edges": ["127693103#0", "167922072#0"]}
+{"_kind": "edge", "id": "1321771943#0", "from": "42435663", "to": "9235539543", "length": 13.05, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["1321771943#1"]}
+{"_kind": "edge", "id": "1321771943#1", "from": "9235539543", "to": "12231119049", "length": 66.18, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-1321771943#1"]}
+{"_kind": "edge", "id": "1413358692#0", "from": "12988501268", "to": "9749419125", "length": 29.95, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1413358692#1"]}
+{"_kind": "edge", "id": "1413358692#1", "from": "9749419125", "to": "42435675", "length": 13.81, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1198594030#0", "846142553#0"]}
+{"_kind": "edge", "id": "1413358693", "from": "3573482145", "to": "12988501260", "length": 16.23, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1413358695"]}
+{"_kind": "edge", "id": "1413358695", "from": "12988501260", "to": "12988501262", "length": 26.25, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1413358696"]}
+{"_kind": "edge", "id": "1413358696", "from": "12988501262", "to": "12988501268", "length": 22.07, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1413358692#0"]}
+{"_kind": "edge", "id": "1413518738", "from": "42428305", "to": "12989986307", "length": 14.48, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["-1413518738"]}
+{"_kind": "edge", "id": "1413518739#0", "from": "12989986304", "to": "12989986306", "length": 4.92, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["1413518739#1"]}
+{"_kind": "edge", "id": "1413518739#1", "from": "12989986306", "to": "12989986305", "length": 8.07, "speed": 2.78, "lanes": 1, "type": "highway.living_street", "next_edges": ["-1413518739#1", "452322757#3"]}
+{"_kind": "edge", "id": "167922070#0", "from": "42437363", "to": "9235539549", "length": 11.17, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["167922070#1"]}
+{"_kind": "edge", "id": "167922070#1", "from": "9235539549", "to": "10168088452", "length": 65.92, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["167922070#2"]}
+{"_kind": "edge", "id": "167922070#2", "from": "10168088452", "to": "42439972", "length": 7.68, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["195743209#0", "195743344#0"]}
+{"_kind": "edge", "id": "167922071#0", "from": "42439996", "to": "10172901890", "length": 8.83, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["167922071#1"]}
+{"_kind": "edge", "id": "167922071#1", "from": "10172901890", "to": "10228962335", "length": 64.74, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["167922071#2"]}
+{"_kind": "edge", "id": "167922071#2", "from": "10228962335", "to": "42439994", "length": 7.25, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["452322757#0", "483360105#0"]}
+{"_kind": "edge", "id": "167922072#0", "from": "42430333", "to": "6597464528", "length": 13.46, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["167922072#1"]}
+{"_kind": "edge", "id": "167922072#1", "from": "6597464528", "to": "10598594003", "length": 160.61, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["1136952921#0"]}
+{"_kind": "edge", "id": "167922073#0", "from": "42439996", "to": "10172901888", "length": 11.32, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["167922073#1"]}
+{"_kind": "edge", "id": "167922073#1", "from": "10172901888", "to": "1745991210", "length": 86.74, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["167922073#2"]}
+{"_kind": "edge", "id": "167922073#2", "from": "1745991210", "to": "3971196620", "length": 98.77, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1160618888#0"]}
+{"_kind": "edge", "id": "167922074#0", "from": "42428305", "to": "10173121980", "length": 14.06, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["167922074#1"]}
+{"_kind": "edge", "id": "167922074#1", "from": "10173121980", "to": "10172901884", "length": 37.34, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["167922074#2"]}
+{"_kind": "edge", "id": "167922074#2", "from": "10172901884", "to": "42439996", "length": 12.82, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["167922071#0", "167922073#0"]}
+{"_kind": "edge", "id": "167922076#0", "from": "42428287", "to": "9235539555", "length": 8.07, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["167922076#1"]}
+{"_kind": "edge", "id": "167922076#1", "from": "9235539555", "to": "9235539548", "length": 30.99, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["167922076#2"]}
+{"_kind": "edge", "id": "167922076#2", "from": "9235539548", "to": "42437363", "length": 11.31, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-167922076#2", "525729008#0"]}
+{"_kind": "edge", "id": "194926846#0", "from": "5849918504", "to": "10168088473", "length": 14.51, "speed": 13.89, "lanes": 1, "type": "highway.unclassified", "next_edges": ["194926846#1"]}
+{"_kind": "edge", "id": "194926846#1", "from": "10168088473", "to": "8441992773", "length": 120.98, "speed": 13.89, "lanes": 1, "type": "highway.unclassified", "next_edges": []}
+{"_kind": "edge", "id": "194926851#0", "from": "42432700", "to": "10168088482", "length": 8.03, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["194926851#1"]}
+{"_kind": "edge", "id": "194926851#1", "from": "10168088482", "to": "2435108451", "length": 64.5, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["194926851#2"]}
+{"_kind": "edge", "id": "194926851#2", "from": "2435108451", "to": "42435675", "length": 7.1, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["1198594030#0", "846142553#0"]}
+{"_kind": "edge", "id": "195743209#0", "from": "42439972", "to": "10168088454", "length": 8.72, "speed": 13.89, "lanes": 1, "type": "highway.unclassified", "next_edges": ["195743209#1"]}
+{"_kind": "edge", "id": "195743209#1", "from": "10168088454", "to": "9538820160", "length": 251.0, "speed": 13.89, "lanes": 1, "type": "highway.unclassified", "next_edges": []}
+{"_kind": "edge", "id": "195743344#0", "from": "42439972", "to": "10168088453", "length": 6.72, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["195743344#1"]}
+{"_kind": "edge", "id": "195743344#1", "from": "10168088453", "to": "5475605304", "length": 36.61, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["569345545#0"]}
+{"_kind": "edge", "id": "195743345#1", "from": "9538820161", "to": "4207957613", "length": 30.76, "speed": 27.78, "lanes": 3, "type": "highway.secondary", "next_edges": ["420907902#0"]}
+{"_kind": "edge", "id": "226041025#0", "from": "42430338", "to": "6598535224", "length": 12.92, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["226041025#1"]}
+{"_kind": "edge", "id": "226041025#1", "from": "6598535224", "to": "1752946328", "length": 129.76, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["226041025#2"]}
+{"_kind": "edge", "id": "226041025#2", "from": "1752946328", "to": "8396878498", "length": 26.31, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["226041025#3"]}
+{"_kind": "edge", "id": "226041025#3", "from": "8396878498", "to": "9647769356", "length": 39.23, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["1117867024#0"]}
+{"_kind": "edge", "id": "226041026#0", "from": "9235539560", "to": "8396878495", "length": 159.23, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["226041026#1"]}
+{"_kind": "edge", "id": "226041026#1", "from": "8396878495", "to": "3944708047", "length": 71.92, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["226041026#2"]}
+{"_kind": "edge", "id": "226041026#2", "from": "3944708047", "to": "42430342", "length": 12.59, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["464515890#0", "464516471#0"]}
+{"_kind": "edge", "id": "226041027#1", "from": "10168047523", "to": "5481887476", "length": 200.34, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["226041027#2"]}
+{"_kind": "edge", "id": "226041027#2", "from": "5481887476", "to": "10168088479", "length": 46.97, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["226041027#3"]}
+{"_kind": "edge", "id": "226041027#3", "from": "10168088479", "to": "42435671", "length": 14.06, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1198594027#0", "1207834766#0"]}
+{"_kind": "edge", "id": "226041028#1", "from": "10168088498", "to": "1758380526", "length": 142.45, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["226041028#2"]}
+{"_kind": "edge", "id": "226041028#2", "from": "1758380526", "to": "2435108436", "length": 45.09, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["226041028#3"]}
+{"_kind": "edge", "id": "226041028#3", "from": "2435108436", "to": "42428305", "length": 11.92, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["1413518738", "167922074#0", "626514137#0"]}
+{"_kind": "edge", "id": "35027229#0", "from": "42428287", "to": "3974095817", "length": 11.86, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["35027229#1"]}
+{"_kind": "edge", "id": "35027229#1", "from": "3974095817", "to": "10173032937", "length": 68.38, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["35027229#2"]}
+{"_kind": "edge", "id": "35027229#2", "from": "10173032937", "to": "42428283", "length": 7.24, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["803047266#0", "803047267#0"]}
+{"_kind": "edge", "id": "397795463#0", "from": "42439990", "to": "6598535188", "length": 9.21, "speed": 11.18, "lanes": 5, "type": "highway.secondary", "next_edges": ["397795463#1"]}
+{"_kind": "edge", "id": "397795463#1", "from": "6598535188", "to": "5475605303", "length": 19.85, "speed": 11.18, "lanes": 5, "type": "highway.secondary", "next_edges": ["569345542#0"]}
+{"_kind": "edge", "id": "397795464#0", "from": "42439984", "to": "3974095826", "length": 7.95, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["397795464#1"]}
+{"_kind": "edge", "id": "397795464#1", "from": "3974095826", "to": "12055680089", "length": 54.73, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["397795464#2"]}
+{"_kind": "edge", "id": "397795464#2", "from": "12055680089", "to": "3974095825", "length": 6.25, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["397795464#3"]}
+{"_kind": "edge", "id": "397795464#3", "from": "3974095825", "to": "42439981", "length": 10.76, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["569345543#0", "569345544#0"]}
+{"_kind": "edge", "id": "420494981#0", "from": "42439990", "to": "2435108452", "length": 12.06, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["420494981#1"]}
+{"_kind": "edge", "id": "420494981#1", "from": "2435108452", "to": "8250908767", "length": 66.67, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["420494981#2"]}
+{"_kind": "edge", "id": "420494981#2", "from": "8250908767", "to": "8318633104", "length": 152.75, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1051744070#0"]}
+{"_kind": "edge", "id": "420907902#0", "from": "4207957613", "to": "9235539542", "length": 34.92, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["420907902#1"]}
+{"_kind": "edge", "id": "420907902#1", "from": "9235539542", "to": "42435663", "length": 13.78, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["-525729008#5", "125480075#0"]}
+{"_kind": "edge", "id": "440122868#0", "from": "9417469211", "to": "10169532643", "length": 54.19, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["440122868#1"]}
+{"_kind": "edge", "id": "440122868#1", "from": "10169532643", "to": "42430329", "length": 7.29, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["1021065071#0", "5673323#0"]}
+{"_kind": "edge", "id": "448686048#0", "from": "9417458967", "to": "8375523268", "length": 44.7, "speed": 27.78, "lanes": 5, "type": "highway.secondary", "next_edges": ["448686048#1"]}
+{"_kind": "edge", "id": "448686048#1", "from": "8375523268", "to": "42430333", "length": 10.42, "speed": 27.78, "lanes": 5, "type": "highway.secondary", "next_edges": ["-1320232776#1", "127693103#0", "167922072#0"]}
+{"_kind": "edge", "id": "452322756#0", "from": "42428303", "to": "10228962357", "length": 6.63, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["452322756#1"]}
+{"_kind": "edge", "id": "452322756#1", "from": "10228962357", "to": "8250892563", "length": 178.22, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["452322756#2"]}
+{"_kind": "edge", "id": "452322756#2", "from": "8250892563", "to": "10168088490", "length": 27.58, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["452322756#3"]}
+{"_kind": "edge", "id": "452322756#3", "from": "10168088490", "to": "42435677", "length": 12.45, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["1027189507#0", "452322756#4"]}
+{"_kind": "edge", "id": "452322756#4", "from": "42435677", "to": "10168088493", "length": 13.7, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": []}
+{"_kind": "edge", "id": "452322757#0", "from": "42439994", "to": "10228962331", "length": 11.63, "speed": 11.18, "lanes": 2, "type": "highway.residential", "next_edges": ["452322757#1"]}
+{"_kind": "edge", "id": "452322757#1", "from": "10228962331", "to": "2435108448", "length": 22.05, "speed": 11.18, "lanes": 2, "type": "highway.residential", "next_edges": ["452322757#2"]}
+{"_kind": "edge", "id": "452322757#2", "from": "2435108448", "to": "12989986305", "length": 6.59, "speed": 11.18, "lanes": 2, "type": "highway.residential", "next_edges": ["-1413518739#1", "452322757#3"]}
+{"_kind": "edge", "id": "452322757#3", "from": "12989986305", "to": "42428303", "length": 10.96, "speed": 11.18, "lanes": 2, "type": "highway.residential", "next_edges": ["452322756#0"]}
+{"_kind": "edge", "id": "464515890#0", "from": "42430342", "to": "3944708045", "length": 12.48, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["464515890#1"]}
+{"_kind": "edge", "id": "464515890#1", "from": "3944708045", "to": "9666047678", "length": 248.93, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": []}
+{"_kind": "edge", "id": "464516471#0", "from": "42430342", "to": "10173121975", "length": 7.9, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#1"]}
+{"_kind": "edge", "id": "464516471#1", "from": "10173121975", "to": "10164937730", "length": 64.46, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#2"]}
+{"_kind": "edge", "id": "464516471#10", "from": "10166333087", "to": "3971196607", "length": 17.51, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": []}
+{"_kind": "edge", "id": "464516471#2", "from": "10164937730", "to": "42430344", "length": 7.33, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["1117867038#0", "464516471#3"]}
+{"_kind": "edge", "id": "464516471#3", "from": "42430344", "to": "10164937728", "length": 7.77, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#4"]}
+{"_kind": "edge", "id": "464516471#4", "from": "10164937728", "to": "10166333059", "length": 62.44, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#5"]}
+{"_kind": "edge", "id": "464516471#5", "from": "10166333059", "to": "42430347", "length": 8.66, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#6", "46522000#0"]}
+{"_kind": "edge", "id": "464516471#6", "from": "42430347", "to": "10166333058", "length": 8.14, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#7"]}
+{"_kind": "edge", "id": "464516471#7", "from": "10166333058", "to": "10166333086", "length": 64.57, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#8"]}
+{"_kind": "edge", "id": "464516471#8", "from": "10166333086", "to": "42430350", "length": 6.74, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#9", "5672036#3"]}
+{"_kind": "edge", "id": "464516471#9", "from": "42430350", "to": "10166333087", "length": 8.01, "speed": 27.78, "lanes": 4, "type": "highway.secondary", "next_edges": ["464516471#10"]}
+{"_kind": "edge", "id": "46522000#0", "from": "42430347", "to": "3944708055", "length": 12.58, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["46522000#1"]}
+{"_kind": "edge", "id": "46522000#1", "from": "3944708055", "to": "3944708044", "length": 286.53, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": []}
+{"_kind": "edge", "id": "46522008#0", "from": "6597464445", "to": "5522182777", "length": 47.71, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["46522008#1"]}
+{"_kind": "edge", "id": "46522008#1", "from": "5522182777", "to": "42432697", "length": 48.27, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["46522008#2"]}
+{"_kind": "edge", "id": "46522008#2", "from": "42432697", "to": "6598535204", "length": 147.7, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["46522008#3"]}
+{"_kind": "edge", "id": "46522008#3", "from": "6598535204", "to": "42432700", "length": 12.22, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1198594028#0", "194926851#0"]}
+{"_kind": "edge", "id": "483360105#0", "from": "42439994", "to": "6598535157", "length": 9.6, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["483360105#1"]}
+{"_kind": "edge", "id": "483360105#1", "from": "6598535157", "to": "6598535159", "length": 60.95, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["483360105#2"]}
+{"_kind": "edge", "id": "483360105#2", "from": "6598535159", "to": "42439990", "length": 9.05, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["397795463#0"]}
+{"_kind": "edge", "id": "511699183#1", "from": "3826754271", "to": "1289222420", "length": 134.16, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["511699183#2"]}
+{"_kind": "edge", "id": "511699183#2", "from": "1289222420", "to": "1289222431", "length": 118.06, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["1320232776#0"]}
+{"_kind": "edge", "id": "525729008#0", "from": "42437363", "to": "6597464529", "length": 11.63, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["525729008#1"]}
+{"_kind": "edge", "id": "525729008#1", "from": "6597464529", "to": "10691086260", "length": 121.45, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["525729008#2"]}
+{"_kind": "edge", "id": "525729008#2", "from": "10691086260", "to": "5651033419", "length": 8.72, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["525729008#3"]}
+{"_kind": "edge", "id": "525729008#3", "from": "5651033419", "to": "10691086259", "length": 9.79, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["525729008#4"]}
+{"_kind": "edge", "id": "525729008#4", "from": "10691086259", "to": "9235539540", "length": 109.84, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["525729008#5"]}
+{"_kind": "edge", "id": "525729008#5", "from": "9235539540", "to": "42435663", "length": 12.88, "speed": 11.18, "lanes": 2, "type": "highway.primary", "next_edges": ["-525729008#5", "125480075#0", "1321771943#0"]}
+{"_kind": "edge", "id": "542257982#0", "from": "42439964", "to": "10169532542", "length": 12.35, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["542257982#1"]}
+{"_kind": "edge", "id": "542257982#1", "from": "10169532542", "to": "10168381348", "length": 250.63, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": []}
+{"_kind": "edge", "id": "542258060#1", "from": "9538820166", "to": "10169532534", "length": 247.81, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["542258060#2"]}
+{"_kind": "edge", "id": "542258060#2", "from": "10169532534", "to": "42439968", "length": 12.41, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["1049920716#0", "569345546#0"]}
+{"_kind": "edge", "id": "542258061#0", "from": "42428277", "to": "10173490585", "length": 4.78, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["542258061#1"]}
+{"_kind": "edge", "id": "542258061#1", "from": "10173490585", "to": "10268795802", "length": 11.88, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["542258061#2"]}
+{"_kind": "edge", "id": "542258061#2", "from": "10268795802", "to": "10169532593", "length": 148.98, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": []}
+{"_kind": "edge", "id": "542258337#2", "from": "4782506031", "to": "3971196624", "length": 76.96, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["542258337#3"]}
+{"_kind": "edge", "id": "542258337#3", "from": "3971196624", "to": "1745991212", "length": 53.02, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["542258337#4"]}
+{"_kind": "edge", "id": "542258337#4", "from": "1745991212", "to": "9665064838", "length": 51.6, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["1051745205#0"]}
+{"_kind": "edge", "id": "5670124", "from": "9753722444", "to": "9753722445", "length": 221.4, "speed": 27.78, "lanes": 2, "type": "highway.secondary", "next_edges": ["1061622296#0"]}
+{"_kind": "edge", "id": "5672036#2", "from": "10166333085", "to": "42430350", "length": 13.01, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["464516471#9", "5672036#3"]}
+{"_kind": "edge", "id": "5672036#3", "from": "42430350", "to": "8375496966", "length": 13.37, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["5672036#4"]}
+{"_kind": "edge", "id": "5672036#4", "from": "8375496966", "to": "10228962338", "length": 249.23, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["5672036#5"]}
+{"_kind": "edge", "id": "5672036#5", "from": "10228962338", "to": "42439994", "length": 10.68, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["452322757#0", "483360105#0"]}
+{"_kind": "edge", "id": "5672464#1", "from": "3942050704", "to": "10173043410", "length": 286.54, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5672464#2"]}
+{"_kind": "edge", "id": "5672464#2", "from": "10173043410", "to": "42430338", "length": 12.38, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["127693103#3", "226041025#0"]}
+{"_kind": "edge", "id": "5673323#0", "from": "42430329", "to": "10169532644", "length": 12.73, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#1"]}
+{"_kind": "edge", "id": "5673323#1", "from": "10169532644", "to": "8751484600", "length": 52.93, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#2"]}
+{"_kind": "edge", "id": "5673323#2", "from": "8751484600", "to": "4544917699", "length": 2.74, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#3"]}
+{"_kind": "edge", "id": "5673323#3", "from": "4544917699", "to": "8751484591", "length": 8.69, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#4"]}
+{"_kind": "edge", "id": "5673323#4", "from": "8751484591", "to": "8751484448", "length": 8.81, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#5"]}
+{"_kind": "edge", "id": "5673323#5", "from": "8751484448", "to": "10268944197", "length": 99.23, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#6"]}
+{"_kind": "edge", "id": "5673323#6", "from": "10268944197", "to": "10268944200", "length": 11.03, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["5673323#7"]}
+{"_kind": "edge", "id": "5673323#7", "from": "10268944200", "to": "42428283", "length": 6.14, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["803047266#0", "803047267#0"]}
+{"_kind": "edge", "id": "569345540#3", "from": "42432585", "to": "2435108458", "length": 7.1, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["569345540#4"]}
+{"_kind": "edge", "id": "569345540#4", "from": "2435108458", "to": "10172901886", "length": 64.56, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["569345540#5"]}
+{"_kind": "edge", "id": "569345540#5", "from": "10172901886", "to": "42439996", "length": 8.77, "speed": 11.18, "lanes": 3, "type": "highway.secondary", "next_edges": ["167922071#0", "167922073#0"]}
+{"_kind": "edge", "id": "569345542#0", "from": "5475605303", "to": "4707407261", "length": 41.9, "speed": 11.18, "lanes": 5, "type": "highway.secondary", "next_edges": ["569345542#1"]}
+{"_kind": "edge", "id": "569345542#1", "from": "4707407261", "to": "42428297", "length": 9.11, "speed": 11.18, "lanes": 5, "type": "highway.secondary", "next_edges": ["1117867040#1", "682360554#0"]}
+{"_kind": "edge", "id": "569345543#0", "from": "42439981", "to": "3974095824", "length": 10.37, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["569345543#1"]}
+{"_kind": "edge", "id": "569345543#1", "from": "3974095824", "to": "8669764313", "length": 175.47, "speed": 13.89, "lanes": 2, "type": "highway.residential", "next_edges": ["1049845754#0"]}
+{"_kind": "edge", "id": "569345544#0", "from": "42439981", "to": "3974095823", "length": 8.77, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["569345544#1"]}
+{"_kind": "edge", "id": "569345544#1", "from": "3974095823", "to": "3974095821", "length": 65.11, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["569345544#2"]}
+{"_kind": "edge", "id": "569345544#2", "from": "3974095821", "to": "42437363", "length": 12.0, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["167922070#0", "525729008#0"]}
+{"_kind": "edge", "id": "569345545#0", "from": "5475605304", "to": "10169532532", "length": 27.63, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["569345545#1"]}
+{"_kind": "edge", "id": "569345545#1", "from": "10169532532", "to": "42439968", "length": 8.74, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["1049920716#0", "569345546#0"]}
+{"_kind": "edge", "id": "569345546#0", "from": "42439968", "to": "10169532531", "length": 11.43, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["569345546#1"]}
+{"_kind": "edge", "id": "569345546#1", "from": "10169532531", "to": "10268944141", "length": 27.21, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["569345546#2"]}
+{"_kind": "edge", "id": "569345546#2", "from": "10268944141", "to": "10173490588", "length": 46.76, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["569345546#3"]}
+{"_kind": "edge", "id": "569345546#3", "from": "10173490588", "to": "42428277", "length": 10.34, "speed": 13.89, "lanes": 3, "type": "highway.residential", "next_edges": ["542258061#0"]}
+{"_kind": "edge", "id": "626514137#0", "from": "42428305", "to": "2435108459", "length": 9.68, "speed": 4.47, "lanes": 1, "type": "highway.living_street", "next_edges": ["626514137#1"]}
+{"_kind": "edge", "id": "626514137#1", "from": "2435108459", "to": "10228962523", "length": 64.72, "speed": 4.47, "lanes": 1, "type": "highway.living_street", "next_edges": ["626514137#2"]}
+{"_kind": "edge", "id": "626514137#2", "from": "10228962523", "to": "42428303", "length": 7.14, "speed": 4.47, "lanes": 1, "type": "highway.living_street", "next_edges": ["452322756#0"]}
+{"_kind": "edge", "id": "682360554#0", "from": "42428297", "to": "6597464486", "length": 9.23, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["682360554#1"]}
+{"_kind": "edge", "id": "682360554#1", "from": "6597464486", "to": "3974095829", "length": 60.77, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["682360554#2"]}
+{"_kind": "edge", "id": "682360554#2", "from": "3974095829", "to": "42439984", "length": 9.89, "speed": 11.18, "lanes": 4, "type": "highway.secondary", "next_edges": ["397795464#0"]}
+{"_kind": "edge", "id": "803047266#0", "from": "42428283", "to": "10173032939", "length": 10.47, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["803047266#1"]}
+{"_kind": "edge", "id": "803047266#1", "from": "10173032939", "to": "10168088451", "length": 52.3, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["803047266#2"]}
+{"_kind": "edge", "id": "803047266#2", "from": "10168088451", "to": "42439972", "length": 11.69, "speed": 13.89, "lanes": 1, "type": "highway.residential", "next_edges": ["195743209#0", "195743344#0"]}
+{"_kind": "edge", "id": "803047267#0", "from": "42428283", "to": "10173032938", "length": 7.52, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["803047267#1"]}
+{"_kind": "edge", "id": "803047267#1", "from": "10173032938", "to": "10173490587", "length": 66.08, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["803047267#2"]}
+{"_kind": "edge", "id": "803047267#2", "from": "10173490587", "to": "42428277", "length": 8.52, "speed": 11.18, "lanes": 1, "type": "highway.residential", "next_edges": ["542258061#0"]}
+{"_kind": "edge", "id": "846142552#1", "from": "10168047568", "to": "5481886057", "length": 123.51, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142552#2"]}
+{"_kind": "edge", "id": "846142552#2", "from": "5481886057", "to": "3573482145", "length": 30.45, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["1413358693"]}
+{"_kind": "edge", "id": "846142553#0", "from": "42435675", "to": "6598535175", "length": 12.68, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142553#1"]}
+{"_kind": "edge", "id": "846142553#1", "from": "6598535175", "to": "8250892565", "length": 36.39, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142553#2"]}
+{"_kind": "edge", "id": "846142553#2", "from": "8250892565", "to": "5522182776", "length": 158.78, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142553#3"]}
+{"_kind": "edge", "id": "846142553#3", "from": "5522182776", "to": "10228962352", "length": 32.47, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142553#4"]}
+{"_kind": "edge", "id": "846142553#4", "from": "10228962352", "to": "10228962353", "length": 23.99, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["846142553#5"]}
+{"_kind": "edge", "id": "846142553#5", "from": "10228962353", "to": "42439990", "length": 12.05, "speed": 27.78, "lanes": 1, "type": "highway.secondary", "next_edges": ["397795463#0", "420494981#0"]}
+{"_kind": "edge", "id": "972926362#0", "from": "10942563109", "to": "10942563108", "length": 35.86, "speed": 4.47, "lanes": 1, "type": "highway.living_street", "next_edges": ["972926362#1"]}
+{"_kind": "edge", "id": "972926362#1", "from": "10942563108", "to": "42428305", "length": 9.34, "speed": 4.47, "lanes": 1, "type": "highway.living_street", "next_edges": ["1413518738", "167922074#0", "626514137#0"]}

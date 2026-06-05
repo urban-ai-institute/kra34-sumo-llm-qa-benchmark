@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,junction_coord,0,"What are the (x, y) coordinates of junction 9469803476? Answer format: <x>, <y>","181.13, 456.52",net
+times_square,junction_coord,1,"What are the (x, y) coordinates of junction 42439990? Answer format: <x>, <y>","547.69, 557.98",net
+times_square,junction_coord,2,"What are the (x, y) coordinates of junction 2435108451? Answer format: <x>, <y>","302.31, 681.07",net
+times_square,junction_coord,3,"What are the (x, y) coordinates of junction 10168381348? Answer format: <x>, <y>","47.2, 183.99",net
+times_square,junction_coord,4,"What are the (x, y) coordinates of junction 8375496966? Answer format: <x>, <y>","813.71, 503.11",net

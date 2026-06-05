@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+times_square,vehicle_type,0,What is the vType of vehicle 154? Answer format: <type_name>,electric,rou
+times_square,vehicle_type,1,What is the vType of vehicle 188? Answer format: <type_name>,gasoline,rou
+times_square,vehicle_type,2,What is the vType of vehicle 133? Answer format: <type_name>,electric,rou
+times_square,vehicle_type,3,What is the vType of vehicle 12? Answer format: <type_name>,gasoline,rou
+times_square,vehicle_type,4,What is the vType of vehicle 90? Answer format: <type_name>,electric,rou

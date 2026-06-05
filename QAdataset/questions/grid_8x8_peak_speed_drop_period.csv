@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,peak_speed_drop_period,0,"For edge E4F4, during which 10-minute period did the average speed reach its lowest value? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed E4F4",third,edgedata
+grid_8x8,peak_speed_drop_period,1,"For edge F6E6, during which 10-minute period did the average speed reach its lowest value? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed F6E6",sixth,edgedata
+grid_8x8,peak_speed_drop_period,2,"For edge E4D4, during which 10-minute period did the average speed reach its lowest value? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed E4D4",None,edgedata
+grid_8x8,peak_speed_drop_period,3,"For edge E2D2, during which 10-minute period did the average speed reach its lowest value? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed E2D2",fourth,edgedata
+grid_8x8,peak_speed_drop_period,4,"For edge G3F3, during which 10-minute period did the average speed reach its lowest value? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed G3F3",sixth,edgedata

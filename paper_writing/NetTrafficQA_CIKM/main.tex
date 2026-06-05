@@ -1,0 +1,84 @@
+%%
+%% NetTrafficQA --- CIKM 2026 short paper submission (sigconf, anonymous)
+%%
+
+\documentclass[sigconf,anonymous]{acmart}
+\usepackage{multirow}
+\usepackage{placeins}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{cleveref}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights / conference metadata. Suppressed under anonymous submission.
+%% At camera-ready time, replace with values from the rights
+%% confirmation email and the official CIKM 2026 conference details.
+
+\title[Can LLMs Read Domain Files Directly?]{Can LLMs Read Domain Files Directly?\\
+       A Benchmark on SUMO Simulation Files}
+
+%% Anonymous submission: omit author identities.
+\author{Ben Trovato}
+\authornote{Both authors contributed equally to this research.}
+\email{trovato@corporation.com}
+\orcid{1234-5678-9012}
+\author{G.K.M. Tobin}
+\authornotemark[1]
+\email{webmaster@marysville-ohio.com}
+\affiliation{%
+  \institution{Institute for Clarity in Documentation}
+  \streetaddress{P.O. Box 1212}
+  \city{Dublin}
+  \state{Ohio}
+  \country{USA}
+  \postcode{43017-6221}
+}
+
+\begin{document}
+
+\input{Sections/0_abstract}
+
+%% CCS concepts. Placeholder values to be replaced with the official
+%% concept_id strings from https://dl.acm.org/ccs at camera-ready.
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10002951.10003317.10003331</concept_id>
+  <concept_desc>Information systems~Question answering</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010147.10010178.10010179</concept_id>
+  <concept_desc>Computing methodologies~Natural language processing</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010405.10010469</concept_id>
+  <concept_desc>Applied computing~Transportation</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Information systems~Question answering}
+\ccsdesc[300]{Computing methodologies~Natural language processing}
+\ccsdesc[300]{Applied computing~Transportation}
+
+\keywords{LLM benchmark, traffic simulation, SUMO}
+
+\maketitle
+
+\input{Sections/1_introduction}
+\input{Sections/2_benchmark}
+\input{Sections/3_setup}
+\input{Sections/4_results}
+\input{Sections/5_discussion}
+\input{Sections/6_disclosure}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+\end{document}

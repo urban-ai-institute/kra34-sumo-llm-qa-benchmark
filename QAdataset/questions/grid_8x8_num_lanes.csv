@@ -1,0 +1,6 @@
+network,type,sample_id,question,ground_truth,files_used
+grid_8x8,num_lanes,0,How many lanes does edge B7B6 have? Answer format: <integer>,2,net
+grid_8x8,num_lanes,1,How many lanes does edge F5G5 have? Answer format: <integer>,2,net
+grid_8x8,num_lanes,2,How many lanes does edge H5G5 have? Answer format: <integer>,2,net
+grid_8x8,num_lanes,3,How many lanes does edge B6B5 have? Answer format: <integer>,2,net
+grid_8x8,num_lanes,4,How many lanes does edge G1F1 have? Answer format: <integer>,2,net

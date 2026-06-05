@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Category-level and overall accuracy (\%) across scaffolding conditions and three SUMO networks.
+Values show mean $\pm$ standard deviation aggregated over all individual questions within each category.
+Best result per row in \textbf{bold}.}
+\label{tab:category_overall}
+\resizebox{0.95\textwidth}{!}{%
+\begin{tabular}{l|cccc|cccc|cccc}
+\toprule
+\multirow{2}{*}{\textbf{Category}} & \multicolumn{4}{c|}{\textbf{Random}} & \multicolumn{4}{c|}{\textbf{Grid $8\times8$}} & \multicolumn{4}{c}{\textbf{Times Square}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13}
+  & File & XML & ReAct & PER & File & XML & ReAct & PER & File & XML & ReAct & PER \\
+\midrule
+Retrieval & $18.3 \pm 38.7$ & $91.7 \pm 27.6$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{100.0 \pm 0.0}$ & $25.0 \pm 43.3$ & $81.7 \pm 38.7$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{100.0 \pm 0.0}$ & $13.3 \pm 34.0$ & $78.3 \pm 41.2$ & $\mathbf{100.0 \pm 0.0}$ & $\mathbf{100.0 \pm 0.0}$ \\
+Reasoning & $0.0 \pm 0.0$ & $18.0 \pm 38.4$ & $84.0 \pm 36.7$ & $\mathbf{100.0 \pm 0.0}$ & $14.0 \pm 34.7$ & $20.0 \pm 40.0$ & $84.0 \pm 36.7$ & $\mathbf{94.0 \pm 23.7}$ & $8.0 \pm 27.1$ & $18.0 \pm 38.4$ & $78.0 \pm 41.4$ & $\mathbf{96.0 \pm 19.6}$ \\
+\midrule
+Multi-step Reasoning & $0.0 \pm 0.0$ & $2.0 \pm 14.0$ & $68.0 \pm 46.6$ & $\mathbf{92.0 \pm 27.1}$ & $0.0 \pm 0.0$ & $6.0 \pm 23.7$ & $60.0 \pm 49.0$ & $\mathbf{84.0 \pm 36.7}$ & $0.0 \pm 0.0$ & $4.0 \pm 19.6$ & $56.0 \pm 49.6$ & $\mathbf{82.0 \pm 38.4}$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
