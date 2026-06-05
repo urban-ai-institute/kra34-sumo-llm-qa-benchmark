@@ -5,7 +5,30 @@ Exposes a single object with an Anthropic-`messages.create`-compatible
 interface. Only Claude models (``claude*``) are supported.
 """
 
-from agentsumo import AgentSUMOConfig
+import os
+from pathlib import Path
+
+
+# ---------------------------------------------------------------------------
+# Claude API key loading
+#
+# The key is read from ``claude_api.txt`` at the repo root, or failing that
+# from the ``ANTHROPIC_API_KEY`` / ``CLAUDE_API_KEY`` environment variable.
+# ---------------------------------------------------------------------------
+
+def _get_claude_api_key() -> str:
+    # repo root: scripts/llm_client.py -> scripts/ -> SUMO-SimQA/
+    key_file = Path(__file__).resolve().parents[1] / "claude_api.txt"
+    if key_file.exists():
+        key = key_file.read_text().strip()
+        if key:
+            return key
+    for var in ("ANTHROPIC_API_KEY", "CLAUDE_API_KEY"):
+        val = os.environ.get(var)
+        if val:
+            return val
+    raise FileNotFoundError(
+        f"Claude API key not found: create {key_file} or set ANTHROPIC_API_KEY")
 
 
 # ---------------------------------------------------------------------------
@@ -71,7 +94,7 @@ class UnifiedClient:
         if self._anthropic is None:
             import anthropic
             self._anthropic = anthropic.Anthropic(
-                api_key=AgentSUMOConfig.get_claude_api_key())
+                api_key=_get_claude_api_key())
         return self._anthropic
 
     def _create(self, *, model, max_tokens, messages, system,

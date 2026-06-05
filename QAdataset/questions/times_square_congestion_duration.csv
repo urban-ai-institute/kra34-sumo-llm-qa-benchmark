@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,congestion_duration,0,What is the longest consecutive duration (in seconds) where edge 226041025#3 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,1,fcd
-times_square,congestion_duration,1,What is the longest consecutive duration (in seconds) where edge 167922074#1 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,10,fcd
-times_square,congestion_duration,2,What is the longest consecutive duration (in seconds) where edge 1320232776#0 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,19,fcd
-times_square,congestion_duration,3,What is the longest consecutive duration (in seconds) where edge 420494981#1 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,1,fcd
-times_square,congestion_duration,4,What is the longest consecutive duration (in seconds) where edge 194926851#1 had more than 3 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,50,fcd

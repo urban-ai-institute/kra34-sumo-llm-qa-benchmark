@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,road_type,0,"What is the road type of edge G3G2? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-grid_8x8,road_type,1,"What is the road type of edge E3F3? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-grid_8x8,road_type,2,"What is the road type of edge E3D3? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-grid_8x8,road_type,3,"What is the road type of edge D5C5? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-grid_8x8,road_type,4,"What is the road type of edge E5F5? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net

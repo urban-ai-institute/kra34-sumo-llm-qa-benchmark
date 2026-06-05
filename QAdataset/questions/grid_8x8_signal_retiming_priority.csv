@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,signal_retiming_priority,0,Which intersection most needs signal retiming? Consider the average stopped delay experienced by vehicles approaching each signalized intersection. Answer format: <tls_id>,E7,"net,add,fcd_s0"
-grid_8x8,signal_retiming_priority,1,Which intersection most needs signal retiming? Consider the average stopped delay experienced by vehicles approaching each signalized intersection. Answer format: <tls_id>,B4,"net,add,fcd_s1"
-grid_8x8,signal_retiming_priority,2,Which intersection most needs signal retiming? Consider the average stopped delay experienced by vehicles approaching each signalized intersection. Answer format: <tls_id>,F2,"net,add,fcd_s2"
-grid_8x8,signal_retiming_priority,3,Which intersection most needs signal retiming? Consider the average stopped delay experienced by vehicles approaching each signalized intersection. Answer format: <tls_id>,A1,"net,add,fcd_s3"
-grid_8x8,signal_retiming_priority,4,Which intersection most needs signal retiming? Consider the average stopped delay experienced by vehicles approaching each signalized intersection. Answer format: <tls_id>,A6,"net,add,fcd_s4"

@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,road_type,0,"What is the road type of edge 115? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-random,road_type,1,"What is the road type of edge -90? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-random,road_type,2,"What is the road type of edge 263? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-random,road_type,3,"What is the road type of edge 90? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net
-random,road_type,4,"What is the road type of edge 226? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",None,net

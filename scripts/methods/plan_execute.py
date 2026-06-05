@@ -1,5 +1,5 @@
 """
-Scaffolding condition: Plan-then-Execute agent.
+Setup: Plan-then-Execute agent.
 
 Two-phase approach:
   Phase 1 — The LLM receives file paths (not content) and produces a

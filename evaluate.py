@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Evaluate collected LLM responses across the NetTrafficQA matrix.
+Evaluate collected LLM responses across the SUMO-SimQA matrix.
 
 Reads response CSVs from `QAdataset/results/` (flat layout):
     <condition>_<network>_<type>.csv
 e.g. xml_grid_8x8_both_junctions.csv,
-     json_random_vehicle_route.csv,
      tool_times_square_edge_density_trend.csv.
 
 Each CSV contains rows from `QAdataset/questions/<network>_<type>.csv`
@@ -21,13 +20,6 @@ Usage:
   python evaluate.py --network grid_8x8  # filter by network
   python evaluate.py --type vehicle_route  # filter by question type
   python evaluate.py --input <path.csv>    # evaluate a single file
-
-# TODO: After first full run, audit:
-#   (a) tolerance values per type — see match_float_rel,
-#   (b) None-detection robustness — does pred truly say "None"?,
-#   (c) edge cases in path / sequence matching,
-#   (d) Tool's JSON-trace handling for end-of-trace truncation.
-# Note these in the per-condition analysis.
 """
 
 from __future__ import annotations
@@ -45,9 +37,9 @@ csv.field_size_limit(sys.maxsize)
 ROOT_DIR = Path(__file__).resolve().parent
 RESULTS_DIR = ROOT_DIR / "QAdataset" / "results"
 
-CONDITIONS = ["xml", "json", "tool", "tool_continuation", "tool_revise", "tool_revise_1r", "tool_revise_3r",
-              "plan_execute", "plan_execute_revise", "plan_execute_revise_1r", "plan_execute_revise_3r",
-              "plan_execute_revise_5r", "plan_execute_revise_10r", "naive"]
+CONDITIONS = ["naive", "xml", "tool", "plan_execute", "plan_execute_revise",
+              "plan_execute_revise_1r", "plan_execute_revise_3r",
+              "plan_execute_revise_5r", "plan_execute_revise_10r"]
 NETWORKS = ["grid_8x8", "random", "times_square"]
 ORDINALS = ["first", "second", "third", "fourth", "fifth", "sixth"]
 

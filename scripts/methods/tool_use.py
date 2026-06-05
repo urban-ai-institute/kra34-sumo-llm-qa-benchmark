@@ -1,5 +1,5 @@
 """
-Scaffolding condition: Tool-augmented agent.
+Setup: Tool-augmented agent.
 
 The LLM receives only file *paths* (not file content) and a `run_python`
 tool. It can read and analyze the files via Python (standard library

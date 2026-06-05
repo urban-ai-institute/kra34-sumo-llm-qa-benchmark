@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,tls_green_phase_count,0,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light B4 have? Answer format: <integer>,2,add
-grid_8x8,tls_green_phase_count,1,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light D2 have? Answer format: <integer>,2,add
-grid_8x8,tls_green_phase_count,2,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light E7 have? Answer format: <integer>,4,add
-grid_8x8,tls_green_phase_count,3,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light H4 have? Answer format: <integer>,4,add
-grid_8x8,tls_green_phase_count,4,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light F7 have? Answer format: <integer>,4,add

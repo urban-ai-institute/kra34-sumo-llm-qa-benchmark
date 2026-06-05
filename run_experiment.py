@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-NetTrafficQA — run scaffolding methods on the question dataset.
+SUMO-SimQA — run setup methods on the question dataset.
 
 Reads questions from QAdataset/questions/<network>_<type>.csv and writes
 responses to QAdataset/results/<condition>_<network>_<type>.csv.
@@ -35,11 +35,13 @@ RESULTS_DIR = ROOT_DIR / "QAdataset" / "results"
 sys.path.insert(0, str(ROOT_DIR))
 sys.path.insert(0, str(ROOT_DIR / "scripts"))
 from utils import DEFAULT_MODEL, NETWORKS  # noqa: E402
-from methods import METHODS  # noqa: E402
+from methods import ALL_METHODS  # noqa: E402
 
-CONDITIONS = ["xml", "json", "tool", "tool_continuation", "tool_revise", "tool_revise_1r", "tool_revise_3r",
-              "plan_execute", "plan_execute_revise", "plan_execute_revise_1r", "plan_execute_revise_3r",
-              "plan_execute_revise_5r", "plan_execute_revise_10r", "naive"]
+# Core setups (paper) + round-budget ablation (PER with N rounds).
+CORE_CONDITIONS = ["naive", "xml", "tool", "plan_execute", "plan_execute_revise"]
+ABLATION_CONDITIONS = ["plan_execute_revise_1r", "plan_execute_revise_3r",
+                       "plan_execute_revise_5r", "plan_execute_revise_10r"]
+CONDITIONS = CORE_CONDITIONS + ABLATION_CONDITIONS
 
 
 # =====================================================================
@@ -162,7 +164,7 @@ def run_type(condition: str, network: str, type_: str,
              files_used: list[str], model: str) -> tuple[int, int, float]:
     """Process one (condition, network, type): 5 LLM calls. Writes the
     result CSV. Returns (n_done, n_errors, elapsed_seconds)."""
-    method = METHODS[condition]
+    method = ALL_METHODS[condition]
     q_path = QUESTIONS_DIR / f"{network}_{type_}.csv"
     out_path = result_path(condition, network, type_)
 

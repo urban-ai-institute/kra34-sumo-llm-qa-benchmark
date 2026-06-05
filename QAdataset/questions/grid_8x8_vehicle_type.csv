@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,vehicle_type,0,What is the vType of vehicle v_100? Answer format: <type_name>,electric,rou
-grid_8x8,vehicle_type,1,What is the vType of vehicle v_668? Answer format: <type_name>,gasoline,rou
-grid_8x8,vehicle_type,2,What is the vType of vehicle v_356? Answer format: <type_name>,gasoline,rou
-grid_8x8,vehicle_type,3,What is the vType of vehicle v_1259? Answer format: <type_name>,electric,rou
-grid_8x8,vehicle_type,4,What is the vType of vehicle v_1280? Answer format: <type_name>,electric,rou

@@ -1,5 +1,5 @@
 """
-Scaffolding condition: Naive baseline.
+Setup: Naive baseline.
 
 The LLM receives file *paths* and structural descriptions (identical to
 the tool condition) but is given NO tools. It cannot read files or

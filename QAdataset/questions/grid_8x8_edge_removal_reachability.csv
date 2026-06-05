@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,edge_removal_reachability,0,"If edge E4E5 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
-grid_8x8,edge_removal_reachability,1,"If edge F4F3 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
-grid_8x8,edge_removal_reachability,2,"If edge D4E4 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
-grid_8x8,edge_removal_reachability,3,"If edge G0F0 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net
-grid_8x8,edge_removal_reachability,4,"If edge E0E1 is removed, how many directed junction pairs become unreachable? Answer format: <integer>",0,net

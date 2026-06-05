@@ -1,10 +1,9 @@
 """
-Scaffolding condition: Verbatim XML.
+Setup: Verbatim XML.
 
 The full text of each requested SUMO file is injected into the system
 prompt. This is the most direct (and most token-heavy) way to expose
-file content; it serves as a controlled baseline that mirrors prior
-work (TrafficNetQA).
+file content; it serves as a controlled prompt-only baseline.
 
 Files for each question are routed via the `files_used` argument coming
 from the QA CSV — one of:

@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,edge_total_vehicles,0,How many distinct vehicles traversed edge C0D0 during the simulation? Answer format: <integer>,0,edgedata
-grid_8x8,edge_total_vehicles,1,How many distinct vehicles traversed edge D5C5 during the simulation? Answer format: <integer>,0,edgedata
-grid_8x8,edge_total_vehicles,2,How many distinct vehicles traversed edge D0D1 during the simulation? Answer format: <integer>,0,edgedata
-grid_8x8,edge_total_vehicles,3,How many distinct vehicles traversed edge F1G1 during the simulation? Answer format: <integer>,0,edgedata
-grid_8x8,edge_total_vehicles,4,How many distinct vehicles traversed edge G2F2 during the simulation? Answer format: <integer>,0,edgedata

@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,vehicle_route_distance_meters,0,What is the total length (in meters) of vehicle v_526's planned route? Answer format: <number> rounded to 2 decimal places,1283.30,"net,rou"
-random,vehicle_route_distance_meters,1,What is the total length (in meters) of vehicle v_537's planned route? Answer format: <number> rounded to 2 decimal places,2342.37,"net,rou"
-random,vehicle_route_distance_meters,2,What is the total length (in meters) of vehicle v_295's planned route? Answer format: <number> rounded to 2 decimal places,1541.11,"net,rou"
-random,vehicle_route_distance_meters,3,What is the total length (in meters) of vehicle v_407's planned route? Answer format: <number> rounded to 2 decimal places,2693.67,"net,rou"
-random,vehicle_route_distance_meters,4,What is the total length (in meters) of vehicle v_66's planned route? Answer format: <number> rounded to 2 decimal places,2912.23,"net,rou"

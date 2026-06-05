@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,vehicles_passing_edge,0,How many vehicles include edge 510 in their planned route? Answer format: <integer>,0,rou
-random,vehicles_passing_edge,1,How many vehicles include edge -263 in their planned route? Answer format: <integer>,85,rou
-random,vehicles_passing_edge,2,How many vehicles include edge -255 in their planned route? Answer format: <integer>,0,rou
-random,vehicles_passing_edge,3,How many vehicles include edge -340 in their planned route? Answer format: <integer>,53,rou
-random,vehicles_passing_edge,4,How many vehicles include edge 255 in their planned route? Answer format: <integer>,0,rou

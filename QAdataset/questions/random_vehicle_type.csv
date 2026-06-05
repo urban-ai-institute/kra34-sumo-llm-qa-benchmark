@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,vehicle_type,0,What is the vType of vehicle 54? Answer format: <type_name>,gasoline,rou
-random,vehicle_type,1,What is the vType of vehicle 36? Answer format: <type_name>,gasoline,rou
-random,vehicle_type,2,What is the vType of vehicle 44? Answer format: <type_name>,electric,rou
-random,vehicle_type,3,What is the vType of vehicle 40? Answer format: <type_name>,electric,rou
-random,vehicle_type,4,What is the vType of vehicle 14? Answer format: <type_name>,electric,rou

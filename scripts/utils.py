@@ -3,25 +3,17 @@ Shared utilities: file paths, model name, Anthropic client.
 
 Path conventions:
   data/network/<net>.net.xml             — SUMO network
-  data/network/<net>_adjacency.json      — pre-computed adjacency view (used by Preprocessed scaffolding)
+  data/network/<net>_adjacency.json      — pre-computed adjacency view
   data/network/<net>_tls.add.xml         — traffic light signal definitions
   data/trips/<net>.rou.xml               — vehicle demand
   data/output/<net>_tripinfo.xml         — per-vehicle trip outcomes
   data/output/<net>_fcd.xml              — floating car data (per-timestep vehicle positions)
 
 `FILE_PATHS` maps question-CSV `files_used` tags to network→Path dicts so
-that scaffolding methods can route inputs by tag.
+that setup methods can route inputs by tag.
 """
 
-import sys
 from pathlib import Path
-
-_REPO_ROOT = Path(__file__).resolve().parents[3]
-if str(_REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(_REPO_ROOT))
-from agentsumo import AgentSUMOConfig
-
-import anthropic
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 NETWORK_DIR = DATA_DIR / "network"

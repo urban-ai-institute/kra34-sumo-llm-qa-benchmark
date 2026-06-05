@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,edge_total_vehicles,0,How many distinct vehicles traversed edge 120 during the simulation? Answer format: <integer>,5,edgedata
-random,edge_total_vehicles,1,How many distinct vehicles traversed edge -87 during the simulation? Answer format: <integer>,6,edgedata
-random,edge_total_vehicles,2,How many distinct vehicles traversed edge 53 during the simulation? Answer format: <integer>,2,edgedata
-random,edge_total_vehicles,3,How many distinct vehicles traversed edge -234 during the simulation? Answer format: <integer>,3,edgedata
-random,edge_total_vehicles,4,How many distinct vehicles traversed edge -267 during the simulation? Answer format: <integer>,2,edgedata

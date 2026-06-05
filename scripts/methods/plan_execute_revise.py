@@ -1,5 +1,5 @@
 """
-Scaffolding condition: Plan-Execute-Revise agent.
+Setup: Plan-Execute-Revise agent.
 
 Three-role architecture driven by a router:
   Router  — Decides the next action each turn: revise the plan,

@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,edge_removal_route_count,0,"If edge 1321771943#0 is removed, how many vehicles' planned routes become invalid (i.e., contain 1321771943#0)? Answer format: <integer>",0,"net,rou"
-times_square,edge_removal_route_count,1,"If edge 1117867038#1 is removed, how many vehicles' planned routes become invalid (i.e., contain 1117867038#1)? Answer format: <integer>",21,"net,rou"
-times_square,edge_removal_route_count,2,"If edge 542258337#3 is removed, how many vehicles' planned routes become invalid (i.e., contain 542258337#3)? Answer format: <integer>",0,"net,rou"
-times_square,edge_removal_route_count,3,"If edge 1051744070#1 is removed, how many vehicles' planned routes become invalid (i.e., contain 1051744070#1)? Answer format: <integer>",68,"net,rou"
-times_square,edge_removal_route_count,4,"If edge 464515890#0 is removed, how many vehicles' planned routes become invalid (i.e., contain 464515890#0)? Answer format: <integer>",0,"net,rou"

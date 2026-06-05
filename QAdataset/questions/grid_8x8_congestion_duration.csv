@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,congestion_duration,0,What is the longest consecutive duration (in seconds) where edge E1D1 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,19,fcd
-grid_8x8,congestion_duration,1,What is the longest consecutive duration (in seconds) where edge D4C4 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,18,fcd
-grid_8x8,congestion_duration,2,What is the longest consecutive duration (in seconds) where edge B5B6 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,17,fcd
-grid_8x8,congestion_duration,3,What is the longest consecutive duration (in seconds) where edge D5D6 had more than 2 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,9,fcd
-grid_8x8,congestion_duration,4,What is the longest consecutive duration (in seconds) where edge B5B4 had more than 4 vehicles simultaneously? Count consecutive simulation seconds where the condition holds. Answer format: <integer>,14,fcd

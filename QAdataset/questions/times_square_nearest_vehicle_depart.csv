@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,nearest_vehicle_depart,0,"Among all vehicles that depart from edge 226041027#3, which vehicle departs closest in time to vehicle v_36? (Exclude v_36 itself.) Answer format: <vehicle_id>",v_27,rou
-times_square,nearest_vehicle_depart,1,"Among all vehicles that depart from edge 5672464#1, which vehicle departs closest in time to vehicle v_298? (Exclude v_298 itself.) Answer format: <vehicle_id>",v_303,rou
-times_square,nearest_vehicle_depart,2,"Among all vehicles that depart from edge 5672464#1, which vehicle departs closest in time to vehicle v_669? (Exclude v_669 itself.) Answer format: <vehicle_id>",v_666,rou
-times_square,nearest_vehicle_depart,3,"Among all vehicles that depart from edge 1198594029#1, which vehicle departs closest in time to vehicle v_682? (Exclude v_682 itself.) Answer format: <vehicle_id>",v_683,rou
-times_square,nearest_vehicle_depart,4,"Among all vehicles that depart from edge 846142553#2, which vehicle departs closest in time to vehicle v_226? (Exclude v_226 itself.) Answer format: <vehicle_id>",v_221,rou

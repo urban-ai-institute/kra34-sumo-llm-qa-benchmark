@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,departure_burst,0,"What is the maximum number of vehicles that depart within any 60-second window during the simulation? A vehicle with departure time t is included in window [s, s+60) if s <= t < s+60. Answer format: <integer>",15,rou
-times_square,departure_burst,1,"What is the maximum number of vehicles that depart within any 120-second window during the simulation? A vehicle with departure time t is included in window [s, s+120) if s <= t < s+120. Answer format: <integer>",25,rou
-times_square,departure_burst,2,"What is the maximum number of vehicles that depart within any 30-second window during the simulation? A vehicle with departure time t is included in window [s, s+30) if s <= t < s+30. Answer format: <integer>",12,rou
-times_square,departure_burst,3,"What is the maximum number of vehicles that depart within any 60-second window during the simulation? A vehicle with departure time t is included in window [s, s+60) if s <= t < s+60. Answer format: <integer>",15,rou
-times_square,departure_burst,4,"What is the maximum number of vehicles that depart within any 120-second window during the simulation? A vehicle with departure time t is included in window [s, s+120) if s <= t < s+120. Answer format: <integer>",25,rou

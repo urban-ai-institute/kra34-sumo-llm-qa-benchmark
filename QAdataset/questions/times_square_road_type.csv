@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,road_type,0,"What is the road type of edge 1027181007#0? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",highway.secondary,net
-times_square,road_type,1,"What is the road type of edge 1117867038#2? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",highway.secondary,net
-times_square,road_type,2,"What is the road type of edge 5672464#1? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",highway.residential,net
-times_square,road_type,3,"What is the road type of edge 846142553#3? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",highway.secondary,net
-times_square,road_type,4,"What is the road type of edge 452322757#2? Answer format: <road_type> (e.g. highway.residential), or 'None' if no road type is specified for this edge",highway.residential,net

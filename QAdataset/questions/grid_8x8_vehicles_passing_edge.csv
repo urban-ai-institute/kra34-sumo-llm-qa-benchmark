@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-grid_8x8,vehicles_passing_edge,0,How many vehicles include edge F1F0 in their planned route? Answer format: <integer>,0,rou
-grid_8x8,vehicles_passing_edge,1,How many vehicles include edge C0C1 in their planned route? Answer format: <integer>,0,rou
-grid_8x8,vehicles_passing_edge,2,How many vehicles include edge D3D4 in their planned route? Answer format: <integer>,30,rou
-grid_8x8,vehicles_passing_edge,3,How many vehicles include edge E4F4 in their planned route? Answer format: <integer>,58,rou
-grid_8x8,vehicles_passing_edge,4,How many vehicles include edge A4B4 in their planned route? Answer format: <integer>,58,rou

@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,nearest_vehicle_depart,0,"Among all vehicles that depart from edge 281, which vehicle departs closest in time to vehicle v_440? (Exclude v_440 itself.) Answer format: <vehicle_id>",v_455,rou
-random,nearest_vehicle_depart,1,"Among all vehicles that depart from edge -38, which vehicle departs closest in time to vehicle v_516? (Exclude v_516 itself.) Answer format: <vehicle_id>",v_515,rou
-random,nearest_vehicle_depart,2,"Among all vehicles that depart from edge 293, which vehicle departs closest in time to vehicle v_324? (Exclude v_324 itself.) Answer format: <vehicle_id>",v_321,rou
-random,nearest_vehicle_depart,3,"Among all vehicles that depart from edge -326, which vehicle departs closest in time to vehicle v_82? (Exclude v_82 itself.) Answer format: <vehicle_id>",v_93,rou
-random,nearest_vehicle_depart,4,"Among all vehicles that depart from edge 115, which vehicle departs closest in time to vehicle v_377? (Exclude v_377 itself.) Answer format: <vehicle_id>",v_337,rou

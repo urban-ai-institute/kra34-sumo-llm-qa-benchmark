@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,edge_max_density_period,0,"For edge 17, during which 10-minute period was the density highest? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed 17",None,edgedata
-random,edge_max_density_period,1,"For edge 120, during which 10-minute period was the density highest? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed 120",third,edgedata
-random,edge_max_density_period,2,"For edge 93, during which 10-minute period was the density highest? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed 93",None,edgedata
-random,edge_max_density_period,3,"For edge 32, during which 10-minute period was the density highest? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed 32",second,edgedata
-random,edge_max_density_period,4,"For edge -119, during which 10-minute period was the density highest? Answer format: ordinal ('first', 'second', ..., 'sixth'), or 'None' if no vehicles ever traversed -119",sixth,edgedata

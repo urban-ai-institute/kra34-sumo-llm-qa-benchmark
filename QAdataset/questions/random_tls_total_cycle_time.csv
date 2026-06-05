@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,tls_total_cycle_time,0,What is the total cycle time (seconds) of traffic light 118? (Sum of all phase durations.) Answer format: <integer>,90,add
-random,tls_total_cycle_time,1,What is the total cycle time (seconds) of traffic light 37? (Sum of all phase durations.) Answer format: <integer>,90,add
-random,tls_total_cycle_time,2,What is the total cycle time (seconds) of traffic light 280? (Sum of all phase durations.) Answer format: <integer>,90,add
-random,tls_total_cycle_time,3,What is the total cycle time (seconds) of traffic light 81? (Sum of all phase durations.) Answer format: <integer>,90,add
-random,tls_total_cycle_time,4,What is the total cycle time (seconds) of traffic light 262? (Sum of all phase durations.) Answer format: <integer>,90,add

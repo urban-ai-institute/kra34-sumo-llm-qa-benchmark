@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-times_square,tls_green_phase_count,0,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light 42432585 have? Answer format: <integer>,1,add
-times_square,tls_green_phase_count,1,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light 10169532642 have? Answer format: <integer>,1,add
-times_square,tls_green_phase_count,2,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light 6598535175 have? Answer format: <integer>,1,add
-times_square,tls_green_phase_count,3,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light 42428305 have? Answer format: <integer>,3,add
-times_square,tls_green_phase_count,4,How many green phases (phases containing at least one 'G' or 'g' signal) does traffic light 3974095828 have? Answer format: <integer>,1,add

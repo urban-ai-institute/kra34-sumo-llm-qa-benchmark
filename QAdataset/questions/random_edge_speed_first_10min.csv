@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random,edge_speed_first_10min,0,"What was the average speed (in m/s) on edge 238 during the first 10 minutes (0–600s) of the simulation? Answer format: <number> rounded to 2 decimal places, or 'None' if no vehicles traversed 238 during this period",None,edgedata
-random,edge_speed_first_10min,1,"What was the average speed (in m/s) on edge -32 during the first 10 minutes (0–600s) of the simulation? Answer format: <number> rounded to 2 decimal places, or 'None' if no vehicles traversed -32 during this period",11.34,edgedata
-random,edge_speed_first_10min,2,"What was the average speed (in m/s) on edge 45 during the first 10 minutes (0–600s) of the simulation? Answer format: <number> rounded to 2 decimal places, or 'None' if no vehicles traversed 45 during this period",None,edgedata
-random,edge_speed_first_10min,3,"What was the average speed (in m/s) on edge 226 during the first 10 minutes (0–600s) of the simulation? Answer format: <number> rounded to 2 decimal places, or 'None' if no vehicles traversed 226 during this period",14.39,edgedata
-random,edge_speed_first_10min,4,"What was the average speed (in m/s) on edge -49 during the first 10 minutes (0–600s) of the simulation? Answer format: <number> rounded to 2 decimal places, or 'None' if no vehicles traversed -49 during this period",10.80,edgedata
