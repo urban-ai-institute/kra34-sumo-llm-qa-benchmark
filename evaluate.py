@@ -48,7 +48,7 @@ RESULTS_DIR = ROOT_DIR / "QAdataset" / "results"
 CONDITIONS = ["xml", "json", "tool", "tool_continuation", "tool_revise", "tool_revise_1r", "tool_revise_3r",
               "plan_execute", "plan_execute_revise", "plan_execute_revise_1r", "plan_execute_revise_3r",
               "plan_execute_revise_5r", "plan_execute_revise_10r", "naive"]
-NETWORKS = ["grid_8x8", "random", "random_large", "times_square"]
+NETWORKS = ["grid_8x8", "random", "times_square"]
 ORDINALS = ["first", "second", "third", "fourth", "fifth", "sixth"]
 
 

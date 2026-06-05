@@ -21,7 +21,7 @@ SUMO-SimQA/
 ├── agentsumo/               # Minimal config shim (API-key loading)
 ├── scripts/
 │   ├── utils.py             # File-path registry + LLM client helper
-│   ├── llm_client.py        # Unified client (Anthropic / OpenAI / Gemini)
+│   ├── llm_client.py        # Claude (Anthropic) client
 │   └── methods/             # Scaffolding conditions (see below)
 │       ├── xml_view.py      #   xml   — raw XML in the prompt
 │       ├── json_view.py     #   json  — JSONL view in the prompt
@@ -38,33 +38,25 @@ SUMO-SimQA/
     └── results/             # Written here at run time (git-ignored)
 ```
 
-> **Note on `data/output/`.** The large simulation outputs (`*_fcd.xml`,
-> `*_tripinfo.xml`) are **not** bundled (they exceed GitHub's file-size limit).
-> Question types whose `files_used` includes `fcd` or `tripinfo` require those
-> files to be placed under `data/output/` first. Question types that only need
-> `net`, `rou`, or `add` files run out of the box.
-
-## Scaffolding conditions
+## LLM Strategies
 
 `run_experiment.py --condition <name>` selects how the SUMO files are exposed to
 the model. Available conditions:
 
 | Condition | Description |
 |---|---|
-| `xml` | Raw SUMO XML inserted verbatim into the prompt (baseline). |
-| `json` | The same files converted to a flat JSONL view in the prompt. |
-| `tool` | Only file *paths* plus a `run_python` tool; the model writes Python. |
-| `tool_revise` | `tool` with a revise loop (`tool_revise_1r`, `tool_revise_3r`). |
-| `tool_continuation` | Tool use with conversational continuation. |
-| `plan_execute` | Plan then execute over the files. |
-| `plan_execute_revise` | **PER agent** — plan, execute, and revise. Router-turn budget variants: `plan_execute_revise_{1r,3r,5r,10r}`. |
 | `naive` | File descriptions only, no file contents. |
+| `xml` | Raw SUMO XML inserted verbatim into the prompt (baseline). |
+| `react` | `tool` with a revise loop |
+| `plan_execute` | Plan then execute over the files. |
+| `plan_execute_revise` | **PER agent** — plan, execute, and revise. 
+
 
 ## Dataset
 
 `QAdataset/questions/{network}_{type}.csv` holds 5 samples (`sample_id` 0–4) per
 (network, type) pair, each row carrying the `question` and its `ground_truth`.
-Networks: `grid_8x8`, `random`, `random_large`, `times_square`. Question types
+Networks: `grid_8x8`, `random`, `times_square`. Question types
 fall into three categories: **retrieval** (single field lookup), **reasoning**
 (single file, requires computation), and **multi-step reasoning** (multiple
 files + multi-stage computation).
@@ -76,14 +68,14 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Provide an API key for whichever backend you use, via an environment variable
-or a file at the repo root:
+Provide your Claude (Anthropic) API key via an environment variable or a file
+at the repo root. Only Claude (`claude-*`) models are supported.
 
 | Backend | Models (prefix) | Env var | Key file |
 |---|---|---|---|
 | Anthropic | `claude-*` | `ANTHROPIC_API_KEY` | `claude_api.txt` |
-| OpenAI | `gpt-*`, `o*` | `OPENAI_API_KEY` | `openai_api.txt` |
-| Gemini | `gemini-*` | `GEMINI_API_KEY` | `gemini_api.txt` |
+
+> The key file is git-ignored and never committed.
 
 ## Running experiments
 

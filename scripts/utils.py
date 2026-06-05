@@ -28,7 +28,7 @@ NETWORK_DIR = DATA_DIR / "network"
 TRIPS_DIR = DATA_DIR / "trips"
 OUTPUT_DIR = DATA_DIR / "output"
 
-NETWORKS = ["grid_8x8", "random", "random_large", "times_square"]
+NETWORKS = ["grid_8x8", "random", "times_square"]
 
 NET_FILES = {n: NETWORK_DIR / f"{n}.net.xml" for n in NETWORKS}
 ADJ_FILES = {n: NETWORK_DIR / f"{n}_adjacency.json" for n in NETWORKS}
@@ -56,7 +56,7 @@ DEFAULT_MODEL = "claude-sonnet-4-6"
 
 
 def get_client():
-    """Return a cross-provider client with an Anthropic-compatible
-    `messages.create` interface. Dispatches by model name (claude*/gpt*/gemini*)."""
+    """Return a Claude client with an Anthropic-compatible
+    `messages.create` interface."""
     from llm_client import get_unified_client
     return get_unified_client()

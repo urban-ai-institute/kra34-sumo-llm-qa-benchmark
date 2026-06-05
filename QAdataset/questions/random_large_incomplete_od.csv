@@ -1,6 +1,0 @@
-network,type,sample_id,question,ground_truth,files_used
-random_large,incomplete_od,0,"Which OD pair has the most vehicles that depart but never arrive? Answer format: <origin_edge>, <destination_edge>","-2646, -2134","rou_s0,tripinfo_s0"
-random_large,incomplete_od,1,"Which OD pair has the most vehicles that depart but never arrive? Answer format: <origin_edge>, <destination_edge>","2627, 2134","rou_s1,tripinfo_s1"
-random_large,incomplete_od,2,"Which OD pair has the most vehicles that depart but never arrive? Answer format: <origin_edge>, <destination_edge>","2203, -1042","rou_s2,tripinfo_s2"
-random_large,incomplete_od,3,"Which OD pair has the most vehicles that depart but never arrive? Answer format: <origin_edge>, <destination_edge>","-1646, 1658","rou_s3,tripinfo_s3"
-random_large,incomplete_od,4,"Which OD pair has the most vehicles that depart but never arrive? Answer format: <origin_edge>, <destination_edge>","-1638, 82","rou_s4,tripinfo_s4"
