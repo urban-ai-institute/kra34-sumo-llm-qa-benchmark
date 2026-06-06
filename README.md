@@ -16,6 +16,7 @@ code to collect model answers (`run_experiment.py`) and score them
 SUMO-SimQA/
 ├── run_experiment.py        # Collect LLM answers for (condition, network, type)
 ├── evaluate.py              # Score answers and aggregate accuracy
+├── run_simulation.py        # Regenerate tripinfo/fcd outputs with SUMO
 ├── requirements.txt
 ├── scripts/
 │   ├── utils.py             # File-path registry + LLM client helper
@@ -48,6 +49,11 @@ pip install -r requirements.txt
 All setups run on a Claude model (default `claude-sonnet-4-6`).   
 Set your Anthropic API key in `claude_api.txt` at the repo root, or via the `ANTHROPIC_API_KEY` environment variable.
 
+
+[SUMO](https://eclipse.dev/sumo/) (1.24.0) is required to
+regenerate the simulation outputs; install it and set `SUMO_HOME` to your SUMO installation directory.
+
+
 ## Experiment Setups
 
 `run_experiment.py --condition <name>` selects how the SUMO files are exposed to
@@ -75,6 +81,19 @@ Each `QA_dataset/questions/{network}_{type}.csv` holds 5 samples
 (`sample_id` 0–4), with the `question` and its `ground_truth` per row.
 
 ![Question types](images/question_types.png)
+
+## Regenerating simulation outputs (tripinfo / fcd)
+
+```bash
+export SUMO_HOME=/path/to/sumo
+python run_simulation.py                  # all networks
+python run_simulation.py --network grid_8x8
+```
+
+This runs SUMO on the existing network and route files and writes
+`{network}_tripinfo.xml` to `SUMO_dataset/output_files/tripinfo/`
+and `{network}_fcd.xml` to `SUMO_dataset/output_files/fcd/`.
+
 
 ## Running experiments
 
