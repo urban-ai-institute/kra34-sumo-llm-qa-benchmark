@@ -3,25 +3,28 @@
 Run SUMO simulations to (re)generate the simulation-output files
 (tripinfo, fcd) from the existing network and route files.
 
-For each network it reads:
-  SUMO_dataset/configuration_files/net/{network}.net.xml
-  SUMO_dataset/configuration_files/rou/{network}.rou.xml
-and writes:
-  SUMO_dataset/output_files/tripinfo/{network}_tripinfo.xml
-  SUMO_dataset/output_files/fcd/{network}_fcd.xml
+Every route scenario in configuration_files/rou/ is simulated — the base
+{network}.rou.xml and the seed variants {network}_s0..s4.rou.xml — writing:
+  SUMO_dataset/output_files/tripinfo/{tag}_tripinfo.xml
+  SUMO_dataset/output_files/fcd/{tag}_fcd.xml
+(18 files each in total).
+
+All scenarios use the traffic-signal logic embedded in the network. The base
+scenario runs with SUMO seed 42 and variant _sN with seed 42+N, matching the
+pipeline that produced the original dataset.
 
 Auxiliary SUMO files (sumocfg, edgeData dumps, vehicle_types.add.xml) go to a
-scratch dir at SUMO_dataset/output_files/_work/. The network already embeds its
-traffic-signal logic, so {network}_tls.add.xml is not injected.
+scratch dir at SUMO_dataset/output_files/_work/.
 
-Settings: seed=42, 0-3600s, fcd-output with geo coordinates,
-device.emissions.probability=1.0.
+Settings: 0-3600s, fcd-output with geo coordinates,
+device.emissions.probability=1.0. Exact reproduction of the published
+outputs requires SUMO 1.25.0.
 """
 
 import os
+import re
 import subprocess
 import sys
-import xml.etree.ElementTree as ET
 from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 
@@ -30,7 +33,7 @@ from xml.etree.ElementTree import Element, SubElement, ElementTree
 # script stays in lockstep with the rest of the repo. utils.py imports only
 # pathlib at module top (get_client is lazy), so importing it has no side effects.
 sys.path.insert(0, str(Path(__file__).parent / "scripts"))
-from utils import NET_DIR, ROU_DIR, ADD_DIR, TRIPINFO_DIR, FCD_DIR  # noqa: E402
+from utils import NET_DIR, ROU_DIR, TRIPINFO_DIR, FCD_DIR  # noqa: E402
 
 NETWORK_DIR = NET_DIR                          # configuration_files/net  (inputs)
 ROUTE_DIR = ROU_DIR                            # configuration_files/rou  (base .rou.xml output)
@@ -41,9 +44,6 @@ WORK_DIR = TRIPINFO_DIR.parent / "_work"       # output_files/_work  (gitignored
 SUMO_HOME = os.environ.get("SUMO_HOME")
 if not SUMO_HOME:
     raise RuntimeError("Set $SUMO_HOME to your SUMO installation directory.")
-
-def _tool(name: str) -> str:
-    return os.path.join(SUMO_HOME, "share", "sumo", "tools", name)
 
 def _binary(name: str) -> str:
     return os.path.join(SUMO_HOME, "bin", name)
@@ -58,7 +58,8 @@ EDGEDATA_FREQ = 600     # 10-minute aggregation window
 
 
 def run_simulation(net_file: Path, route_file: Path,
-                   tripinfo_dir: Path, fcd_dir: Path, work_dir: Path, tag: str):
+                   tripinfo_dir: Path, fcd_dir: Path, work_dir: Path, tag: str,
+                   seed: int = SEED):
     """
     Run SUMO simulation.
 
@@ -67,10 +68,8 @@ def run_simulation(net_file: Path, route_file: Path,
     dumps, additional.add.xml, vehicle_types.add.xml, sumocfg) go to a scratch
     work_dir so they do not pollute the published dataset directories.
 
-    Note: the network file already embeds its <tlLogic> traffic-signal
-    definitions, so the published {network}_tls.add.xml is NOT injected here
-    (doing so would re-declare existing logics). It is an independent artifact
-    used only for the QA questions.
+    Traffic signals: all scenarios use the <tlLogic> definitions embedded in
+    the network.
     """
     tripinfo_dir.mkdir(parents=True, exist_ok=True)
     fcd_dir.mkdir(parents=True, exist_ok=True)
@@ -84,9 +83,8 @@ def run_simulation(net_file: Path, route_file: Path,
     netstate_file = str((work_dir / f"{tag}_netstate.xml").absolute())
     netstate_emission_file = str((work_dir / f"{tag}_netstate_emission.xml").absolute())
 
-    # ── vehicle_types.add.xml: prefer the local file (NetTrafficQA-specific
-    # 2-vType setup: electric / gasoline). Do NOT overwrite from external
-    # source — we maintain our own version.
+    # ── vehicle_types.add.xml: the 2-vType setup (electric / gasoline) used by
+    # the routes. Written once into the scratch dir if not already present.
     vtype_dst = work_dir / "vehicle_types.add.xml"
     if not vtype_dst.exists():
         # Fallback: create inline 2-vType definition.
@@ -156,7 +154,7 @@ def run_simulation(net_file: Path, route_file: Path,
     cmd = [
         sumo_binary,
         "-c", str(cfg_file),
-        "--seed", str(SEED),
+        "--seed", str(seed),
         "--device.emissions.probability", "1.0",
         "--no-warnings",
     ]
@@ -182,53 +180,48 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description="Generate trips and run SUMO simulations.")
     parser.add_argument("--network", default=None, help="Network name (e.g. times_square). If not specified, runs all networks.")
-    parser.add_argument("--seed", type=int, default=None,
-                        help="Random seed. Generates suffixed files (_s0, _s1, ...). "
-                             "Default: 42 with no suffix (backward compatible).")
     args = parser.parse_args()
 
-    global SEED
-    if args.seed is not None:
-        SEED = args.seed
-        suffix = f"_s{args.seed - 42}"
-    else:
-        suffix = ""
-
+    scenarios = sorted(ROUTE_DIR.glob("*.rou.xml"))
     if args.network:
-        net_file = NETWORK_DIR / f"{args.network}.net.xml"
-        if not net_file.exists():
-            print(f"ERROR: Network file not found: {net_file}")
-            return 1
-        net_files = [net_file]
-    else:
-        net_files = sorted(NETWORK_DIR.glob("*.net.xml"))
-        if not net_files:
-            print("ERROR: No .net.xml files found in", NETWORK_DIR)
-            return 1
+        scenarios = [r for r in scenarios
+                     if r.stem.removesuffix(".rou") == args.network
+                     or r.stem.startswith(args.network + "_s")]
+    if not scenarios:
+        print("ERROR: No route scenarios found in", ROUTE_DIR,
+              f"for network {args.network!r}" if args.network else "")
+        return 1
 
-    print(f"Found {len(net_files)} network(s): {[f.name for f in net_files]}")
-    print(f"Settings: seed={SEED}, begin={BEGIN}, end={END}, duration={DURATION}")
+    print(f"Found {len(scenarios)} route scenario(s): "
+          f"{[r.stem.removesuffix('.rou') for r in scenarios]}")
+    print(f"Settings: begin={BEGIN}, end={END}, duration={DURATION}")
 
     TRIPINFO_DIR.mkdir(parents=True, exist_ok=True)
     FCD_DIR.mkdir(parents=True, exist_ok=True)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
 
-    for net_file in net_files:
-        base_tag = net_file.stem.replace(".net", "")  # grid_8x8, random
-        tag = base_tag + suffix
-        print(f"\n{'='*60}")
-        print(f"Network: {net_file.name} (tag={tag})")
-        print(f"{'='*60}")
+    for route_file in scenarios:
+        tag = route_file.stem.removesuffix(".rou")  # e.g. grid_8x8, grid_8x8_s0
+        m = re.match(r"^(.+)_s(\d+)$", tag)
+        if m:                                       # seed variant scenario
+            net_name = m.group(1)
+            seed = SEED + int(m.group(2))
+        else:                                       # base scenario
+            net_name, seed = tag, SEED
 
-        route_file = ROUTE_DIR / f"{tag}.rou.xml"
-        if not route_file.exists():
-            print(f"ERROR: Route file not found: {route_file}")
+        net_file = NETWORK_DIR / f"{net_name}.net.xml"
+        if not net_file.exists():
+            print(f"ERROR: Network file not found: {net_file}")
             return 1
+
+        print(f"\n{'='*60}")
+        print(f"Scenario: {tag} (network={net_name}, seed={seed})")
+        print(f"{'='*60}")
 
         # Run SUMO on the existing network + route files to produce tripinfo/fcd.
         # The route file is an INPUT and is not regenerated.
-        print("\nRunning simulation ...")
-        run_simulation(net_file, route_file, TRIPINFO_DIR, FCD_DIR, WORK_DIR / tag, tag)
+        run_simulation(net_file, route_file, TRIPINFO_DIR, FCD_DIR,
+                       WORK_DIR / tag, tag, seed=seed)
 
     print(f"\n{'='*60}")
     print("All done!")

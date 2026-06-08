@@ -50,7 +50,7 @@ All setups run on a Claude model (default `claude-sonnet-4-6`).
 Set your Anthropic API key in `claude_api.txt` at the repo root, or via the `ANTHROPIC_API_KEY` environment variable.
 
 
-[SUMO](https://eclipse.dev/sumo/) (1.24.0) is required to
+[SUMO](https://eclipse.dev/sumo/) (1.25.0) is required to
 regenerate the simulation outputs; install it and set `SUMO_HOME` to your SUMO installation directory.
 
 
@@ -86,13 +86,13 @@ Each `QA_dataset/questions/{network}_{type}.csv` holds 5 samples
 
 ```bash
 export SUMO_HOME=/path/to/sumo
-python run_simulation.py                  # all networks
-python run_simulation.py --network grid_8x8
+python run_simulation.py
 ```
 
-This runs SUMO on the existing network and route files and writes
-`{network}_tripinfo.xml` to `SUMO_dataset/output_files/tripinfo/`
-and `{network}_fcd.xml` to `SUMO_dataset/output_files/fcd/`.
+This runs SUMO on the existing network and route files — every route scenario
+(base and `_s0`–`_s4`) per network — and writes the corresponding
+`*_tripinfo.xml` to `SUMO_dataset/output_files/tripinfo/` and `*_fcd.xml` to
+`SUMO_dataset/output_files/fcd/` (18 files each).
 
 
 ## Running experiments
