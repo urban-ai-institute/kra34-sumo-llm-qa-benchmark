@@ -2,17 +2,14 @@
 
 **[CIKM 2026] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files**
 
-<p align="center">
-  <a href="https://doi.org/10.1145/3799682.3839980"><img alt="Paper" src="https://img.shields.io/badge/Paper-CIKM%202026-b31b1b.svg"></a>
-  <a href="https://doi.org/10.1145/3799682.3839980"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.1145%2F3799682.3839980-blue.svg"></a>
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-</p>
+[![Paper](https://img.shields.io/badge/Paper-CIKM%202026-b31b1b.svg)](https://doi.org/10.1145/3799682.3839980)
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3799682.3839980-blue.svg)](https://doi.org/10.1145/3799682.3839980)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<p align="center">
-【<a href="https://doi.org/10.1145/3799682.3839980">Paper</a>】
-【<a href="QA_dataset/">Dataset</a>】
-【<a href="#citation">Citation</a>】
-</p>
+【[Paper](https://doi.org/10.1145/3799682.3839980)】
+【[Dataset](QA_dataset/)】
+【[Citation](#citation)】
+
 
 A benchmark for measuring how well LLMs can read and reason over raw
 [SUMO](https://eclipse.dev/sumo/) traffic-simulation files. Each question is
