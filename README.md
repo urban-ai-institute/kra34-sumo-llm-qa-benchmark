@@ -1,5 +1,19 @@
 # SUMO-SimQA
 
+**[CIKM 2026] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files**
+
+<p align="center">
+  <a href="https://doi.org/10.1145/3799682.3839980"><img alt="Paper" src="https://img.shields.io/badge/Paper-CIKM%202026-b31b1b.svg"></a>
+  <a href="https://doi.org/10.1145/3799682.3839980"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.1145%2F3799682.3839980-blue.svg"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+</p>
+
+<p align="center">
+【<a href="https://doi.org/10.1145/3799682.3839980">Paper</a>】
+【<a href="QA_dataset/">Dataset</a>】
+【<a href="#citation">Citation</a>】
+</p>
+
 A benchmark for measuring how well LLMs can read and reason over raw
 [SUMO](https://eclipse.dev/sumo/) traffic-simulation files. Each question is
 answered by an LLM that is given the simulation files through one of several
@@ -46,7 +60,6 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-All setups run on a Claude model (default `claude-sonnet-4-6`).   
 Set your Anthropic API key in `claude_api.txt` at the repo root, or via the `ANTHROPIC_API_KEY` environment variable.
 
 
@@ -127,3 +140,30 @@ accuracy per (condition, network, type).
 Accuracy (%) across different LLM strategies and three SUMO networks. Best result per row in bold.
 
 ![Main results](images/main_result.png)
+
+## Citation
+
+If you find SUMO-SimQA helpful, please cite our paper:
+
+```bibtex
+@inproceedings{10.1145/3799682.3839980,
+author = {Chang, Jeeyun and Yun, Taeyoung and Jeong, Minwoo and Park, Jinkyoo and Yoon, Yoonjin},
+title = {SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files},
+year = {2026},
+isbn = {9798400725395},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3799682.3839980},
+doi = {10.1145/3799682.3839980},
+booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management},
+pages = {6989–6994},
+numpages = {6},
+keywords = {llm benchmark, traffic simulation, sumo},
+location = {Rome, Italy},
+series = {CIKM '26}
+}
+```
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
