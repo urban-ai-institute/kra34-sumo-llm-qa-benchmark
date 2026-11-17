@@ -1,15 +1,28 @@
+<div align="center">
+
 # SUMO-SimQA
 
-**[CIKM 2026] SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files**
+### A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files
 
 [![Paper](https://img.shields.io/badge/Paper-CIKM%202026-b31b1b.svg)](https://doi.org/10.1145/3799682.3839980)
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3799682.3839980-blue.svg)](https://doi.org/10.1145/3799682.3839980)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-【[Paper](https://doi.org/10.1145/3799682.3839980)】
-【[Dataset](QA_dataset/)】
-【[Citation](#citation)】
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#experiment-setups">Experiment Setups</a> ·
+  <a href="#dataset">Dataset</a> ·
+  <a href="#results">Results</a> ·
+  <a href="#requirements">Requirements</a> ·
+  <a href="#running-experiments">Running Experiments</a> ·
+  <a href="#citation">Citation</a>
+</p>
 
+</div>
+
+---
+
+## Overview
 
 A benchmark for measuring how well LLMs can read and reason over raw
 [SUMO](https://eclipse.dev/sumo/) traffic-simulation files. Each question is
@@ -21,7 +34,7 @@ The repository provides the question dataset, the SUMO scenario files, and the
 code to collect model answers (`run_experiment.py`) and score them
 (`evaluate.py`).
 
-## Repository layout
+### Repository layout
 
 ```
 SUMO-SimQA/
@@ -59,28 +72,26 @@ pip install -r requirements.txt
 
 Set your Anthropic API key in `claude_api.txt` at the repo root, or via the `ANTHROPIC_API_KEY` environment variable.
 
-
 [SUMO](https://eclipse.dev/sumo/) (1.25.0) is required to
 regenerate the simulation outputs; install it and set `SUMO_HOME` to your SUMO installation directory.
-
 
 ## Experiment Setups
 
 `run_experiment.py --condition <name>` selects how the SUMO files are exposed to
 the LLM:
 
-| Setup | `--condition` | Description |
-|---|---|---|
-| File-Description (File) | `file` | File structure description only, no contents. |
-| Full-XML (XML) | `xml` | Raw SUMO XML inserted verbatim into the prompt. |
-| Code execution (ReAct) | `react` | LLM executes Python code (no plan, no revision). |
-| Plan-Execute (PE) | `plan_execute` | LLM plans, then executes as code (no revision). |
-| Plan-Execute-Revise (PER) | `plan_execute_revise` | LLM plans, executes, then revises the plan. |
+| Setup                     | `--condition`         | Description                                      |
+| ------------------------- | ----------------------- | ------------------------------------------------ |
+| File-Description (File)   | `file`                | File structure description only, no contents.    |
+| Full-XML (XML)            | `xml`                 | Raw SUMO XML inserted verbatim into the prompt.  |
+| Code execution (ReAct)    | `react`               | LLM executes Python code (no plan, no revision). |
+| Plan-Execute (PE)         | `plan_execute`        | LLM plans, then executes as code (no revision).  |
+| Plan-Execute-Revise (PER) | `plan_execute_revise` | LLM plans, executes, then revises the plan.      |
 
 ## Dataset
 
-SUMO-SimQA contains **480 questions** = 32 question types × 3 networks × 5 samples.  
-Networks are `grid_8x8`, `random`, and `times_square`.  
+SUMO-SimQA contains **480 questions** = 32 question types × 3 networks × 5 samples.
+Networks are `grid_8x8`, `random`, and `times_square`.
 The 32 types fall into three categories of increasing complexity:
 
 - **Retrieval** (12 types) — single field lookup
@@ -103,7 +114,6 @@ This runs SUMO on the existing network and route files — every route scenario
 (base and `_s0`–`_s4`) per network — and writes the corresponding
 `*_tripinfo.xml` to `SUMO_dataset/output_files/tripinfo/` and `*_fcd.xml` to
 `SUMO_dataset/output_files/fcd/` (18 files each).
-
 
 ## Running experiments
 
