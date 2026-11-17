@@ -24,7 +24,7 @@
 
 ## Overview
 
-A benchmark for measuring how well LLMs can read and reason over raw
+SUMO-SimQA is a benchmark for measuring how well LLMs can read and reason over raw
 [SUMO](https://eclipse.dev/sumo/) traffic-simulation files. Each question is
 answered by an LLM that is given the simulation files through one of several
 *setups*, ranging from dumping raw XML into the prompt to a
