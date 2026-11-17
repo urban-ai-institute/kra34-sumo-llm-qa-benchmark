@@ -2,7 +2,7 @@
 
 # SUMO-SimQA
 
-### A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files
+### SUMO-SimQA: A Benchmark for LLM Cross-File Reasoning over Traffic Simulation Files
 
 [![Paper](https://img.shields.io/badge/Paper-CIKM%202026-b31b1b.svg)](https://doi.org/10.1145/3799682.3839980)
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3799682.3839980-blue.svg)](https://doi.org/10.1145/3799682.3839980)
